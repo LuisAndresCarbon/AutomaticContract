@@ -379,7 +379,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638306511711217166",
+    "LastModifiedTimestamp": "638306585572231698",
     "Name": "Header",
     "Rules": [
       {
@@ -408,7 +408,7 @@
       },
       {
         "Category": "Design",
-        "InvariantScript": "70\r\n",
+        "InvariantScript": "70\n",
         "Property": "Height",
         "RuleProviderType": "System"
       },
@@ -438,7 +438,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638306511711217166",
+  "LastModifiedTimestamp": "638306585572231698",
   "Name": "188541e6812b421dba6c7985b78985b1",
   "OverridableProperties": {},
   "SourceLibraryId": "165a8b55-fc3a-49e2-a7b6-ffe583666f5f",
