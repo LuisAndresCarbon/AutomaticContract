@@ -383,7 +383,7 @@ MenuInicial As screen:
         Font: =Font.'Segoe UI'
         Height: =60
         Size: =40
-        Text: ="HOLA MUNDO "
+        Text: ="HOLA DESDE GIT"
         Width: =412
         X: =357
         Y: =121
