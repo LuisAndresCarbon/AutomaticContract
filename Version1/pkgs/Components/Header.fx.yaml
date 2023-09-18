@@ -1,0 +1,21 @@
+Header As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: |
+        =70
+    Width: =App.Width
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Label1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(0, 148, 110, 0.76)
+        Height: =70
+        Size: =21
+        Text: ="Canopia Carbon" & " " & App.ActiveScreen.Name 
+        Width: =Parent.Width
+        ZIndex: =1
+

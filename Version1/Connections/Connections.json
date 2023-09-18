@@ -1,0 +1,27 @@
+{
+  "da8a4fc1-93a1-4784-96dd-33d18778d4aa": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/henryorsborn/partial-builds/asev3migrations-with-resourceTemplate/1.0.1653.3403/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://canopiacarbon918.sharepoint.com/sites/Legal": {
+        "dataSources": {
+          "BdContratosLegal": {
+            "tableName": "4d71be22-bcfc-41bb-835c-cc28ccc2e862"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "BdContratosLegal"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "da8a4fc1-93a1-4784-96dd-33d18778d4aa"
+  }
+}
