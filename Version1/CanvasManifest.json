@@ -130,6 +130,7 @@
   "ScreenOrder": [
     "MenuInicial",
     "Index",
-    "Home"
+    "Home",
+    "Screen1"
   ]
 }
