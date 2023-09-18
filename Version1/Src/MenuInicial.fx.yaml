@@ -382,7 +382,7 @@ MenuInicial As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Size: =13
-        Text: ="Hola Mundo"
+        Text: ="Hola noppp"
         X: =37
         Y: =143
         ZIndex: =15
