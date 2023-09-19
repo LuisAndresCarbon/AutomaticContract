@@ -383,7 +383,7 @@ MenuInicial As screen:
         Font: =Font.'Segoe UI'
         Height: =127
         Size: =40
-        Text: ="HOLA DESDE GIT"
+        Text: ="HOLA DESDE POWER APPS"
         Width: =469
         X: =357
         Y: =121
