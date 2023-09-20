@@ -1,6 +1,6 @@
 MenuInicial As screen:
     Fill: =RGBA(227, 240, 234, 1)
-    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+    LoadingSpinnerColor: =RGBA(61,184,123,71)
     OnVisible: |-
         =UpdateContext({varArranque:false})
 
@@ -18,7 +18,7 @@ MenuInicial As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
         OnSelect: =Set(varIniciar,true);
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
         RadiusBottomLeft: =0
@@ -40,31 +40,31 @@ MenuInicial As screen:
         Fill: =RGBA(33, 182, 168, 1)
         FocusedBorderThickness: =4
         Height: =If(varArranque,200*(Timer1.Value/Timer1.Duration),200*1-(Timer1.Value/Timer1.Duration))
-        HoverFill: =RGBA(73, 130, 5, 1)
-        PressedFill: =RGBA(73, 130, 5, 1)
+        HoverFill: =RGBA(61,184,123,71)
+        PressedFill: =RGBA(61,184,123,71)
         Width: =If(varArranque,500*(Timer1.Value/Timer1.Duration),500*1-(Timer1.Value/Timer1.Duration))
         X: =35
         Y: =332
         ZIndex: =2
 
     Timer1 As timer:
-        BorderColor: =RGBA(73, 130, 5, 1)
+        BorderColor: =RGBA(61,184,123,71)
         BorderStyle: =BorderStyle.None
         DisabledBorderColor: =RGBA(244, 244, 244, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Duration: =600
-        Fill: =RGBA(73, 130, 5, 1)
+        Fill: =RGBA(61,184,123,71)
         Font: =Font.'Segoe UI'
-        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        HoverBorderColor: =ColorFade(RGBA(61,184,123,71), -10%)
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
         OnTimerEnd: =Set(varIniciar,false)
         OnTimerStart: |-
             =UpdateContext({varArranque:!varArranque})
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
         Start: =varIniciar
         Visible: =false
         Width: =61
@@ -362,7 +362,7 @@ MenuInicial As screen:
                 Navigate(Index),NewForm(Form3);notificacion);
             //If( DataCardValue37.Selected.Value = "Convenio Modificatorio",Navigate(Home));
             //If( DataCardValue37.Selected.Value = "Convenio Termino",Navigate(notificacion);"Error");
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
         RadiusBottomLeft: =0

@@ -48,7 +48,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "ColorFade(RGBA(73, 130, 5, 1), -30%)",
+          "AutoRuleBindingString": "ColorFade(RGBA(61,184,123,71), -30%)",
           "InvariantPropertyName": "PressedFill",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -56,7 +56,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "ColorFade(RGBA(73, 130, 5, 1), -10%)",
+          "AutoRuleBindingString": "ColorFade(RGBA(61,184,123,71), -10%)",
           "InvariantPropertyName": "HoverFill",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -341,7 +341,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "ColorFade(RGBA(73, 130, 5, 1), -30%)",
+          "AutoRuleBindingString": "ColorFade(RGBA(61,184,123,71), -30%)",
           "InvariantPropertyName": "PressedFill",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -349,7 +349,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "ColorFade(RGBA(73, 130, 5, 1), -10%)",
+          "AutoRuleBindingString": "ColorFade(RGBA(61,184,123,71), -10%)",
           "InvariantPropertyName": "HoverFill",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -991,7 +991,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "RGBA(73, 130, 5, 1)",
+          "AutoRuleBindingString": "RGBA(61,184,123,71)",
           "InvariantPropertyName": "SelectionFill",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -1013,7 +1013,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "ColorFade(RGBA(73, 130, 5, 1), -30%)",
+          "AutoRuleBindingString": "ColorFade(RGBA(61,184,123,71), -30%)",
           "InvariantPropertyName": "HoverBorderColor",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -1021,7 +1021,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "ColorFade(RGBA(73, 130, 5, 1), -30%)",
+          "AutoRuleBindingString": "ColorFade(RGBA(61,184,123,71), -30%)",
           "InvariantPropertyName": "PressedBorderColor",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
