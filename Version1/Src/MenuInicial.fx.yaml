@@ -16,11 +16,11 @@ MenuInicial As screen:
         Height: =35
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
         OnSelect: =Set(varIniciar,true);
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -113,7 +113,7 @@ MenuInicial As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="¿Que deseas hacer?"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -136,17 +136,18 @@ MenuInicial As screen:
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
-                HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverBorderColor: =ColorFade(RGBA(61,184,123,71), -30%)
+                HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =RGBA(212, 212, 212, 1)
                 Items: =Choices([@BdContratosLegal].C_C)
+                OnSelect: =
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -30%)
                 PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =RGBA(73, 130, 5, 1)
+                PressedFill: =RGBA(61, 184, 123, 1)
                 SearchFields: =["Value"]
                 SearchItems: =Choices(BdContratosLegal.C_C,DataCardValue37.SearchText)
-                SelectionFill: =RGBA(73, 130, 5, 1)
+                SelectionFill: =RGBA(61,184,123,71)
                 SelectMultiple: =false
                 Size: =13
                 Tooltip: =Parent.DisplayName
@@ -342,7 +343,7 @@ MenuInicial As screen:
             Y: =526
             ZIndex: =13
 
-    BtnMenu2 As button:
+    Button2 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -351,41 +352,26 @@ MenuInicial As screen:
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =If(varArranque,50*(Timer1.Value/Timer1.Duration),50*1-(Timer1.Value/Timer1.Duration))
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-        OnSelect: =Navigate(Index)
+        HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
+        OnSelect: |-
+            =Set(Tramite,DataCardValue37.Selected.Value);
+            If(
+                DataCardValue37.Selected.Value = "Contrato Nuevo",
+                Navigate(Index),NewForm(Form3);notificacion);
+            //If( DataCardValue37.Selected.Value = "Convenio Modificatorio",Navigate(Home));
+            //If( DataCardValue37.Selected.Value = "Convenio Termino",Navigate(notificacion);"Error");
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =15
-        Text: ="Siuiente"
-        Width: |-
-            =If(varArranque,150*(Timer1.Value/Timer1.Duration),150
-            *1-(Timer1.Value/Timer1.Duration))
-        X: =364
+        Text: ="Siguiente"
+        X: =360
         Y: =472
         ZIndex: =14
-
-    Label3 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Height: =127
-        Size: =40
-        Text: ="HOLA DESDE POWER APPS"
-        Width: =469
-        X: =357
-        Y: =121
-        ZIndex: =15
 

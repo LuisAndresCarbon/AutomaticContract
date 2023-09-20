@@ -1,25 +1,44 @@
-Home As screen:
+notificacion As screen:
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
-    Header_1 As Header:
-
-    Image12 As image:
+    Image3 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
+        Height: =647
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =notificacion_confirmado
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =767
+        X: =297
+        Y: =62
+        ZIndex: =1
+
+    Image9 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =87
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
         Image: ='Logo Horizontal Texto Verde'
-        OnSelect: =Navigate(MenuInicial)
+        OnSelect: =NewForm(FormTipoTramite);Navigate(MenuInicial)
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =151
+        Width: =335
+        X: =40
+        Y: =40
         ZIndex: =2
 
-    Label3_1 As label:
+    Label3_2 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -28,11 +47,11 @@ Home As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Height: =63
+        Height: =77
         Size: =50
         Text: =Tramite
-        Width: =821
-        X: =18
-        Y: =70
+        Width: =874
+        X: =427
+        Y: =8
         ZIndex: =3
 
