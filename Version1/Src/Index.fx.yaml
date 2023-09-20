@@ -1039,7 +1039,7 @@
         FocusedBorderThickness: =4
         HoverFill: =RGBA(61,184,123,71)
         PressedFill: =RGBA(61,184,123,71)
-        Width: =847
+        Width: =177
         X: =462
         Y: =434
         ZIndex: =3
@@ -1103,10 +1103,56 @@
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Height: =67
-        Size: =50
+        Size: =35
         Text: =Tramite
         Width: =506
         X: =18
         Y: =18
         ZIndex: =6
+
+    Button1_1 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(61,184,123,71)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
+        OnSelect: =Back();
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Regresar"
+        X: =39
+        Y: =688
+        ZIndex: =7
+
+    Icon2 As icon.Trash:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(61, 184, 123, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(61,184,123,71), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Trash
+        OnSelect: =
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Tooltip: ="Limpiar Formulario"
+        X: =1245
+        Y: =579
+        ZIndex: =8
 

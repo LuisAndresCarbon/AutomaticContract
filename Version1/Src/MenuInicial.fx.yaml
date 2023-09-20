@@ -355,13 +355,17 @@ MenuInicial As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
-        OnSelect: |-
-            =Set(Tramite,DataCardValue37.Selected.Value);
-            If(
-                DataCardValue37.Selected.Value = "Contrato Nuevo",
-                Navigate(Index),NewForm(Form3);notificacion);
-            //If( DataCardValue37.Selected.Value = "Convenio Modificatorio",Navigate(Home));
-            //If( DataCardValue37.Selected.Value = "Convenio Termino",Navigate(notificacion);"Error");
+        OnSelect: |
+            =If(
+                IsBlank(DataCardValue37.Selected),
+                Notify("Por favor, selecciona un servicio", NotificationType.Error),
+                Switch(
+                    DataCardValue37.Selected.Value,
+                    "Contrato Nuevo", Navigate(Index);NewForm(Form3),
+                    "Convenio Modificatorio", Navigate(notificacion),
+                    "Convenio Termino", Navigate(Home)
+                )
+            )
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
