@@ -253,7 +253,7 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: ="Nombre del Contrato Interno"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -368,7 +368,9 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: |-
+                                ="Nombre de la Empresa
+                                "
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -598,7 +600,7 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: ="Adjuntar Caratula Bancaria (para deposito)"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -717,7 +719,7 @@
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
-                            Y: =10
+                            Y: =19
                             ZIndex: =1
 
                         DataCardValue62 As text:
@@ -828,7 +830,9 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: |-
+                                ="Numero de contrato interno
+                                "
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -1090,7 +1094,7 @@
         Size: =15
         Text: ="Enviar"
         X: =1149
-        Y: =688
+        Y: =665
         ZIndex: =5
 
     Label3 As label:
@@ -1155,4 +1159,22 @@
         X: =1245
         Y: =579
         ZIndex: =8
+
+    Image6 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =67
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =CC_Isotipo
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =67
+        X: =18
+        Y: =18
+        ZIndex: =9
 
