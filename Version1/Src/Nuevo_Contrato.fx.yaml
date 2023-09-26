@@ -708,7 +708,7 @@
                         MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "ActaConstitutiva")
                         Required: =false
                         Update: =DataCardValue2.Text
-                        Visible: =If(vista = "Fisica",false,true)
+                        Visible: =false
                         Width: =332
                         X: =0
                         Y: =3
@@ -739,7 +739,7 @@
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             BorderThickness: =2
                             Color: =RGBA(51, 51, 51, 1)
-                            Default: =Parent.Default
+                            Default: =Acta_Constitutiva.Selected.Value
                             DelayOutput: =true
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -812,6 +812,58 @@
                             Y: =DataCardKey2.Y
                             ZIndex: =4
 
+                    DataCard1 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =97
+                        Visible: =If(vista = "Fisica",false,true)
+                        Width: =332
+                        X: =1
+                        Y: =3
+                        ZIndex: =1
+
+                        Label3 As label:
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Size: =13
+                            Text: ="Acta Constitutiva"
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        Acta_Constitutiva As radio:
+                            BorderColor: =RGBA(51, 51, 51, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =90
+                            HoverColor: =RGBA(51, 51, 51, 1)
+                            HoverFill: =RGBA(0, 0, 0, 0)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingTop: =5
+                            PressedColor: =RGBA(51, 51, 51, 1)
+                            PressedFill: =RGBA(0, 0, 0, 0)
+                            RadioBorderColor: =RGBA(51, 51, 51, 1)
+                            RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                            Size: =13
+                            X: =30
+                            Y: =50
+                            ZIndex: =2
+
                     ineRepresentante_DataCard1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -824,9 +876,9 @@
                         MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "ineRepresentante")
                         Required: =false
                         Update: =DataCardValue4.Text
-                        Visible: =If(vista = "Fisica",false,true)
+                        Visible: =false
                         Width: =332
-                        X: =1
+                        X: =2
                         Y: =3
                         ZIndex: =1
 
@@ -855,7 +907,7 @@
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             BorderThickness: =2
                             Color: =RGBA(51, 51, 51, 1)
-                            Default: =Parent.Default
+                            Default: =INE_Representante.Selected.Value
                             DelayOutput: =true
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -928,6 +980,58 @@
                             Y: =DataCardKey4.Y
                             ZIndex: =4
 
+                    DataCard4 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =97
+                        Width: =332
+                        X: =3
+                        Y: =3
+                        ZIndex: =1
+
+                        Label3_1 As label:
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Size: =13
+                            Text: ="INE Representante"
+                            Width: =200
+                            X: =40
+                            Y: =10
+                            ZIndex: =1
+
+                        INE_Representante As radio:
+                            BorderColor: =RGBA(51, 51, 51, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =90
+                            HoverColor: =RGBA(51, 51, 51, 1)
+                            HoverFill: =RGBA(0, 0, 0, 0)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingTop: =5
+                            PressedColor: =RGBA(51, 51, 51, 1)
+                            PressedFill: =RGBA(0, 0, 0, 0)
+                            RadioBorderColor: =RGBA(51, 51, 51, 1)
+                            RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                            Size: =13
+                            X: =40
+                            Y: =50
+                            ZIndex: =2
+
                     PoderRepresentanteLegal_DataCard1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -940,10 +1044,10 @@
                         MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "PoderRepresentanteLegal")
                         Required: =false
                         Update: =DataCardValue5.Text
-                        Visible: =If(vista = "Fisica",false,true)
+                        Visible: =false
                         Width: =332
-                        X: =2
-                        Y: =3
+                        X: =0
+                        Y: =4
                         ZIndex: =1
 
                         DataCardKey5 As label:
@@ -971,7 +1075,7 @@
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             BorderThickness: =2
                             Color: =RGBA(51, 51, 51, 1)
-                            Default: =Parent.Default
+                            Default: =Poder_Representante_Legal.Selected.Value
                             DelayOutput: =true
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1058,8 +1162,8 @@
                         Update: =DataCardValue6.Text
                         Visible: =If(vista = "Fisica",false,true)
                         Width: =332
-                        X: =3
-                        Y: =3
+                        X: =2
+                        Y: =4
                         ZIndex: =1
 
                         DataCardKey6 As label:
@@ -1174,7 +1278,7 @@
                         Update: =DataCardValue1.Text
                         Visible: =If(vista = "Moral",false,true)
                         Width: =332
-                        X: =0
+                        X: =3
                         Y: =4
                         ZIndex: =1
 
@@ -1276,6 +1380,58 @@
                             Y: =DataCardKey1.Y
                             ZIndex: =4
 
+                    DataCard5 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =97
+                        Width: =332
+                        X: =1
+                        Y: =4
+                        ZIndex: =1
+
+                        Label3_2 As label:
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Size: =13
+                            Text: ="Poder Representante Legal"
+                            Width: =250
+                            X: =40
+                            Y: =10
+                            ZIndex: =1
+
+                        Poder_Representante_Legal As radio:
+                            BorderColor: =RGBA(51, 51, 51, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =90
+                            HoverColor: =RGBA(51, 51, 51, 1)
+                            HoverFill: =RGBA(0, 0, 0, 0)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingTop: =5
+                            PressedColor: =RGBA(51, 51, 51, 1)
+                            PressedFill: =RGBA(0, 0, 0, 0)
+                            RadioBorderColor: =RGBA(51, 51, 51, 1)
+                            RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                            Size: =13
+                            X: =40
+                            Y: =40
+                            ZIndex: =2
+
                     InePersonaFisica_DataCard1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -1288,10 +1444,10 @@
                         MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "InePersonaFisica")
                         Required: =false
                         Update: =DataCardValue3.Text
-                        Visible: =If(vista = "Moral",false,true)
+                        Visible: =false
                         Width: =332
-                        X: =1
-                        Y: =4
+                        X: =0
+                        Y: =5
                         ZIndex: =1
 
                         DataCardKey3 As label:
@@ -1319,7 +1475,7 @@
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             BorderThickness: =2
                             Color: =RGBA(51, 51, 51, 1)
-                            Default: =Parent.Default
+                            Default: =INE_Persona_Fisica.Selected.Value
                             DelayOutput: =true
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1392,6 +1548,59 @@
                             Y: =DataCardKey3.Y
                             ZIndex: =4
 
+                    DataCard2 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =97
+                        Visible: =If(vista = "Moral",false,true)
+                        Width: =332
+                        X: =1
+                        Y: =5
+                        ZIndex: =1
+
+                        Label3_3 As label:
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Size: =13
+                            Text: ="INE Persona Fisica"
+                            Width: =200
+                            X: =40
+                            Y: =10
+                            ZIndex: =1
+
+                        INE_Persona_Fisica As radio:
+                            BorderColor: =RGBA(51, 51, 51, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =90
+                            HoverColor: =RGBA(51, 51, 51, 1)
+                            HoverFill: =RGBA(0, 0, 0, 0)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingTop: =5
+                            PressedColor: =RGBA(51, 51, 51, 1)
+                            PressedFill: =RGBA(0, 0, 0, 0)
+                            RadioBorderColor: =RGBA(51, 51, 51, 1)
+                            RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                            Size: =13
+                            X: =40
+                            Y: =40
+                            ZIndex: =2
+
                     DimicilioPersonaFisica_DataCard1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -1407,7 +1616,7 @@
                         Visible: =If(vista = "Moral",false,true)
                         Width: =332
                         X: =2
-                        Y: =4
+                        Y: =5
                         ZIndex: =1
 
                         DataCardKey7 As label:
@@ -1508,35 +1717,6 @@
                             Y: =DataCardKey7.Y
                             ZIndex: =4
 
-                    DataCard3 As typedDataCard.blankCard:
-                        BorderColor: =RGBA(166, 166, 166, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DisplayMode: =DisplayMode.Edit
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =5
-                        Width: =1328
-                        X: =0
-                        Y: =5
-                        ZIndex: =1
-
-                        Label5 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =38
-                            Size: =13
-                            Text: ="ESPACIO"
-                            Width: =434
-                            X: =429
-                            Y: =15
-                            ZIndex: =1
-
                     MontoHonorarios_DataCard1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -1551,8 +1731,8 @@
                         Update: =DataCardValue9.Text
                         Visible: =true
                         Width: =332
-                        X: =0
-                        Y: =6
+                        X: =3
+                        Y: =5
                         ZIndex: =1
 
                         DataCardKey9 As label:
@@ -1653,6 +1833,35 @@
                             Y: =DataCardKey9.Y
                             ZIndex: =4
 
+                    DataCard3 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =5
+                        Width: =1328
+                        X: =0
+                        Y: =6
+                        ZIndex: =1
+
+                        Label5 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =38
+                            Size: =13
+                            Text: ="ESPACIO"
+                            Width: =434
+                            X: =429
+                            Y: =15
+                            ZIndex: =1
+
                     FechaInicio_DataCard1 As typedDataCard.dateEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -1665,8 +1874,8 @@
                         Required: =false
                         Update: =DataCardValue12.SelectedDate
                         Width: =332
-                        X: =1
-                        Y: =6
+                        X: =0
+                        Y: =7
                         ZIndex: =1
 
                         DataCardKey12 As label:
@@ -1773,8 +1982,8 @@
                         Required: =false
                         Update: =DataCardValue13.SelectedDate
                         Width: =332
-                        X: =2
-                        Y: =6
+                        X: =1
+                        Y: =7
                         ZIndex: =1
 
                         DataCardKey13 As label:
@@ -1883,8 +2092,8 @@
                         Update: =DataCardValue8.Text
                         Visible: =true
                         Width: =332
-                        X: =3
-                        Y: =6
+                        X: =2
+                        Y: =7
                         ZIndex: =1
 
                         DataCardKey8 As label:
