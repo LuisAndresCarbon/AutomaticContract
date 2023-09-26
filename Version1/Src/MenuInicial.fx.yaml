@@ -361,9 +361,9 @@ MenuInicial As screen:
                 Notify("Por favor, selecciona un servicio", NotificationType.Error),
                 Switch(
                     DataCardValue37.Selected.Value,
-                    "Contrato Nuevo", Navigate(Index);NewForm(Form3),
-                    "Convenio Modificatorio", Navigate(notificacion),
-                    "Convenio Termino", Navigate(Home)
+                    "Contrato Nuevo", Navigate(Nuevo_Contrato);NewForm(Form3),
+                    "Convenio Modificatorio", Navigate(Convenio_Modificatorio),
+                    "Convenio Termino", Navigate(Convenio_Termino)
                 )
             )
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)

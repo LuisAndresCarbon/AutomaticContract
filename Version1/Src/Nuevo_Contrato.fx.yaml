@@ -1,4 +1,4 @@
-"Index As screen.'autoLayout_Sidebar_ver1.0'":
+"Nuevo_Contrato As screen.'autoLayout_Sidebar_ver1.0'":
     LoadingSpinnerColor: =RGBA(61,184,123,71)
 
     Container As groupContainer.verticalAutoLayoutContainer:

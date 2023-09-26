@@ -133,8 +133,9 @@
   },
   "ScreenOrder": [
     "MenuInicial",
-    "Index",
-    "Home",
-    "notificacion"
+    "Nuevo_Contrato",
+    "Convenio_Modificatorio",
+    "notificacion",
+    "Convenio_Termino"
   ]
 }
