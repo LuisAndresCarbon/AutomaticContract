@@ -1790,7 +1790,7 @@
       "StyleName": "defaultFormStyle",
       "Type": "ControlInfo"
     },
-    "Image18": {
+    "Image17": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Image",
@@ -1832,7 +1832,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Image18",
+      "Name": "Image17",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
