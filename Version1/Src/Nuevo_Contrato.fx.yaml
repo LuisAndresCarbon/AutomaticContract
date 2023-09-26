@@ -83,23 +83,23 @@
                     NumberOfColumns: =4
                     ZIndex: =1
 
-                    C_C_DataCard2 As typedDataCard.comboBoxEditCard:
+                    contratos_DataCard2 As typedDataCard.comboBoxEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
-                        DataField: ="C_C"
-                        Default: =ThisItem.C_C
+                        DataField: ="contratos"
+                        Default: =ThisItem.contratos
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"C_C")
+                        DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"contratos")
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        Required: =false
-                        Update: =DataCardValue11.Selected
+                        Required: =true
+                        Update: =DataCardValue42.Selected
                         Width: =332
                         X: =0
                         Y: =0
                         ZIndex: =1
 
-                        DataCardKey11 As label:
+                        DataCardKey42 As label:
                             AutoHeight: =true
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
@@ -113,14 +113,14 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: ="Tipo de Servicio"
+                            Text: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
                             Y: =10
                             ZIndex: =1
 
-                        DataCardValue11 As combobox:
+                        DataCardValue42 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             ChevronBackground: =RGBA(255, 255, 255, 1)
                             ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
@@ -139,23 +139,23 @@
                             HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                             HoverColor: =RGBA(51, 51, 51, 1)
                             HoverFill: =RGBA(212, 212, 212, 1)
-                            Items: =Choices([@BdContratosLegal].C_C)
+                            Items: =Choices([@BdContratosLegal].contratos)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                             PressedColor: =RGBA(255, 255, 255, 1)
                             PressedFill: =RGBA(73, 130, 5, 1)
                             SearchFields: =["Value"]
-                            SearchItems: =Choices(BdContratosLegal.C_C,DataCardValue11.SearchText)
+                            SearchItems: =Choices(BdContratosLegal.contratos,DataCardValue42.SearchText)
                             SelectionFill: =RGBA(73, 130, 5, 1)
                             SelectMultiple: =false
                             Size: =13
                             Tooltip: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             X: =30
-                            Y: =DataCardKey11.Y + DataCardKey11.Height + 5
+                            Y: =DataCardKey42.Y + DataCardKey42.Height + 5
                             ZIndex: =2
 
-                        ErrorMessage11 As label:
+                        ErrorMessage18 As label:
                             AutoHeight: =true
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
@@ -177,10 +177,10 @@
                             Visible: =Parent.DisplayMode=DisplayMode.Edit
                             Width: =Parent.Width - 60
                             X: =30
-                            Y: =DataCardValue11.Y + DataCardValue11.Height
+                            Y: =DataCardValue42.Y + DataCardValue42.Height
                             ZIndex: =3
 
-                        StarVisible11 As label:
+                        StarVisible18 As label:
                             Align: =Align.Center
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
@@ -191,14 +191,14 @@
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
                             FontWeight: =FontWeight.Semibold
-                            Height: =DataCardKey11.Height
+                            Height: =DataCardKey42.Height
                             PaddingLeft: =0
                             Size: =13
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                             Width: =30
                             Wrap: =false
-                            Y: =DataCardKey11.Y
+                            Y: =DataCardKey42.Y
                             ZIndex: =4
 
                     TextTitle As typedDataCard.blankCard:
@@ -1633,7 +1633,7 @@
                         Update: =DataCardValue2.Text
                         Visible: =false
                         Width: =332
-                        X: =0
+                        X: =1
                         Y: =7
                         ZIndex: =1
 
@@ -1749,7 +1749,7 @@
                         Update: =DataCardValue4.Text
                         Visible: =false
                         Width: =332
-                        X: =1
+                        X: =2
                         Y: =7
                         ZIndex: =1
 
@@ -1865,7 +1865,7 @@
                         Update: =DataCardValue3.Text
                         Visible: =false
                         Width: =332
-                        X: =2
+                        X: =3
                         Y: =7
                         ZIndex: =1
 
@@ -1981,8 +1981,8 @@
                         Update: =DataCardValue5.Text
                         Visible: =false
                         Width: =332
-                        X: =3
-                        Y: =7
+                        X: =0
+                        Y: =8
                         ZIndex: =1
 
                         DataCardKey5 As label:
@@ -2081,6 +2081,241 @@
                             Width: =30
                             Wrap: =false
                             Y: =DataCardKey5.Y
+                            ZIndex: =4
+
+                    "'Datos adjuntos_DataCard1' As typedDataCard.attachmentsEditCard":
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="{Attachments}"
+                        Default: =ThisItem.'Datos adjuntos'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"{Attachments}")
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        Required: =false
+                        Update: =DataCardValue43.Attachments
+                        Width: =332
+                        X: =0
+                        Y: =7
+                        ZIndex: =1
+
+                        DataCardKey43 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =34
+                            PaddingLeft: =0
+                            Size: =13
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue43 As attachments:
+                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            DisabledFill: =RGBA(244, 244, 244, 1)
+                            DisplayMode: =Parent.DisplayMode
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            HoverColor: =RGBA(51, 51, 51, 1)
+                            HoverFill: =RGBA(212, 212, 212, 1)
+                            IsInDataCard: =true
+                            ItemColor: =RGBA(0, 0, 0, 1)
+                            ItemFill: =RGBA(73, 130, 5, 1)
+                            ItemHoverColor: =RGBA(51, 51, 51, 1)
+                            ItemHoverFill: =RGBA(212, 212, 212, 1)
+                            Items: =Parent.Default
+                            ItemSpacing: =12
+                            NoAttachmentsColor: =RGBA(166, 166, 166, 1)
+                            PaddingBottom: =5
+                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            PressedColor: =RGBA(255, 255, 255, 1)
+                            PressedFill: =RGBA(73, 130, 5, 1)
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey43.Y + DataCardKey43.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage19 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(168, 0, 0, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(168, 0, 0, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =13
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue43.Y + DataCardValue43.Height
+                            ZIndex: =3
+
+                        StarVisible19 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =DataCardKey43.Height
+                            PaddingLeft: =0
+                            Size: =13
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey43.Y
+                            ZIndex: =4
+
+                    C_C_DataCard2 As typedDataCard.comboBoxEditCard:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="C_C"
+                        Default: =ThisItem.C_C
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"C_C")
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        Required: =false
+                        Update: =DataCardValue11.Selected
+                        Visible: =false
+                        Width: =332
+                        X: =1
+                        Y: =8
+                        ZIndex: =1
+
+                        DataCardKey11 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =34
+                            PaddingLeft: =0
+                            Size: =13
+                            Text: ="Tipo de Servicio"
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue11 As combobox:
+                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(255, 255, 255, 1)
+                            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+                            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+                            ChevronFill: =RGBA(33, 33, 33, 1)
+                            ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+                            ChevronHoverFill: =RGBA(33, 33, 33, 1)
+                            Color: =RGBA(51, 51, 51, 1)
+                            DefaultSelectedItems: =Parent.Default
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            DisabledFill: =RGBA(244, 244, 244, 1)
+                            DisplayFields: =["Value"]
+                            DisplayMode: =Parent.DisplayMode
+                            Font: =Font.'Segoe UI'
+                            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                            HoverColor: =RGBA(51, 51, 51, 1)
+                            HoverFill: =RGBA(212, 212, 212, 1)
+                            Items: =Choices([@BdContratosLegal].C_C)
+                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                            PressedColor: =RGBA(255, 255, 255, 1)
+                            PressedFill: =RGBA(73, 130, 5, 1)
+                            SearchFields: =["Value"]
+                            SearchItems: =Choices(BdContratosLegal.C_C,DataCardValue11.SearchText)
+                            SelectionFill: =RGBA(73, 130, 5, 1)
+                            SelectMultiple: =false
+                            Size: =13
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey11.Y + DataCardKey11.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage11 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(168, 0, 0, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(168, 0, 0, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =13
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue11.Y + DataCardValue11.Height
+                            ZIndex: =3
+
+                        StarVisible11 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =DataCardKey11.Height
+                            PaddingLeft: =0
+                            Size: =13
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey11.Y
                             ZIndex: =4
 
                     Persona_DataCard3 As typedDataCard.comboBoxEditCard:
