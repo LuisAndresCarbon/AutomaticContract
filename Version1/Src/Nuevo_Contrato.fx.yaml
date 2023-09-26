@@ -928,6 +928,58 @@
                             Y: =DataCardKey4.Y
                             ZIndex: =4
 
+                    DataCard1 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =97
+                        Visible: =If(vista = "Fisica",false,true)
+                        Width: =332
+                        X: =1
+                        Y: =3
+                        ZIndex: =1
+
+                        Label3 As label:
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Size: =13
+                            Text: ="Acta Constitutiva"
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        Acta_Constitutiva As radio:
+                            BorderColor: =RGBA(51, 51, 51, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =90
+                            HoverColor: =RGBA(51, 51, 51, 1)
+                            HoverFill: =RGBA(0, 0, 0, 0)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingTop: =5
+                            PressedColor: =RGBA(51, 51, 51, 1)
+                            PressedFill: =RGBA(0, 0, 0, 0)
+                            RadioBorderColor: =RGBA(51, 51, 51, 1)
+                            RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                            Size: =13
+                            X: =30
+                            Y: =50
+                            ZIndex: =2
+
                     PoderRepresentanteLegal_DataCard1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -942,7 +994,7 @@
                         Update: =DataCardValue5.Text
                         Visible: =false
                         Width: =332
-                        X: =0
+                        X: =2
                         Y: =4
                         ZIndex: =1
 
@@ -1052,13 +1104,13 @@
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"DomicilioEmpresa")
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
+                        Height: =130
                         MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "DomicilioEmpresa")
                         Required: =false
                         Update: =DataCardValue6.Text
                         Visible: =If(vista = "Fisica",false,true)
                         Width: =332
-                        X: =2
+                        X: =0
                         Y: =4
                         ZIndex: =1
 
@@ -1160,6 +1212,58 @@
                             Y: =DataCardKey6.Y
                             ZIndex: =4
 
+                    DataCard4 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =97
+                        Width: =332
+                        X: =3
+                        Y: =3
+                        ZIndex: =1
+
+                        Label3_1 As label:
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Size: =13
+                            Text: ="INE Representante"
+                            Width: =200
+                            X: =40
+                            Y: =10
+                            ZIndex: =1
+
+                        INE_Representante As radio:
+                            BorderColor: =RGBA(51, 51, 51, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =90
+                            HoverColor: =RGBA(51, 51, 51, 1)
+                            HoverFill: =RGBA(0, 0, 0, 0)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingTop: =5
+                            PressedColor: =RGBA(51, 51, 51, 1)
+                            PressedFill: =RGBA(0, 0, 0, 0)
+                            RadioBorderColor: =RGBA(51, 51, 51, 1)
+                            RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                            Size: =13
+                            X: =40
+                            Y: =50
+                            ZIndex: =2
+
                     NomPersonaFisica_DataCard1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -1174,7 +1278,7 @@
                         Update: =DataCardValue1.Text
                         Visible: =If(vista = "Moral",false,true)
                         Width: =332
-                        X: =3
+                        X: =1
                         Y: =4
                         ZIndex: =1
 
@@ -1290,7 +1394,7 @@
                         Update: =DataCardValue3.Text
                         Visible: =false
                         Width: =332
-                        X: =0
+                        X: =2
                         Y: =5
                         ZIndex: =1
 
@@ -1406,7 +1510,7 @@
                         Update: =DataCardValue7.Text
                         Visible: =If(vista = "Moral",false,true)
                         Width: =332
-                        X: =2
+                        X: =0
                         Y: =5
                         ZIndex: =1
 
@@ -1537,6 +1641,58 @@
                             Y: =15
                             ZIndex: =1
 
+                    DataCard5 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =97
+                        Width: =332
+                        X: =3
+                        Y: =4
+                        ZIndex: =1
+
+                        Label3_2 As label:
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Size: =13
+                            Text: ="Poder Representante Legal"
+                            Width: =250
+                            X: =40
+                            Y: =10
+                            ZIndex: =1
+
+                        Poder_Representante_Legal As radio:
+                            BorderColor: =RGBA(51, 51, 51, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =90
+                            HoverColor: =RGBA(51, 51, 51, 1)
+                            HoverFill: =RGBA(0, 0, 0, 0)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingTop: =5
+                            PressedColor: =RGBA(51, 51, 51, 1)
+                            PressedFill: =RGBA(0, 0, 0, 0)
+                            RadioBorderColor: =RGBA(51, 51, 51, 1)
+                            RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                            Size: =13
+                            X: =40
+                            Y: =40
+                            ZIndex: =2
+
                     MontoHonorarios_DataCard1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -1551,7 +1707,7 @@
                         Update: =DataCardValue9.Text
                         Visible: =true
                         Width: =332
-                        X: =3
+                        X: =1
                         Y: =5
                         ZIndex: =1
 
@@ -1665,7 +1821,7 @@
                         Required: =false
                         Update: =DataCardValue12.SelectedDate
                         Width: =332
-                        X: =0
+                        X: =2
                         Y: =7
                         ZIndex: =1
 
@@ -1761,6 +1917,59 @@
                             Y: =DataCardKey12.Y
                             ZIndex: =4
 
+                    DataCard2 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =97
+                        Visible: =If(vista = "Moral",false,true)
+                        Width: =332
+                        X: =3
+                        Y: =5
+                        ZIndex: =1
+
+                        Label3_3 As label:
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Size: =13
+                            Text: ="INE Persona Fisica"
+                            Width: =200
+                            X: =40
+                            Y: =10
+                            ZIndex: =1
+
+                        INE_Persona_Fisica As radio:
+                            BorderColor: =RGBA(51, 51, 51, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =90
+                            HoverColor: =RGBA(51, 51, 51, 1)
+                            HoverFill: =RGBA(0, 0, 0, 0)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingTop: =5
+                            PressedColor: =RGBA(51, 51, 51, 1)
+                            PressedFill: =RGBA(0, 0, 0, 0)
+                            RadioBorderColor: =RGBA(51, 51, 51, 1)
+                            RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                            Size: =13
+                            X: =40
+                            Y: =40
+                            ZIndex: =2
+
                     FechaTerminoContrato_DataCard1 As typedDataCard.dateEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -1773,7 +1982,7 @@
                         Required: =false
                         Update: =DataCardValue13.SelectedDate
                         Width: =332
-                        X: =1
+                        X: =0
                         Y: =7
                         ZIndex: =1
 
@@ -1883,7 +2092,7 @@
                         Update: =DataCardValue8.Text
                         Visible: =true
                         Width: =332
-                        X: =2
+                        X: =1
                         Y: =7
                         ZIndex: =1
 
@@ -1984,215 +2193,6 @@
                             Wrap: =false
                             Y: =DataCardKey8.Y
                             ZIndex: =4
-
-                    DataCard1 As typedDataCard.blankCard:
-                        BorderColor: =RGBA(166, 166, 166, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DisplayMode: =DisplayMode.Edit
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =97
-                        Visible: =If(vista = "Fisica",false,true)
-                        Width: =332
-                        X: =1
-                        Y: =3
-                        ZIndex: =1
-
-                        Label3 As label:
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Size: =13
-                            Text: ="Acta Constitutiva"
-                            X: =30
-                            Y: =10
-                            ZIndex: =1
-
-                        Acta_Constitutiva As radio:
-                            BorderColor: =RGBA(51, 51, 51, 1)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =90
-                            HoverColor: =RGBA(51, 51, 51, 1)
-                            HoverFill: =RGBA(0, 0, 0, 0)
-                            Items: =["Si","No"]
-                            PaddingBottom: =5
-                            PaddingTop: =5
-                            PressedColor: =RGBA(51, 51, 51, 1)
-                            PressedFill: =RGBA(0, 0, 0, 0)
-                            RadioBorderColor: =RGBA(51, 51, 51, 1)
-                            RadioSelectionFill: =RGBA(73, 130, 5, 1)
-                            Size: =13
-                            X: =30
-                            Y: =50
-                            ZIndex: =2
-
-                    DataCard4 As typedDataCard.blankCard:
-                        BorderColor: =RGBA(166, 166, 166, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DisplayMode: =DisplayMode.Edit
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =97
-                        Width: =332
-                        X: =3
-                        Y: =3
-                        ZIndex: =1
-
-                        Label3_1 As label:
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Size: =13
-                            Text: ="INE Representante"
-                            Width: =200
-                            X: =40
-                            Y: =10
-                            ZIndex: =1
-
-                        INE_Representante As radio:
-                            BorderColor: =RGBA(51, 51, 51, 1)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =90
-                            HoverColor: =RGBA(51, 51, 51, 1)
-                            HoverFill: =RGBA(0, 0, 0, 0)
-                            Items: =["Si","No"]
-                            PaddingBottom: =5
-                            PaddingTop: =5
-                            PressedColor: =RGBA(51, 51, 51, 1)
-                            PressedFill: =RGBA(0, 0, 0, 0)
-                            RadioBorderColor: =RGBA(51, 51, 51, 1)
-                            RadioSelectionFill: =RGBA(73, 130, 5, 1)
-                            Size: =13
-                            X: =40
-                            Y: =50
-                            ZIndex: =2
-
-                    DataCard5 As typedDataCard.blankCard:
-                        BorderColor: =RGBA(166, 166, 166, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DisplayMode: =DisplayMode.Edit
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =97
-                        Width: =332
-                        X: =1
-                        Y: =4
-                        ZIndex: =1
-
-                        Label3_2 As label:
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Size: =13
-                            Text: ="Poder Representante Legal"
-                            Width: =250
-                            X: =40
-                            Y: =10
-                            ZIndex: =1
-
-                        Poder_Representante_Legal As radio:
-                            BorderColor: =RGBA(51, 51, 51, 1)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =90
-                            HoverColor: =RGBA(51, 51, 51, 1)
-                            HoverFill: =RGBA(0, 0, 0, 0)
-                            Items: =["Si","No"]
-                            PaddingBottom: =5
-                            PaddingTop: =5
-                            PressedColor: =RGBA(51, 51, 51, 1)
-                            PressedFill: =RGBA(0, 0, 0, 0)
-                            RadioBorderColor: =RGBA(51, 51, 51, 1)
-                            RadioSelectionFill: =RGBA(73, 130, 5, 1)
-                            Size: =13
-                            X: =40
-                            Y: =40
-                            ZIndex: =2
-
-                    DataCard2 As typedDataCard.blankCard:
-                        BorderColor: =RGBA(166, 166, 166, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DisplayMode: =DisplayMode.Edit
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =97
-                        Visible: =If(vista = "Moral",false,true)
-                        Width: =332
-                        X: =1
-                        Y: =5
-                        ZIndex: =1
-
-                        Label3_3 As label:
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Size: =13
-                            Text: ="INE Persona Fisica"
-                            Width: =200
-                            X: =40
-                            Y: =10
-                            ZIndex: =1
-
-                        INE_Persona_Fisica As radio:
-                            BorderColor: =RGBA(51, 51, 51, 1)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =90
-                            HoverColor: =RGBA(51, 51, 51, 1)
-                            HoverFill: =RGBA(0, 0, 0, 0)
-                            Items: =["Si","No"]
-                            PaddingBottom: =5
-                            PaddingTop: =5
-                            PressedColor: =RGBA(51, 51, 51, 1)
-                            PressedFill: =RGBA(0, 0, 0, 0)
-                            RadioBorderColor: =RGBA(51, 51, 51, 1)
-                            RadioSelectionFill: =RGBA(73, 130, 5, 1)
-                            Size: =13
-                            X: =40
-                            Y: =40
-                            ZIndex: =2
 
                     Persona_DataCard3 As typedDataCard.comboBoxEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)

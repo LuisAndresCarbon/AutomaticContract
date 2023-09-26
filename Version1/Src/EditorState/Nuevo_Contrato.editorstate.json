@@ -1752,7 +1752,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "CaratulaBancaria_DataCard1",
-      "ParentIndex": 20,
+      "ParentIndex": 24,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2393,7 +2393,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard1",
-      "ParentIndex": 10,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2488,7 +2488,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard2",
-      "ParentIndex": 18,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2568,7 +2568,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "DataCard3",
-      "ParentIndex": 16,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2650,7 +2650,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard4",
-      "ParentIndex": 12,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2732,7 +2732,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard5",
-      "ParentIndex": 16,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14300,7 +14300,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "DimicilioPersonaFisica_DataCard1",
-      "ParentIndex": 15,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14473,7 +14473,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "DomicilioEmpresa_DataCard1",
-      "ParentIndex": 12,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -19969,7 +19969,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "FechaInicio_DataCard1",
-      "ParentIndex": 18,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -20116,7 +20116,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "FechaTerminoContrato_DataCard1",
-      "ParentIndex": 19,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21635,7 +21635,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "InePersonaFisica_DataCard1",
-      "ParentIndex": 14,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -23862,7 +23862,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "MontoHonorarios_DataCard1",
-      "ParentIndex": 17,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24374,7 +24374,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "NomPersonaFisica_DataCard1",
-      "ParentIndex": 13,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25173,7 +25173,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "PoderRepresentanteLegal_DataCard1",
-      "ParentIndex": 11,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

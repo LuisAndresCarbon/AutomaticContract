@@ -14,6 +14,96 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Convenio_Modificatorio.Gallery1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Modificatorio.Gallery1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Convenio_Modificatorio",
+                "type": "Convenio_Modificatorio.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Modificatorio.Gallery1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Modificatorio.Gallery1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Convenio_Modificatorio",
+                "type": "Convenio_Modificatorio.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuInicial.FormTipoTramite.TipoServicio.DataCardValue37.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuInicial.FormTipoTramite.TipoServicio.DataCardValue37.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MenuInicial",
+                "type": "MenuInicial.FormTipoTramite.TipoServicio.DataCardValue37"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "notificacion.Image9.AccessibleLabel"
                 }
               ],
@@ -374,6 +464,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DataCard1.Acta_Constitutiva.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DataCard1.Acta_Constitutiva.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Nuevo_Contrato",
+                "type": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DataCard1.Acta_Constitutiva"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.PoderRepresentanteLegal_DataCard1.DataCardValue5.AccessibleLabel"
                 }
               ],
@@ -417,6 +537,36 @@
                 "member": "AccessibleLabel",
                 "module": "Nuevo_Contrato",
                 "type": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DomicilioEmpresa_DataCard1.DataCardValue6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DataCard4.INE_Representante.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DataCard4.INE_Representante.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Nuevo_Contrato",
+                "type": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DataCard4.INE_Representante"
               }
             }
           ],
@@ -524,6 +674,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DataCard5.Poder_Representante_Legal.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DataCard5.Poder_Representante_Legal.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Nuevo_Contrato",
+                "type": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DataCard5.Poder_Representante_Legal"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.MontoHonorarios_DataCard1.DataCardValue9.AccessibleLabel"
                 }
               ],
@@ -567,6 +747,36 @@
                 "member": "AccessibleLabel",
                 "module": "Nuevo_Contrato",
                 "type": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.FechaInicio_DataCard1.DataCardValue12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DataCard2.INE_Persona_Fisica.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DataCard2.INE_Persona_Fisica.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Nuevo_Contrato",
+                "type": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.DataCard2.INE_Persona_Fisica"
               }
             }
           ],
@@ -644,47 +854,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "MenuInicial.FormTipoTramite.TipoServicio.DataCardValue37.AccessibleLabel"
+                  "fullyQualifiedName": "App.CC_Isotipo_FondoBlanco"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "MenuInicial.FormTipoTramite.TipoServicio.DataCardValue37.AccessibleLabel",
+                  "fullyQualifiedName": "App.CC_Isotipo_FondoBlanco",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.FormTipoTramite.TipoServicio.DataCardValue37"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.Logo Vertical Texto Blanco"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.Logo Vertical Texto Blanco",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Logo Vertical Texto Blanco",
+                "member": "CC_Isotipo_FondoBlanco",
                 "module": "App",
                 "type": "App"
               }
@@ -704,17 +884,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.CC_Isotipo_FondoBlanco"
+                  "fullyQualifiedName": "App.Logo Vertical Texto Blanco"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.CC_Isotipo_FondoBlanco",
+                  "fullyQualifiedName": "App.Logo Vertical Texto Blanco",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "CC_Isotipo_FondoBlanco",
+                "member": "Logo Vertical Texto Blanco",
                 "module": "App",
                 "type": "App"
               }
