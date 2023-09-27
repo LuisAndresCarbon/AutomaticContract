@@ -834,13 +834,13 @@ Convenio_Termino As screen:
                 HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(212, 212, 212, 1)
-                Items: =Choices([@BdContratosLegal].ConvenioTermino)
+                Items: =Choices([@BdContratosLegal].'Convenio Termino')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(BdContratosLegal.ConvenioTermino,DataCardValue114.SearchText)
+                SearchItems: =Choices(BdContratosLegal.'Convenio Termino',DataCardValue114.SearchText)
                 SelectionFill: =RGBA(73, 130, 5, 1)
                 SelectMultiple: =false
                 Size: =13
@@ -1194,13 +1194,13 @@ Convenio_Termino As screen:
                 HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(212, 212, 212, 1)
-                Items: =Choices([@BdContratosLegal].ConvenioTermino)
+                Items: =Choices([@BdContratosLegal].'Convenio Termino')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(BdContratosLegal.ConvenioTermino,DataCardValue93.SearchText)
+                SearchItems: =Choices(BdContratosLegal.'Convenio Termino',DataCardValue93.SearchText)
                 SelectionFill: =RGBA(73, 130, 5, 1)
                 SelectMultiple: =false
                 Size: =13
