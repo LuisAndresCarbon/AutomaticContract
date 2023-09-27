@@ -41,7 +41,7 @@ Convenio_Modificatorio As screen:
             ZIndex: =1
 
         Title2 As label:
-            Color: =RGBA(50, 49, 48, 1)
+            Color: =If(ThisItem.IsSelected,RGBA(209,65,13,69),Color.Black)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Font: =Font.'Segoe UI'
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
@@ -112,7 +112,7 @@ Convenio_Modificatorio As screen:
             ZIndex: =6
 
         Title2_1 As label:
-            Color: =RGBA(50, 49, 48, 1)
+            Color: =If(ThisItem.IsSelected,RGBA(209,65,13,69),Color.Black)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Font: =Font.'Segoe UI'
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
