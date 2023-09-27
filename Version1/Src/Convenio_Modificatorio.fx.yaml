@@ -2269,13 +2269,13 @@ Convenio_Modificatorio As screen:
             FontWeight: =FontWeight.Semibold
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+            HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
             OnSelect: |-
                 = Notify("Convenio Modificatorio, Guardado", NotificationType.Success);
                 SubmitForm(Form1);
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
             RadiusBottomLeft: =0
             RadiusBottomRight: =0
             RadiusTopLeft: =0
@@ -2297,11 +2297,11 @@ Convenio_Modificatorio As screen:
             FontWeight: =FontWeight.Semibold
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+            HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
             OnSelect: =Back();
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
             RadiusBottomLeft: =0
             RadiusBottomRight: =0
             RadiusTopLeft: =0
@@ -2323,10 +2323,10 @@ Convenio_Modificatorio As screen:
             FontWeight: =FontWeight.Semibold
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+            HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
             RadiusBottomLeft: =0
             RadiusBottomRight: =0
             RadiusTopLeft: =0
