@@ -1,24 +1,19 @@
 notificacion As screen:
     LoadingSpinnerColor: =RGBA(61,184,123,71)
 
-    Image9 As image:
+    Rectangle3_2 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(227, 240, 234, 1)
         FocusedBorderThickness: =4
-        Height: =87
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: ='Logo Horizontal Texto Verde'
-        OnSelect: =NewForm(FormTipoTramite);Navigate(MenuInicial)
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        Height: =696
+        HoverFill: =RGBA(227, 240, 234, 1)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =335
-        X: =40
-        Y: =40
-        ZIndex: =2
+        Width: =1366
+        Y: =72
+        ZIndex: =1
 
     Image5 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -31,10 +26,59 @@ notificacion As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
         Image: =notificacion_confirmado
+        OnSelect: =Navigate(MenuInicial);
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =1217
-        X: =84
-        Y: =127
+        X: =74
+        Y: =87
+        ZIndex: =2
+
+    Rectangle3_1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(0, 148, 110, 0.77)
+        FocusedBorderThickness: =4
+        Height: =72
+        HoverFill: =RGBA(0, 148, 110, 0.74)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =1366
+        ZIndex: =3
+
+    Image15 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =56
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =CC_Isotipo
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =54
+        X: =452
+        Y: =12
         ZIndex: =4
+
+    Label2_1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Height: =56
+        Size: =30
+        Text: ="CANOPIA CARBON"
+        Width: =1364
+        X: =2
+        Y: =12
+        ZIndex: =5
 

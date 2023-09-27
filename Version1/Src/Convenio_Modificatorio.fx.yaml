@@ -1738,7 +1738,7 @@ Convenio_Modificatorio As screen:
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 HoverDateFill: =RGBA(200, 200, 200, 1)
-                IconBackground: =RGBA(73, 130, 5, 1)
+                IconBackground: =RGBA(8,143,131,100)
                 IsEditable: =true
                 PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -1846,7 +1846,7 @@ Convenio_Modificatorio As screen:
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 HoverDateFill: =RGBA(200, 200, 200, 1)
-                IconBackground: =RGBA(73, 130, 5, 1)
+                IconBackground: =RGBA(8,143,131,100)
                 IsEditable: =true
                 PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -2069,7 +2069,7 @@ Convenio_Modificatorio As screen:
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 HoverDateFill: =RGBA(200, 200, 200, 1)
-                IconBackground: =RGBA(73, 130, 5, 1)
+                IconBackground: =RGBA(8,143,131,100)
                 IsEditable: =true
                 PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -2263,7 +2263,7 @@ Convenio_Modificatorio As screen:
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(73, 130, 5, 1)
+            Fill: =RGBA(8, 143, 131, 1)
             FocusedBorderColor: =ColorFade(Self.Fill, -75%)
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
@@ -2291,7 +2291,7 @@ Convenio_Modificatorio As screen:
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(73, 130, 5, 1)
+            Fill: =RGBA(8, 143, 131, 1)
             FocusedBorderColor: =ColorFade(Self.Fill, -75%)
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
@@ -2317,7 +2317,7 @@ Convenio_Modificatorio As screen:
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(73, 130, 5, 1)
+            Fill: =RGBA(8, 143, 131, 1)
             FocusedBorderColor: =ColorFade(Self.Fill, -75%)
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
@@ -2336,4 +2336,21 @@ Convenio_Modificatorio As screen:
             X: =958
             Y: =8
             ZIndex: =3
+
+    Image4 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =70
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =CC_Isotipo
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =76
+        X: =344
+        ZIndex: =6
 
