@@ -579,7 +579,7 @@ Convenio_Modificatorio As screen:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="NomContratoInterno"
-            Default: =ThisItem.NomContratoInterno
+            Default: =ThisItem.FolioContrato
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"NomContratoInterno")
             Fill: =RGBA(0, 0, 0, 0)
@@ -1276,7 +1276,7 @@ Convenio_Modificatorio As screen:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="DimicilioPersonaFisica"
-            Default: =ThisItem.DimicilioPersonaFisica
+            Default: =ThisItem.DomicilioPersonaFisica
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"DimicilioPersonaFisica")
             Fill: =RGBA(0, 0, 0, 0)
