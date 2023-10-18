@@ -2520,8 +2520,7 @@
                             HoverColor: =RGBA(51, 51, 51, 1)
                             HoverFill: =RGBA(212, 212, 212, 1)
                             Items: |-
-                                =
-                                Table({Month:"1"}, {Month:"2"}, {Month:"3"}, {Month:"4"}, {Month:"5"}, {Month:"6"}, {Month:"7"}, {Month:"8"}, {Month:"9"}, {Month:"10"}, {Month:"11"}, {Month:"12"})
+                                =Table({Month:"1"}, {Month:"2"}, {Month:"3"}, {Month:"4"}, {Month:"5"}, {Month:"6"}, {Month:"7"}, {Month:"8"}, {Month:"9"}, {Month:"10"}, {Month:"11"}, {Month:"12"})
                             PaddingBottom: =5
                             PaddingLeft: =12
                             PaddingRight: =5
