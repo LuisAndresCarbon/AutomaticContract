@@ -385,7 +385,7 @@
                         Y: =1
                         ZIndex: =1
 
-                        Label4 As label:
+                        Generales As label:
                             Align: =Align.Center
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
@@ -397,7 +397,7 @@
                             Font: =Font.'Segoe UI'
                             Height: =41
                             Size: =13
-                            Text: ="A QUIEN LE PERTENECE"
+                            Text: ="G E N E R A L E S"
                             Width: =1266
                             X: =45
                             Y: =3
@@ -1211,7 +1211,7 @@
                         Y: =5
                         ZIndex: =1
 
-                        Label5 As label:
+                        Terminos As label:
                             Align: =Align.Center
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
@@ -1223,7 +1223,7 @@
                             Font: =Font.'Segoe UI'
                             Height: =53
                             Size: =13
-                            Text: ="UBICACION FECHAS Y MONTOS"
+                            Text: ="T E R M I N O S  C O M E R C I A L E S"
                             Width: =434
                             X: =429
                             ZIndex: =1
@@ -1575,114 +1575,6 @@
                             Y: =DataCardKey44.Y
                             ZIndex: =4
 
-                    FechaInicio_DataCard1 As typedDataCard.dateEditCard:
-                        BorderColor: =RGBA(166, 166, 166, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="FechaInicio"
-                        Default: =ThisItem.FechaInicio
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FechaInicio")
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        Required: =true
-                        Update: =DataCardValue12.SelectedDate
-                        Width: =332
-                        X: =1
-                        Y: =7
-                        ZIndex: =1
-
-                        DataCardKey12 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =34
-                            PaddingLeft: =0
-                            Size: =13
-                            Text: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            Wrap: =false
-                            X: =30
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue12 As datepicker:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                            Color: =RGBA(51, 51, 51, 1)
-                            DefaultDate: =Parent.Default
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            DisabledFill: =RGBA(244, 244, 244, 1)
-                            DisplayMode: =Parent.DisplayMode
-                            EndYear: =Year(Today())+100
-                            Font: =Font.'Segoe UI'
-                            HoverDateFill: =RGBA(200, 200, 200, 1)
-                            IconBackground: =RGBA(8,143,131,100)
-                            IsEditable: =true
-                            PaddingBottom: =0
-                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                            SelectedDateFill: =RGBA(73, 130, 5, 1)
-                            Size: =13
-                            StartYear: =1899
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey12.Y + DataCardKey12.Height + 5
-                            ZIndex: =2
-
-                        ErrorMessage12 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(168, 0, 0, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(168, 0, 0, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =13
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardValue12.Y + DataCardValue12.Height
-                            ZIndex: =3
-
-                        StarVisible12 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =DataCardKey12.Height
-                            PaddingLeft: =0
-                            Size: =13
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey12.Y
-                            ZIndex: =4
-
                     FechaTerminoContrato_DataCard1 As typedDataCard.dateEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -1724,7 +1616,7 @@
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                             Color: =RGBA(51, 51, 51, 1)
-                            DefaultDate: =Parent.Default
+                            DefaultDate: =DateValue(Text(Label11.Text, "[$-en-US]dd/mm/yyyy"))
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -2519,8 +2411,68 @@
                             HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                             HoverColor: =RGBA(51, 51, 51, 1)
                             HoverFill: =RGBA(212, 212, 212, 1)
-                            Items: |-
-                                =Table({Month:"1"}, {Month:"2"}, {Month:"3"}, {Month:"4"}, {Month:"5"}, {Month:"6"}, {Month:"7"}, {Month:"8"}, {Month:"9"}, {Month:"10"}, {Month:"11"}, {Month:"12"})
+                            Items: |
+                                =Table({Month: "1"},       
+                                {Month: "2"}, 
+                                {Month: "3"}, 
+                                {Month: "4"}, 
+                                {Month: "5"}, 
+                                {Month: "6"}, 
+                                {Month: "7"}, 
+                                {Month: "8"}, 
+                                {Month: "9"}, 
+                                {Month: "10"}, 
+                                {Month: "11"}, 
+                                {Month: "12"}, 
+                                {Month: "13"}, 
+                                {Month: "14"}, 
+                                {Month: "15"}, 
+                                {Month: "16"}, 
+                                {Month: "17"}, 
+                                {Month: "18"}, 
+                                {Month: "19"}, 
+                                {Month: "20"}, 
+                                {Month: "21"}, 
+                                {Month: "22"}, 
+                                {Month: "23"}, 
+                                {Month: "24"}, 
+                                {Month: "25"}, 
+                                {Month: "26"}, 
+                                {Month: "27"}, 
+                                {Month: "28"}, 
+                                {Month: "29"}, 
+                                {Month: "30"}, 
+                                {Month: "31"}, 
+                                {Month: "32"}, 
+                                {Month: "33"}, 
+                                {Month: "34"}, 
+                                {Month: "35"}, 
+                                {Month: "36"}, 
+                                {Month: "37"}, 
+                                {Month: "38"}, 
+                                {Month: "39"}, 
+                                {Month: "40"}, 
+                                {Month: "41"}, 
+                                {Month: "42"}, 
+                                {Month: "43"}, 
+                                {Month: "44"}, 
+                                {Month: "45"}, 
+                                {Month: "46"}, 
+                                {Month: "47"}, 
+                                {Month: "48"}, 
+                                {Month: "49"}, 
+                                {Month: "50"}, 
+                                {Month: "51"}, 
+                                {Month: "52"}, 
+                                {Month: "53"}, 
+                                {Month: "54"}, 
+                                {Month: "55"}, 
+                                {Month: "56"}, 
+                                {Month: "57"}, 
+                                {Month: "58"}, 
+                                {Month: "59"}, 
+                                {Month: "60"}
+                                 )
                             PaddingBottom: =5
                             PaddingLeft: =12
                             PaddingRight: =5
@@ -2531,8 +2483,8 @@
                             SelectionFill: =RGBA(73, 130, 5, 1)
                             Size: =13
                             Width: =265
-                            X: =32
-                            Y: =32
+                            X: =28
+                            Y: =60
                             ZIndex: =2
 
                         Label11 As label:
@@ -2544,13 +2496,155 @@
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
-                            Height: =58
+                            Height: =42
                             Size: =13
                             Text: |
                                 =DateAdd(DataCardValue12.SelectedDate, Dropdown1_1.Selected.Month * 30) 
                             Width: =319
-                            X: =345
-                            Y: =24
+                            X: =330
+                            Y: =60
+                            ZIndex: =4
+
+                        Label12 As label:
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =32
+                            Size: =13
+                            Text: ="Selecciona los meses de vigencia"
+                            Width: =250
+                            X: =28
+                            Y: =12
+                            ZIndex: =5
+
+                        Label13 As label:
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Size: =13
+                            Text: |-
+                                ="Vigencia Calculada:"
+                            Width: =220
+                            X: =330
+                            Y: =30
+                            ZIndex: =6
+
+                    FechaInicio_DataCard1 As typedDataCard.dateEditCard:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="FechaInicio"
+                        Default: =ThisItem.FechaInicio
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FechaInicio")
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        Required: =true
+                        Update: =DataCardValue12.SelectedDate
+                        Width: =332
+                        X: =1
+                        Y: =7
+                        ZIndex: =1
+
+                        DataCardKey12 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =34
+                            PaddingLeft: =0
+                            Size: =13
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue12 As datepicker:
+                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                            Color: =RGBA(51, 51, 51, 1)
+                            DefaultDate: =Parent.Default
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            DisabledFill: =RGBA(244, 244, 244, 1)
+                            DisplayMode: =Parent.DisplayMode
+                            EndYear: =Year(Today())+100
+                            Font: =Font.'Segoe UI'
+                            HoverDateFill: =RGBA(200, 200, 200, 1)
+                            IconBackground: =RGBA(8,143,131,100)
+                            IsEditable: =true
+                            PaddingBottom: =0
+                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            SelectedDateFill: =RGBA(73, 130, 5, 1)
+                            Size: =13
+                            StartYear: =1899
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey12.Y + DataCardKey12.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage12 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(168, 0, 0, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(168, 0, 0, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =13
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue12.Y + DataCardValue12.Height
+                            ZIndex: =3
+
+                        StarVisible12 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =DataCardKey12.Height
+                            PaddingLeft: =0
+                            Size: =13
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey12.Y
                             ZIndex: =4
 
                     Persona_DataCard3 As typedDataCard.comboBoxEditCard:
