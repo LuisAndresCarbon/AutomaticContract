@@ -2633,9 +2633,7 @@
                             Font: =Font.'Segoe UI'
                             Height: =58
                             Size: =13
-                            Text: |+
-                                =Text(DateValue(Value(Year(Dropdown1.SelectedText.Value),DateTimeFormat.LongDate)
-                                
+                            Text: =Text(DateValue(Year(Dropdown1.SelectedText.Value)),DateTimeFormat.LongDate)
                             Width: =275
                             X: =345
                             Y: =24
