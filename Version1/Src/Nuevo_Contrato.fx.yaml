@@ -2501,62 +2501,8 @@
                         Y: =9
                         ZIndex: =1
 
-                        Dropdown1 As dropdown:
-                            BorderColor: =RGBA(166, 166, 166, 1)
-                            ChevronBackground: =RGBA(255, 255, 255, 1)
-                            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-                            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-                            ChevronFill: =RGBA(33, 33, 33, 1)
-                            ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-                            ChevronHoverFill: =RGBA(33, 33, 33, 1)
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            DisabledFill: =RGBA(244, 244, 244, 1)
-                            Font: =Font.'Segoe UI'
-                            Height: =42
-                            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                            HoverColor: =RGBA(51, 51, 51, 1)
-                            HoverFill: =RGBA(212, 212, 212, 1)
-                            Items: |-
-                                =Table({Year:"2014"}, {Year:"2015"}, {Year:"2016"},
-                                {Year:"2017"},
-                                {Year:"2018"},
-                                {Year:"2019"},
-                                {Year:"2020"},
-                                {Year:"2021"},
-                                {Year:"2022"},
-                                {Year:"2023"},
-                                {Year:"2024"},
-                                {Year:"2025"},
-                                {Year:"2026"},
-                                {Year:"2027"},
-                                {Year:"2028"},
-                                {Year:"2029"},
-                                {Year:"2030"},
-                                {Year:"2031"},
-                                {Year:"2032"},
-                                {Year:"2033"},
-                                {Year:"2034"},
-                                {Year:"2035"},
-                                {Year:"2036"},
-                                {Year:"2037"},
-                                {Year:"2038"})
-                            PaddingBottom: =5
-                            PaddingLeft: =12
-                            PaddingRight: =5
-                            PaddingTop: =5
-                            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                            PressedColor: =RGBA(255, 255, 255, 1)
-                            PressedFill: =RGBA(73, 130, 5, 1)
-                            SelectionFill: =RGBA(73, 130, 5, 1)
-                            Size: =13
-                            Width: =265
-                            X: =38
-                            Y: =22
-                            ZIndex: =1
-
                         Dropdown1_1 As dropdown:
+                            AllowEmptySelection: =true
                             BorderColor: =RGBA(166, 166, 166, 1)
                             ChevronBackground: =RGBA(255, 255, 255, 1)
                             ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
@@ -2574,7 +2520,8 @@
                             HoverColor: =RGBA(51, 51, 51, 1)
                             HoverFill: =RGBA(212, 212, 212, 1)
                             Items: |-
-                                =Table({Month:1})
+                                =
+                                Table({Month:"1"}, {Month:"2"}, {Month:"3"}, {Month:"4"}, {Month:"5"}, {Month:"6"}, {Month:"7"}, {Month:"8"}, {Month:"9"}, {Month:"10"}, {Month:"11"}, {Month:"12"})
                             PaddingBottom: =5
                             PaddingLeft: =12
                             PaddingRight: =5
@@ -2585,42 +2532,9 @@
                             SelectionFill: =RGBA(73, 130, 5, 1)
                             Size: =13
                             Width: =265
-                            X: =38
-                            Y: =82
+                            X: =32
+                            Y: =32
                             ZIndex: =2
-
-                        Dropdown1_2 As dropdown:
-                            BorderColor: =RGBA(166, 166, 166, 1)
-                            ChevronBackground: =RGBA(255, 255, 255, 1)
-                            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-                            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-                            ChevronFill: =RGBA(33, 33, 33, 1)
-                            ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-                            ChevronHoverFill: =RGBA(33, 33, 33, 1)
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            DisabledFill: =RGBA(244, 244, 244, 1)
-                            Font: =Font.'Segoe UI'
-                            Height: =42
-                            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                            HoverColor: =RGBA(51, 51, 51, 1)
-                            HoverFill: =RGBA(212, 212, 212, 1)
-                            Items: |-
-                                =Table({Day:1})
-                            PaddingBottom: =5
-                            PaddingLeft: =12
-                            PaddingRight: =5
-                            PaddingTop: =5
-                            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                            PressedColor: =RGBA(255, 255, 255, 1)
-                            PressedFill: =RGBA(73, 130, 5, 1)
-                            SelectionFill: =RGBA(73, 130, 5, 1)
-                            Size: =13
-                            Width: =265
-                            X: =38
-                            Y: =150
-                            ZIndex: =3
 
                         Label11 As label:
                             BorderColor: =RGBA(0, 0, 0, 0)
@@ -2633,7 +2547,8 @@
                             Font: =Font.'Segoe UI'
                             Height: =58
                             Size: =13
-                            Text: =Text(DateValue(Year(Dropdown1.SelectedText.Value)),DateTimeFormat.LongDate)
+                            Text: |
+                                =DateAdd(DataCardValue12.SelectedDate, Dropdown1_1.Selected.Month * 30) 
                             Width: =319
                             X: =345
                             Y: =24
