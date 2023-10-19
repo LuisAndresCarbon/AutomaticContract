@@ -907,36 +907,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.NomContratoInterno_DataCard4.DataCardValue95.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.NomContratoInterno_DataCard4.DataCardValue95.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Nuevo_Contrato",
-                "type": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.NomContratoInterno_DataCard4.DataCardValue95"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Nuevo_Contrato.Container.BottomContainer1.MainContainer1.Form3.NomEmpresa_DataCard4.DataCardValue96.AccessibleLabel"
                 }
               ],
