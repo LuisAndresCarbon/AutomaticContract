@@ -91,11 +91,11 @@ Dashboard As screen:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            DisabledFill: =RGBA(73, 130, 5, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
             Fill: =RGBA(227, 240, 234, 1)
             Height: =64
-            HoverFill: =RGBA(73, 130, 5, 1)
-            PressedFill: =RGBA(73, 130, 5, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
             Width: =60
             ZIndex: =6
 
@@ -139,11 +139,11 @@ Dashboard As screen:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            DisabledFill: =RGBA(73, 130, 5, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
             Fill: =RGBA(227, 240, 234, 1)
             Height: =64
-            HoverFill: =RGBA(73, 130, 5, 1)
-            PressedFill: =RGBA(73, 130, 5, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
             Width: =60
             ZIndex: =9
 
@@ -185,7 +185,7 @@ Dashboard As screen:
         X: =409
         ZIndex: =3
 
-    HtmlText2 As htmlViewer:
+    HtmlNuevoC As htmlViewer:
         Height: =697
         HtmlText: |-
             ="<div style='padding-top:8px'> 
@@ -203,6 +203,7 @@ Dashboard As screen:
             </span>
             
             </div>"
+        Visible: =If(opcion = Button5,true,false)
         Width: =865
         X: =501
         Y: =70
@@ -260,6 +261,7 @@ Dashboard As screen:
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+                OnSelect: =Set(opcion,Button5)
                 PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -299,6 +301,7 @@ Dashboard As screen:
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+                OnSelect: =Set(opcion,Button6)
                 PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -338,6 +341,7 @@ Dashboard As screen:
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+                OnSelect: =Set(opcion,Button7)
                 PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -349,4 +353,52 @@ Dashboard As screen:
                 Text: ="Convenio de Terminacion"
                 Width: =350
                 ZIndex: =5
+
+    HtmlConveMod As htmlViewer:
+        Height: =697
+        HtmlText: |-
+            ="<div style='padding-top:8px'> 
+            
+            <span style='text-align:center: font-size:28px; font-weight:bold; cursor: pointer; color:black;'> 
+            
+            <center>
+            <h1 style='margin: 5% auto; padding:20px; font-size: 3em'>Convenio Modificatorio</h1>
+            </center>
+            <p style='font-size: 1em'>Solicitar un nuevo contrato sive para.....</p>
+            <h2 style='font-size: 22px'>Consulta:</h2>
+            <p style='font-size: 1em'>Consulta y verifica el estado de solicitud de contrato que enviaste.</p>
+            <h2 style='font-size: 22px'>Documentos Requeridos:</h2>
+            <p style='font-size: 1em'>:Solicitar un nuevo contrato contendra el nombre del la persona Fisica o Moral, direccion, vigencia(fecha)...</p>
+            </span>
+            
+            </div>"
+        Visible: =If(opcion = Button6,true,false)
+        Width: =865
+        X: =501
+        Y: =71
+        ZIndex: =8
+
+    HtmlConveTermi As htmlViewer:
+        Height: =697
+        HtmlText: |-
+            ="<div style='padding-top:8px'> 
+            
+            <span style='text-align:center: font-size:28px; font-weight:bold; cursor: pointer; color:black;'> 
+            
+            <center>
+            <h1 style='margin: 5% auto; padding:20px; font-size: 3em'>Convenio de Terminacion</h1>
+            </center>
+            <p style='font-size: 1em'>Solicitar un nuevo contrato sive para.....</p>
+            <h2 style='font-size: 22px'>Consulta:</h2>
+            <p style='font-size: 1em'>Consulta y verifica el estado de solicitud de contrato que enviaste.</p>
+            <h2 style='font-size: 22px'>Documentos Requeridos:</h2>
+            <p style='font-size: 1em'>:Solicitar un nuevo contrato contendra el nombre del la persona Fisica o Moral, direccion, vigencia(fecha)...</p>
+            </span>
+            
+            </div>"
+        Visible: =If(opcion = Button7,true,false)
+        Width: =865
+        X: =501
+        Y: =71
+        ZIndex: =9
 
