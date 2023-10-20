@@ -1,3 +1,9 @@
 Bandeja As screen:
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
+    Header_5 As Header:
+
+    Component_Footer_1 As Component_Footer:
+        Y: =716
+        ZIndex: =2
+
