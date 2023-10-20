@@ -137,6 +137,9 @@
     "Convenio_Modificatorio",
     "notificacion",
     "Convenio_Termino",
-    "Dashboard"
+    "Dashboard",
+    "Bandeja",
+    "BorrarContratos",
+    "Ajustes"
   ]
 }

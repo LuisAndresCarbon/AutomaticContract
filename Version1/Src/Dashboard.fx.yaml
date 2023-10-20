@@ -26,9 +26,11 @@ Dashboard As screen:
             HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.FilterFlat
+            OnSelect: =Navigate(MenuInicial)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Busqueda Filtrada"
             ZIndex: =1
 
         Icon3 As icon.AddDocument:
@@ -42,9 +44,11 @@ Dashboard As screen:
             HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.AddDocument
+            OnSelect: =Navigate(Nuevo_Contrato)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Nuevo Contrato"
             ZIndex: =2
 
         Icon10 As icon.Tray:
@@ -58,9 +62,11 @@ Dashboard As screen:
             HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Tray
+            OnSelect: =Navigate(Bandeja)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Bandeja de Entrada"
             ZIndex: =3
 
         Icon5 As icon.Trash:
@@ -74,9 +80,11 @@ Dashboard As screen:
             HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Trash
+            OnSelect: =Navigate(BorrarContratos)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Eliminar Contratos"
             ZIndex: =5
 
         Circle2 As circle:
@@ -102,9 +110,11 @@ Dashboard As screen:
             HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.DocumentWithContent
+            OnSelect: =Navigate(Convenio_Modificatorio)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Convenio Modificatorio"
             ZIndex: =7
 
         Icon9 As icon.Error:
@@ -118,9 +128,11 @@ Dashboard As screen:
             HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Error
+            OnSelect: =Navigate(Convenio_Termino)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Convenios de Terminacion"
             ZIndex: =8
 
         Circle3 As circle:
@@ -146,9 +158,11 @@ Dashboard As screen:
             HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.ToolsWrench
+            OnSelect: =Navigate(Ajustes)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Ajustes"
             ZIndex: =10
 
     Header_4 As Header:
@@ -171,150 +185,168 @@ Dashboard As screen:
         X: =409
         ZIndex: =3
 
-    Label7 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Height: =270
-        Size: =13
-        Text: |-
-            ="NUEVO CONTRATO
+    HtmlText2 As htmlViewer:
+        Height: =697
+        HtmlText: |-
+            ="<div style='padding-top:8px'> 
             
-            Solicitar un nuevo contrato sive para.....
+            <span style='text-align:center: font-size:28px; font-weight:bold; cursor: pointer; color:black;'> 
             
-            Consulta:
+            <center>
+            <h1 style='margin: 5% auto; padding:20px; font-size: 3em'>Nuevo Contrato</h1>
+            </center>
+            <p style='font-size: 1em'>Solicitar un nuevo contrato sive para.....</p>
+            <h2 style='font-size: 22px'>Consulta:</h2>
+            <p style='font-size: 1em'>Consulta y verifica el estado de solicitud de contrato que enviaste.</p>
+            <h2 style='font-size: 22px'>Documentos Requeridos:</h2>
+            <p style='font-size: 1em'>:Solicitar un nuevo contrato contendra el nombre del la persona Fisica o Moral, direccion, vigencia(fecha)...</p>
+            </span>
             
-            Consulta y verifica el estado de solicitud de contrato que enviaste.
-            
-            Documentos Requeridos:
-            
-            Solicitar un nuevo contrato contendra el nombre del la persona Fisica o Moral, direccion, vigencia(fecha)...etc
-            
-            
-            "
-        Width: =860
-        X: =482
-        Y: =86
-        ZIndex: =5
+            </div>"
+        Width: =865
+        X: =501
+        Y: =70
+        ZIndex: =7
 
-    Container2 As groupContainer.verticalAutoLayoutContainer:
-        DropShadow: =DropShadow.Light
-        Height: =139
-        LayoutDirection: =LayoutDirection.Vertical
-        LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =4
-        RadiusBottomRight: =4
-        RadiusTopLeft: =4
-        RadiusTopRight: =4
-        Width: =354
-        X: =84
-        Y: =86
-        ZIndex: =6
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =7
 
-        Button5 As button:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(73, 130, 5, 1)
-            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =15
-            Text: ="Nuevo Contrato"
-            Width: =350
-            ZIndex: =1
-
-        Label16 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =10
-            Size: =13
-            Text: =
-            Width: =350
-            ZIndex: =2
-
-        Button6 As button:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(73, 130, 5, 1)
-            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =15
-            Text: ="Convenio Modificatorio"
-            Width: =350
-            ZIndex: =3
-
-        Label16_1 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =10
-            Size: =13
-            Text: =
-            Width: =350
+        HtmlText1 As htmlViewer:
+            Height: =318
+            HtmlText: |-
+                ="<div style='margin: 10%; height: 180px;width:370px; border-radius: 25px; background-color: white; box-shadow:0 0 10px rgba(0,0,0,0.6);'> 
+                
+                <span style='text-align:center: font-size:28px; font-weight:bold; cursor: pointer; color:black;'> <center>
+                
+                
+                </center>
+                
+                </span>
+                
+                </div>"
+            Width: =439
+            X: =43
+            Y: =70
             ZIndex: =4
 
-        Button7 As button:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(73, 130, 5, 1)
-            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =15
-            Text: ="Convenio de Terminacion"
-            Width: =350
-            ZIndex: =5
+        Container2 As groupContainer.verticalAutoLayoutContainer:
+            ContentLanguage: =
+            DropShadow: =DropShadow.Light
+            Height: =139
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =354
+            X: =100
+            Y: =137
+            ZIndex: =6
+
+            Button5 As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(73, 130, 5, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =15
+                Text: ="Nuevo Contrato"
+                Width: =350
+                ZIndex: =1
+
+            Label16 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =10
+                Size: =13
+                Text: =
+                Width: =350
+                ZIndex: =2
+
+            Button6 As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(73, 130, 5, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =15
+                Text: ="Convenio Modificatorio"
+                Width: =350
+                ZIndex: =3
+
+            Label16_1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =10
+                Size: =13
+                Text: =
+                Width: =350
+                ZIndex: =4
+
+            Button7 As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(73, 130, 5, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =15
+                Text: ="Convenio de Terminacion"
+                Width: =350
+                ZIndex: =5
 
