@@ -9,6 +9,13 @@
       "parameterHintsV2": {}
     },
     "datasets": {
+      "https://canopiacarbon918.sharepoint.com/sites/intranet": {
+        "dataSources": {
+          "Permisos": {
+            "tableName": "2a2c56f3-1b67-4e80-8540-68e620e117a3"
+          }
+        }
+      },
       "https://canopiacarbon918.sharepoint.com/sites/Legal": {
         "dataSources": {
           "BdContratosLegal": {
@@ -18,7 +25,8 @@
       }
     },
     "dataSources": [
-      "BdContratosLegal"
+      "BdContratosLegal",
+      "Permisos"
     ],
     "dependencies": {},
     "dependents": [],
