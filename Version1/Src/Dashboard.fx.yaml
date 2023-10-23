@@ -195,14 +195,14 @@ Dashboard As screen:
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Ajustes"
             Visible: |-
-                =Switch(
-                    true,
+                =Switch(true,
                     Legal = "Lider Legal",
                     true,
                     Legal = "Legal",
                     true,
                     Legal = "Programador",
-                    true
+                    true,
+                    false
                 )
             ZIndex: =12
 
