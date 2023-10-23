@@ -198,7 +198,7 @@ Dashboard As screen:
                 =Switch(
                     true,
                     Legal = User().FullName,
-                    false
+                    true
                 )
             ZIndex: =12
 
