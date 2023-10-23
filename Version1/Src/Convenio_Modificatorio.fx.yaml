@@ -81,6 +81,7 @@ Convenio_Modificatorio As screen:
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
+            OnSelect: =NewForm(Form1)
             PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
@@ -197,13 +198,73 @@ Convenio_Modificatorio As screen:
             ZIndex: =6
 
     FormViewer1 As formViewer:
-        BorderColor: =RGBA(166, 166, 166, 1)
+        AcceptsFocus: =false
+        BorderColor: =RGBA(61, 184, 123, 1)
+        BorderThickness: =2
         DataSource: =BdContratosLegal
-        Height: =332
+        Height: =368
         Item: =Gallery1.Selected
         X: =566
         Y: =73
         ZIndex: =8
+
+        MontoHonorario_DataCard2 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="MontoHonorario"
+            Default: =ThisItem.MontoHonorario
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"MontoHonorario")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =266
+            X: =0
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey18 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =34
+                PaddingLeft: =0
+                Size: =13
+                Text: ="Monto de Honorarios"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue18 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey18.Y + DataCardKey18.Height + 5
+                ZIndex: =2
 
         Persona_DataCard1 As typedDataCard.comboBoxViewCard:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -217,7 +278,7 @@ Convenio_Modificatorio As screen:
             Required: =false
             Update: =DataCardValue17.Selected
             Width: =266
-            X: =0
+            X: =1
             Y: =1
             ZIndex: =1
 
@@ -322,126 +383,10 @@ Convenio_Modificatorio As screen:
                 Y: =DataCardKey17.Y
                 ZIndex: =4
 
-        AnexosModificar_DataCard1 As typedDataCard.textualViewCard:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="CMdescripcion"
-            Default: =ThisItem.AnexosModificar
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"CMdescripcion")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =266
-            X: =2
-            Y: =1
-            ZIndex: =1
-
-            DataCardKey10 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                PaddingLeft: =0
-                Size: =13
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue10 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                Height: =27
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =13
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
-                ZIndex: =2
-
-        MontoHonorario_DataCard2 As typedDataCard.textualViewCard:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="MontoHonorario"
-            Default: =ThisItem.MontoHonorario
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"MontoHonorario")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =266
-            X: =1
-            Y: =2
-            ZIndex: =1
-
-            DataCardKey18 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                PaddingLeft: =0
-                Size: =13
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue18 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                Height: =27
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =13
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey18.Y + DataCardKey18.Height + 5
-                ZIndex: =2
-
         NomEmpresa_DataCard1 As typedDataCard.textualViewCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="NomEmpresa"
+            DataField: ="Nombre de la Empresa"
             Default: =ThisItem.NomEmpresa
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"NomEmpresa")
@@ -450,7 +395,7 @@ Convenio_Modificatorio As screen:
             Required: =false
             Width: =266
             X: =2
-            Y: =2
+            Y: =1
             ZIndex: =1
 
             DataCardKey19 As label:
@@ -467,7 +412,7 @@ Convenio_Modificatorio As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Nombre de la Empresa"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -508,7 +453,7 @@ Convenio_Modificatorio As screen:
             Required: =false
             Width: =266
             X: =0
-            Y: =3
+            Y: =2
             ZIndex: =1
 
             DataCardKey20 As label:
@@ -554,6 +499,35 @@ Convenio_Modificatorio As screen:
                 Y: =DataCardKey20.Y + DataCardKey20.Height + 5
                 ZIndex: =2
 
+        DataCard6 As typedDataCard.blankCard:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =54
+            Width: =798
+            X: =0
+            Y: =3
+            ZIndex: =1
+
+            Label9 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Height: =21
+                Size: =13
+                Text: ="F E C H A S  D E L  C O N T R A T O"
+                Width: =798
+                Y: =39
+                ZIndex: =1
+
         FechaTerminoContrato_DataCard2 As typedDataCard.textualViewCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
@@ -566,7 +540,7 @@ Convenio_Modificatorio As screen:
             Required: =false
             Width: =266
             X: =1
-            Y: =3
+            Y: =4
             ZIndex: =1
 
             DataCardKey21 As label:
@@ -583,7 +557,8 @@ Convenio_Modificatorio As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Fecha de Termino del Contrato"
+                Tooltip: ="Fecha de Termino del Contrato"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -610,6 +585,93 @@ Convenio_Modificatorio As screen:
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey21.Y + DataCardKey21.Height + 5
+                ZIndex: =2
+
+        DataCard8 As typedDataCard.blankCard:
+            BorderColor: =RGBA(61, 184, 123, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =74
+            Width: =798
+            X: =0
+            Y: =5
+            ZIndex: =1
+
+            Label15 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Height: =28
+                Size: =13
+                Text: ="C O N V E N I O  M O D I F I C A T O R I O"
+                Width: =798
+                Y: =46
+                ZIndex: =1
+
+        AnexosModificar_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="CMdescripcion"
+            Default: =ThisItem.AnexosModificar
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"CMdescripcion")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =266
+            X: =1
+            Y: =6
+            ZIndex: =1
+
+            DataCardKey10 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =34
+                PaddingLeft: =0
+                Size: =13
+                Text: ="Anexos a Modificar"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue10 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
                 ZIndex: =2
 
         Título_DataCard1 As typedDataCard.textualViewCard:
@@ -856,8 +918,8 @@ Convenio_Modificatorio As screen:
             Height: =40
             Required: =false
             Width: =266
-            X: =1
-            Y: =1
+            X: =0
+            Y: =4
             ZIndex: =9
 
             DataCardKey27 As label:
@@ -915,7 +977,7 @@ Convenio_Modificatorio As screen:
             Required: =false
             Width: =266
             X: =0
-            Y: =2
+            Y: =6
             ZIndex: =9
 
             DataCardKey31 As label:
@@ -962,10 +1024,10 @@ Convenio_Modificatorio As screen:
     Form1 As form:
         BorderColor: =RGBA(166, 166, 166, 1)
         DataSource: =BdContratosLegal
-        Height: =300
+        Height: =274
         Item: =Gallery1.Selected
         X: =566
-        Y: =413
+        Y: =441
         ZIndex: =9
 
         CMFecha_DataCard2 As typedDataCard.dateEditCard:
@@ -976,10 +1038,10 @@ Convenio_Modificatorio As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"CMFecha")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =66
             Required: =false
             Update: =DataCardValue16.SelectedDate
-            Width: =266
+            Width: =798
             X: =0
             Y: =0
             ZIndex: =1
@@ -998,7 +1060,8 @@ Convenio_Modificatorio As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: ="Fecha CM"
+                Text: ="Fecha de Solicitud de Convenio Modificatorio"
+                Tooltip: ="Convenio Modificatorio"
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30

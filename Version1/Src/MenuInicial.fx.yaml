@@ -116,7 +116,7 @@ MenuInicial As screen:
             Text: =ThisItem.contratos.Value
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 173
-            X: =103
+            X: =100
             Y: =8
             ZIndex: =2
 
