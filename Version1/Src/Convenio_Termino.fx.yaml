@@ -736,23 +736,6 @@ Convenio_Termino As screen:
             Y: =4
             ZIndex: =1
 
-            Label6 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Bold
-                Height: =46
-                Size: =13
-                Text: ="C O N V E N I O  M O D I F I C A T O R I O"
-                Width: =800
-                ZIndex: =1
-
         CMFecha_DataCard6 As typedDataCard.textualViewCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
@@ -1012,13 +995,13 @@ Convenio_Termino As screen:
                 HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(212, 212, 212, 1)
-                Items: =Choices([@BdContratosLegal].ConvenioTermino)
+                Items: =Choices([@BdContratosLegal].'Convenio Termino')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(BdContratosLegal.ConvenioTermino,DataCardValue91.SearchText)
+                SearchItems: =Choices(BdContratosLegal.'Convenio Termino',DataCardValue91.SearchText)
                 SelectionFill: =RGBA(73, 130, 5, 1)
                 SelectMultiple: =false
                 Size: =13
@@ -1203,52 +1186,6 @@ Convenio_Termino As screen:
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage58 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(168, 0, 0, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =13
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue95.Y + DataCardValue95.Height
-                ZIndex: =3
-
-            StarVisible58 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey95.Height
-                PaddingLeft: =0
-                Size: =13
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey95.Y
-                ZIndex: =4
-
         OtraRazonTerminacion_DataCard3 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
@@ -1318,52 +1255,6 @@ Convenio_Termino As screen:
                 X: =106
                 Y: =10
                 ZIndex: =2
-
-            ErrorMessage54 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(168, 0, 0, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =13
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue80.Y + DataCardValue80.Height
-                ZIndex: =3
-
-            StarVisible54 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey80.Height
-                PaddingLeft: =0
-                Size: =13
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey80.Y
-                ZIndex: =4
 
         "'Convenio Termino_DataCard2' As typedDataCard.comboBoxEditCard":
             BorderColor: =RGBA(166, 166, 166, 1)
