@@ -277,10 +277,7 @@ Dashboard As screen:
                         <h1 style='margin: 5% auto; padding:20px; font-size: 2.5em'><img width='35' height='35' src='https://img.icons8.com/ios/100/insert-page.png'/> Nuevo Contrato</h1>
                         </center>
                     <blockquote>
-                      <p>Manual Web es una página que contiene diferentes manuales, tutoriales o <strong>guías sobre lenguajes de programación en español</strong>.
-                         Cada uno de los tutoriales de Manual Web intentan <strong>explicar paso a paso y de una forma sencilla</strong> el lenguaje de programación tratado.
-                         Así, mediante <strong>ejemplos detallados</strong> vamos conociendo en detalle lenguajes como <a href='{{site.baseurl}}/java/'>Java</a>, <a href='{{site.baseurl}}/html5/'>HTML5</a>, <a href='{{site.baseurl}}/javascript/'>Javascript</a>, <a href='{{site.baseurl}}/mongodb/'>MongoDB</a>,...
-                      </p>
+                      <p>Bienvenido al Manual de Usuario de Autatic Contract, tu herramienta para solicitar contratos de manera eficiente y organizada al área legal.</p>
                     </blockquote>
                 </div>
             </div>
