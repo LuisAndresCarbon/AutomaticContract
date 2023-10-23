@@ -646,7 +646,7 @@ MenuInicial As screen:
                 Switch(
                     DataCardValue126.Selected.Value,
                     "Contrato Nuevo", Navigate(Nuevo_Contrato);NewForm(Form3),
-                    "Convenio Modificatorio", Navigate(Convenio_Modificatorio),
+                    "Convenio Modificatorio", Navigate(Convenio_Modificatorio);EditForm(Form1);,
                     "Convenio Termino", Navigate(Convenio_Termino)
                 )
             )
