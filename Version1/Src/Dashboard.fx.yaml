@@ -15,7 +15,20 @@ Dashboard As screen:
         Y: =66
         ZIndex: =1
 
-        Icon11 As icon.FilterFlat:
+        pocoEspacio_1 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =20
+            HoverFill: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =70
+            ZIndex: =1
+
+        Icon3 As icon.AddDocument:
             BorderColor: =RGBA(166, 166, 166, 1)
             Color: =RGBA(73, 130, 5, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -25,15 +38,27 @@ Dashboard As screen:
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.FilterFlat
-            OnSelect: =Navigate(MenuInicial)
+            Icon: =Icon.Filter
+            OnSelect: =Navigate('Busqueda Filtrada')
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Busqueda Filtrada"
-            ZIndex: =1
+            ZIndex: =2
 
-        Icon3 As icon.AddDocument:
+        pocoEspacio As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =20
+            HoverFill: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =70
+            ZIndex: =3
+
+        NuevoC As icon.AddDocument:
             BorderColor: =RGBA(166, 166, 166, 1)
             Color: =RGBA(73, 130, 5, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -49,57 +74,9 @@ Dashboard As screen:
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Nuevo Contrato"
-            ZIndex: =2
+            ZIndex: =4
 
-        Icon10 As icon.Tray:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.Tray
-            OnSelect: =Navigate(Bandeja)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Bandeja de Entrada"
-            ZIndex: =3
-
-        Icon5 As icon.Trash:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.Trash
-            OnSelect: =Navigate(BorrarContratos)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Eliminar Contratos"
-            ZIndex: =5
-
-        Circle2 As circle:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            Fill: =RGBA(227, 240, 234, 1)
-            Height: =64
-            HoverFill: =RGBA(0, 0, 0, 0)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =60
-            ZIndex: =6
-
-        Icon8 As icon.DocumentwithContent:
+        ConveModi As icon.DocumentwithContent:
             BorderColor: =RGBA(166, 166, 166, 1)
             Color: =RGBA(73, 130, 5, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -115,9 +92,9 @@ Dashboard As screen:
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Convenio Modificatorio"
-            ZIndex: =7
+            ZIndex: =5
 
-        Icon9 As icon.Error:
+        ConveTermi As icon.Error:
             BorderColor: =RGBA(166, 166, 166, 1)
             Color: =RGBA(73, 130, 5, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -133,9 +110,9 @@ Dashboard As screen:
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Convenios de Terminacion"
-            ZIndex: =8
+            ZIndex: =6
 
-        Circle3 As circle:
+        espacio As circle:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -145,9 +122,63 @@ Dashboard As screen:
             HoverFill: =RGBA(0, 0, 0, 0)
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =60
+            ZIndex: =7
+
+        Filtrado As icon.FilterFlat:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(73, 130, 5, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.FilterFlat
+            OnSelect: =Navigate(MenuInicial)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Busqueda Filtrada"
+            ZIndex: =8
+
+        BanEntrada As icon.Tray:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(73, 130, 5, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Tray
+            OnSelect: =Navigate(Bandeja)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Bandeja de Entrada"
             ZIndex: =9
 
-        Icon14 As icon.ToolsWrench:
+        ElimContrac As icon.Trash:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(73, 130, 5, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Trash
+            OnSelect: =Navigate(BorrarContratos)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Eliminar Contratos"
+            ZIndex: =10
+
+        Ajus As icon.ToolsWrench:
             BorderColor: =RGBA(166, 166, 166, 1)
             Color: =RGBA(73, 130, 5, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -163,7 +194,7 @@ Dashboard As screen:
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Ajustes"
-            ZIndex: =10
+            ZIndex: =12
 
     Header_4 As Header:
         ZIndex: =2

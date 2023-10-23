@@ -215,8 +215,6 @@ MenuInicial As screen:
         HoverFill: =RGBA(0, 148, 110, 0.74)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =1364
-        X: =2
-        Y: =10
         ZIndex: =6
 
     Label2 As label:
@@ -233,8 +231,6 @@ MenuInicial As screen:
         Size: =30
         Text: ="Servicio De Contratos"
         Width: =1364
-        X: =2
-        Y: =10
         ZIndex: =7
 
     Image14 As image:
@@ -251,8 +247,7 @@ MenuInicial As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =50
-        X: =415
-        Y: =12
+        X: =408
         ZIndex: =8
 
     Label2_2 As label:
@@ -296,7 +291,7 @@ MenuInicial As screen:
         BorderColor: =RGBA(61,184,123,71)
         DelayItemLoading: =true
         Fill: =RGBA(33, 182, 168, 0.27)
-        Height: =558
+        Height: =506
         Items: =BdContratosLegal
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -528,7 +523,7 @@ MenuInicial As screen:
         Text: ="BUSCAR"
         Width: =247
         X: =84
-        Y: =667
+        Y: =627
         ZIndex: =16
 
     Filtro_numeroC As text:
@@ -630,4 +625,8 @@ MenuInicial As screen:
         X: =59
         Y: =573
         ZIndex: =20
+
+    Component_Footer_5 As Component_Footer:
+        Y: =716
+        ZIndex: =21
 
