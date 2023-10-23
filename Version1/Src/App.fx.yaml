@@ -5,7 +5,7 @@ App As appinfo:
             Legal,
             LookUp(
                 Permisos,
-                Persona.Email = User().FullName,
+                Persona.Email = User().Email,
                 Título
             )
         )
