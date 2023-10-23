@@ -276,7 +276,8 @@ Dashboard As screen:
             <span style='text-align:center: font-size:28px; font-weight:bold; cursor: pointer; color:black;'> 
             
             <center>
-            <h1 style='margin: 5% auto; padding:20px; font-size: 3em'>Nuevo Contrato</h1>
+            
+            <h1 style='margin: 5% auto; padding:20px; font-size: 3em'><img width='50' height='50' src='https://img.icons8.com/ios/50/insert-page.png' alt='insert-page'/> Nuevo Contrato</h1>
             </center>
             <p style='font-size: 1em'>Solicitar un nuevo contrato sive para.....</p>
             <h2 style='font-size: 22px'>Consulta:</h2>
