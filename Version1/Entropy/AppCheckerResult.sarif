@@ -14,322 +14,40 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.NumContratoInterno_DataCard5.DisplayName"
+                  "fullyQualifiedName": "Bandeja.DataTable1.'Datos adjuntos_Columna1'.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.NumContratoInterno_DataCard5.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 20,
-                  "charOffset": 62,
-                  "snippet": {
-                    "text": "\"NumContratoInterno\""
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.FormViewer2.NumContratoInterno_DataCard5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NumContratoInterno",
-              "NomContratoInterno"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.NumContratoInterno_DataCard5.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.NumContratoInterno_DataCard5.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 83,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,\"NumContratoInterno\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.FormViewer2.NumContratoInterno_DataCard5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.NumContratoInterno_DataCard5.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.NumContratoInterno_DataCard5.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".NumContratoInterno"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.FormViewer2.NumContratoInterno_DataCard5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NumContratoInterno"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Termino.Gallery2.Title3.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Termino.Gallery2.Title3.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".NumContratoInterno"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.Gallery2.Title3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NumContratoInterno"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.NumContratoInterno_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.NumContratoInterno_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 20,
-                  "charOffset": 62,
-                  "snippet": {
-                    "text": "\"NumContratoInterno\""
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.FormViewer1.NumContratoInterno_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NumContratoInterno",
-              "NomContratoInterno"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.NumContratoInterno_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.NumContratoInterno_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 83,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,\"NumContratoInterno\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.FormViewer1.NumContratoInterno_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.NumContratoInterno_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.NumContratoInterno_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".NumContratoInterno"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.FormViewer1.NumContratoInterno_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NumContratoInterno"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.MontoHonorarios_DataCard2.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.MontoHonorarios_DataCard2.DisplayName",
+                  "fullyQualifiedName": "Bandeja.DataTable1.'Datos adjuntos_Columna1'.Text",
                   "relativeAddress": 0
                 },
                 "region": {
                   "charLength": 17,
-                  "charOffset": 62,
+                  "charOffset": 8,
                   "snippet": {
-                    "text": "\"MontoHonorarios\""
+                    "text": ".'Datos adjuntos'"
                   }
                 }
               },
               "properties": {
-                "member": "DisplayName",
-                "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.FormViewer1.MontoHonorarios_DataCard2"
+                "member": "Text",
+                "module": "Bandeja",
+                "type": "Bandeja.DataTable1.'Datos adjuntos_Columna1'"
               }
             }
           ],
           "message": {
             "arguments": [
-              "MontoHonorarios",
-              "MontoHonorario"
+              "Text",
+              "Table"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
           "ruleIndex": 0
         },
         {
@@ -337,39 +55,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.MontoHonorarios_DataCard2.DisplayName"
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.Update"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.MontoHonorarios_DataCard2.DisplayName",
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.Update",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 80,
+                  "charLength": 15,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,\"MontoHonorarios\")"
+                    "text": "DataCardValue15"
                   }
                 }
               },
               "properties": {
-                "member": "DisplayName",
+                "member": "Update",
                 "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.FormViewer1.MontoHonorarios_DataCard2"
+                "type": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1"
               }
             }
           ],
           "message": {
             "arguments": [
-              "DataSourceInfo"
+              "DataCardValue15"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 1
         },
         {
@@ -377,39 +95,36 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.MontoHonorarios_DataCard2.Default"
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.Update"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.MontoHonorarios_DataCard2.Default",
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.Update",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 16,
-                  "charOffset": 8,
+                  "charLength": 9,
+                  "charOffset": 15,
                   "snippet": {
-                    "text": ".MontoHonorarios"
+                    "text": ".Selected"
                   }
                 }
               },
               "properties": {
-                "member": "Default",
+                "member": "Update",
                 "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.FormViewer1.MontoHonorarios_DataCard2"
+                "type": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1"
               }
             }
           ],
           "message": {
-            "arguments": [
-              "MontoHonorarios"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidName",
+          "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 2
         },
         {
@@ -417,32 +132,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Convenio_Modificatorio.Gallery1.Title2.Text"
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.StarVisible10.Y"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.Gallery1.Title2.Text",
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.StarVisible10.Y",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 19,
-                  "charOffset": 8,
+                  "charLength": 13,
+                  "charOffset": 0,
                   "snippet": {
-                    "text": ".NumContratoInterno"
+                    "text": "DataCardKey15"
                   }
                 }
               },
               "properties": {
-                "member": "Text",
+                "member": "Y",
                 "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.Gallery1.Title2"
+                "type": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.StarVisible10"
               }
             }
           ],
           "message": {
             "arguments": [
-              "NumContratoInterno"
+              "DataCardKey15"
             ],
             "id": "issue"
           },
@@ -450,7 +165,622 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.StarVisible10.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.StarVisible10.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 13,
+                  "snippet": {
+                    "text": ".Y"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Convenio_Modificatorio",
+                "type": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.StarVisible10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.StarVisible10.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.StarVisible10.Height",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardKey15"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "Convenio_Modificatorio",
+                "type": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.StarVisible10"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardKey15"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.StarVisible10.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.StarVisible10.Height",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 13,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "Convenio_Modificatorio",
+                "type": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.StarVisible10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.ErrorMessage10.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.ErrorMessage10.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue15"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Convenio_Modificatorio",
+                "type": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.ErrorMessage10"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue15"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.ErrorMessage10.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.ErrorMessage10.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Y"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Convenio_Modificatorio",
+                "type": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.ErrorMessage10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.ErrorMessage10.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.ErrorMessage10.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 20,
+                  "snippet": {
+                    "text": "DataCardValue15"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Convenio_Modificatorio",
+                "type": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.ErrorMessage10"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue15"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.ErrorMessage10.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.ErrorMessage10.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 35,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Convenio_Modificatorio",
+                "type": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.ErrorMessage10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.CMFecha_DataCard5.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.CMFecha_DataCard5.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue78"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "Convenio_Modificatorio",
+                "type": "Convenio_Modificatorio.Form1.CMFecha_DataCard5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue78"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.CMFecha_DataCard5.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.CMFecha_DataCard5.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".SelectedDate"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "Convenio_Modificatorio",
+                "type": "Convenio_Modificatorio.Form1.CMFecha_DataCard5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuInicial.FormTipoTramite.TipoServicio.DataCardValue37.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuInicial.FormTipoTramite.TipoServicio.DataCardValue37.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MenuInicial",
+                "type": "MenuInicial.FormTipoTramite.TipoServicio.DataCardValue37"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuInicial.Gallery3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuInicial.Gallery3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MenuInicial",
+                "type": "MenuInicial.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuInicial.Gallery3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuInicial.Gallery3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "MenuInicial",
+                "type": "MenuInicial.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuInicial.Filtro_numeroC.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuInicial.Filtro_numeroC.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MenuInicial",
+                "type": "MenuInicial.Filtro_numeroC"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuInicial.Filtro_nomEmpresa.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuInicial.Filtro_nomEmpresa.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MenuInicial",
+                "type": "MenuInicial.Filtro_nomEmpresa"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuInicial.Filtro_Apoderado.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuInicial.Filtro_Apoderado.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MenuInicial",
+                "type": "MenuInicial.Filtro_Apoderado"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuInicial.Filtro_nomPersonF.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuInicial.Filtro_nomPersonF.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MenuInicial",
+                "type": "MenuInicial.Filtro_nomPersonF"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "notificacion.Image5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "notificacion.Image5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "notificacion",
+                "type": "notificacion.Image5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "notificacion.Image5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "notificacion.Image5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "notificacion",
+                "type": "notificacion.Image5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1177,559 +1507,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.Persona_DataCard2.DataCardValue68.AccessibleLabel"
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.contratos_DataCard1.DataCardValue9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.Persona_DataCard2.DataCardValue68.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.FormViewer2.Persona_DataCard2.DataCardValue68"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.'Convenio Termino_DataCard3'.DataCardValue114.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.'Convenio Termino_DataCard3'.DataCardValue114.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.FormViewer2.'Convenio Termino_DataCard3'.DataCardValue114"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Termino.Gallery2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Termino.Gallery2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.Gallery2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Termino.Gallery2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Termino.Gallery2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.Gallery2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Termino.Form2.'Convenio Termino_DataCard2'.DataCardValue93.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Termino.Form2.'Convenio Termino_DataCard2'.DataCardValue93.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.Form2.'Convenio Termino_DataCard2'.DataCardValue93"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Termino.Form2.CT_RazonDeTermino_DataCard3.DataCardValue106.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Termino.Form2.CT_RazonDeTermino_DataCard3.DataCardValue106.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.Form2.CT_RazonDeTermino_DataCard3.DataCardValue106"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Termino.Form2.CTFechaTerminoContrato_DataCard2.DataCardValue100.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Termino.Form2.CTFechaTerminoContrato_DataCard2.DataCardValue100.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.Form2.CTFechaTerminoContrato_DataCard2.DataCardValue100"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Termino.Form2.StatusContrato_DataCard3.DataCardValue101.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Termino.Form2.StatusContrato_DataCard3.DataCardValue101.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.Form2.StatusContrato_DataCard3.DataCardValue101"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Termino.Form2.Incumplido_DataCard2.DataCardValue102.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Termino.Form2.Incumplido_DataCard2.DataCardValue102.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Convenio_Termino",
-                "type": "Convenio_Termino.Form2.Incumplido_DataCard2.DataCardValue102"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MenuInicial.FormTipoTramite.TipoServicio.DataCardValue37.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MenuInicial.FormTipoTramite.TipoServicio.DataCardValue37.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.FormTipoTramite.TipoServicio.DataCardValue37"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MenuInicial.Gallery3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MenuInicial.Gallery3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Gallery3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MenuInicial.Gallery3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MenuInicial.Gallery3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Gallery3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MenuInicial.Filtro_numeroC.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MenuInicial.Filtro_numeroC.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Filtro_numeroC"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MenuInicial.Filtro_nomEmpresa.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MenuInicial.Filtro_nomEmpresa.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Filtro_nomEmpresa"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MenuInicial.Filtro_Apoderado.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MenuInicial.Filtro_Apoderado.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Filtro_Apoderado"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MenuInicial.Filtro_nomPersonF.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MenuInicial.Filtro_nomPersonF.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Filtro_nomPersonF"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.contratos_DataCard1.DataCardValue14.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.contratos_DataCard1.DataCardValue14.AccessibleLabel",
+                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.contratos_DataCard1.DataCardValue9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.FormViewer1.contratos_DataCard1.DataCardValue14"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.C_C_DataCard1.DataCardValue15.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.C_C_DataCard1.DataCardValue15.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.FormViewer1.C_C_DataCard1.DataCardValue15"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.DataCardValue41.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.DataCardValue41.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.FormViewer1.Persona_DataCard1.DataCardValue41"
+                "type": "Convenio_Modificatorio.FormViewer1.contratos_DataCard1.DataCardValue9"
               }
             }
           ],
@@ -1807,19 +1597,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.CMFecha_DataCard3.DataCardValue77.AccessibleLabel"
+                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.AnexosModificar_DataCard2.DataCardValue66.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.CMFecha_DataCard3.DataCardValue77.AccessibleLabel",
+                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.AnexosModificar_DataCard2.DataCardValue66.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.Form1.CMFecha_DataCard3.DataCardValue77"
+                "type": "Convenio_Modificatorio.Form1.AnexosModificar_DataCard2.DataCardValue66"
               }
             }
           ],
@@ -1837,19 +1627,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.CMFechaTermino_DataCard3.DataCardValue78.AccessibleLabel"
+                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.contratos_DataCard4.DataCardValue81.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.CMFechaTermino_DataCard3.DataCardValue78.AccessibleLabel",
+                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.contratos_DataCard4.DataCardValue81.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.Form1.CMFechaTermino_DataCard3.DataCardValue78"
+                "module": "Convenio_Termino",
+                "type": "Convenio_Termino.FormViewer2.contratos_DataCard4.DataCardValue81"
               }
             }
           ],
@@ -1867,19 +1657,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.CMdescripcion_DataCard3.DataCardValue76.AccessibleLabel"
+                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.Persona_DataCard5.DataCardValue84.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.CMdescripcion_DataCard3.DataCardValue76.AccessibleLabel",
+                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.Persona_DataCard5.DataCardValue84.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.Form1.CMdescripcion_DataCard3.DataCardValue76"
+                "module": "Convenio_Termino",
+                "type": "Convenio_Termino.FormViewer2.Persona_DataCard5.DataCardValue84"
               }
             }
           ],
@@ -1897,19 +1687,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.CMFechaTerminoContrato_DataCard2.DataCardValue69.AccessibleLabel"
+                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.'Convenio Termino_DataCard5'.DataCardValue91.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.CMFechaTerminoContrato_DataCard2.DataCardValue69.AccessibleLabel",
+                  "fullyQualifiedName": "Convenio_Termino.FormViewer2.'Convenio Termino_DataCard5'.DataCardValue91.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.Form1.CMFechaTerminoContrato_DataCard2.DataCardValue69"
+                "module": "Convenio_Termino",
+                "type": "Convenio_Termino.FormViewer2.'Convenio Termino_DataCard5'.DataCardValue91"
               }
             }
           ],
@@ -1927,19 +1717,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.StatusContrato_DataCard2.DataCardValue71.AccessibleLabel"
+                  "fullyQualifiedName": "Convenio_Termino.Gallery2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Convenio_Modificatorio.Form1.StatusContrato_DataCard2.DataCardValue71.AccessibleLabel",
+                  "fullyQualifiedName": "Convenio_Termino.Gallery2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Convenio_Modificatorio",
-                "type": "Convenio_Modificatorio.Form1.StatusContrato_DataCard2.DataCardValue71"
+                "module": "Convenio_Termino",
+                "type": "Convenio_Termino.Gallery2"
               }
             }
           ],
@@ -1957,49 +1747,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "notificacion.Image5.AccessibleLabel"
+                  "fullyQualifiedName": "Convenio_Termino.Gallery2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "notificacion.Image5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "notificacion",
-                "type": "notificacion.Image5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "notificacion.Image5.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "notificacion.Image5.TabIndex",
+                  "fullyQualifiedName": "Convenio_Termino.Gallery2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "notificacion",
-                "type": "notificacion.Image5"
+                "module": "Convenio_Termino",
+                "type": "Convenio_Termino.Gallery2"
               }
             }
           ],
@@ -2011,6 +1771,96 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Termino.Form2.Fecha_CT_DataCard4.DataCardValue95.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Termino.Form2.Fecha_CT_DataCard4.DataCardValue95.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Convenio_Termino",
+                "type": "Convenio_Termino.Form2.Fecha_CT_DataCard4.DataCardValue95"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Termino.Form2.'Convenio Termino_DataCard2'.DataCardValue93.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Termino.Form2.'Convenio Termino_DataCard2'.DataCardValue93.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Convenio_Termino",
+                "type": "Convenio_Termino.Form2.'Convenio Termino_DataCard2'.DataCardValue93"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Convenio_Termino.Form2.OtraRazonTerminacion_DataCard3.DataCardValue80.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Convenio_Termino.Form2.OtraRazonTerminacion_DataCard3.DataCardValue80.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Convenio_Termino",
+                "type": "Convenio_Termino.Form2.OtraRazonTerminacion_DataCard3.DataCardValue80"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2077,19 +1927,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon10.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard.Container1.NuevoC.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon10.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard.Container1.NuevoC.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
-                "type": "Dashboard.Container1.Icon10"
+                "type": "Dashboard.Container1.NuevoC"
               }
             }
           ],
@@ -2107,19 +1957,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon10.TabIndex"
+                  "fullyQualifiedName": "Dashboard.Container1.NuevoC.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon10.TabIndex",
+                  "fullyQualifiedName": "Dashboard.Container1.NuevoC.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Dashboard",
-                "type": "Dashboard.Container1.Icon10"
+                "type": "Dashboard.Container1.NuevoC"
               }
             }
           ],
@@ -2137,19 +1987,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon5.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard.Container1.ConveModi.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon5.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard.Container1.ConveModi.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
-                "type": "Dashboard.Container1.Icon5"
+                "type": "Dashboard.Container1.ConveModi"
               }
             }
           ],
@@ -2167,19 +2017,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon5.TabIndex"
+                  "fullyQualifiedName": "Dashboard.Container1.ConveModi.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon5.TabIndex",
+                  "fullyQualifiedName": "Dashboard.Container1.ConveModi.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Dashboard",
-                "type": "Dashboard.Container1.Icon5"
+                "type": "Dashboard.Container1.ConveModi"
               }
             }
           ],
@@ -2197,19 +2047,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon8.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard.Container1.ConveTermi.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon8.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard.Container1.ConveTermi.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
-                "type": "Dashboard.Container1.Icon8"
+                "type": "Dashboard.Container1.ConveTermi"
               }
             }
           ],
@@ -2227,19 +2077,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon8.TabIndex"
+                  "fullyQualifiedName": "Dashboard.Container1.ConveTermi.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon8.TabIndex",
+                  "fullyQualifiedName": "Dashboard.Container1.ConveTermi.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Dashboard",
-                "type": "Dashboard.Container1.Icon8"
+                "type": "Dashboard.Container1.ConveTermi"
               }
             }
           ],
@@ -2257,19 +2107,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon9.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard.Container1.Filtrado.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon9.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard.Container1.Filtrado.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
-                "type": "Dashboard.Container1.Icon9"
+                "type": "Dashboard.Container1.Filtrado"
               }
             }
           ],
@@ -2287,19 +2137,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon9.TabIndex"
+                  "fullyQualifiedName": "Dashboard.Container1.Filtrado.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon9.TabIndex",
+                  "fullyQualifiedName": "Dashboard.Container1.Filtrado.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Dashboard",
-                "type": "Dashboard.Container1.Icon9"
+                "type": "Dashboard.Container1.Filtrado"
               }
             }
           ],
@@ -2317,19 +2167,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon14.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard.Container1.BanEntrada.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon14.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard.Container1.BanEntrada.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
-                "type": "Dashboard.Container1.Icon14"
+                "type": "Dashboard.Container1.BanEntrada"
               }
             }
           ],
@@ -2347,19 +2197,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon14.TabIndex"
+                  "fullyQualifiedName": "Dashboard.Container1.BanEntrada.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon14.TabIndex",
+                  "fullyQualifiedName": "Dashboard.Container1.BanEntrada.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Dashboard",
-                "type": "Dashboard.Container1.Icon14"
+                "type": "Dashboard.Container1.BanEntrada"
               }
             }
           ],
@@ -2377,19 +2227,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon11.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard.Container1.ElimContrac.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon11.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard.Container1.ElimContrac.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
-                "type": "Dashboard.Container1.Icon11"
+                "type": "Dashboard.Container1.ElimContrac"
               }
             }
           ],
@@ -2407,19 +2257,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon11.TabIndex"
+                  "fullyQualifiedName": "Dashboard.Container1.ElimContrac.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Icon11.TabIndex",
+                  "fullyQualifiedName": "Dashboard.Container1.ElimContrac.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Dashboard",
-                "type": "Dashboard.Container1.Icon11"
+                "type": "Dashboard.Container1.ElimContrac"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dashboard.Container1.Ajus.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dashboard.Container1.Ajus.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dashboard",
+                "type": "Dashboard.Container1.Ajus"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dashboard.Container1.Ajus.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dashboard.Container1.Ajus.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Dashboard",
+                "type": "Dashboard.Container1.Ajus"
               }
             }
           ],
@@ -2589,28 +2499,17 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrColumnDoesNotExist-Name-Similar",
+              "id": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
               "messageStrings": {
                 "issue": {
-                  "text": "The specified column '{0}' does not exist. The column with the most similar name is '{1}'."
+                  "text": "Expected {0} value."
                 }
               },
               "properties": {
                 "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
-                }
-              },
-              "properties": {
-                "componentType": "app",
+                "howToFix": [
+                  "Change the rule to produce a {0} value."
+                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
@@ -2628,6 +2527,20 @@
                 "howToFix": [
                   "Remove or correct the reference to the name that isn't valid."
                 ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
