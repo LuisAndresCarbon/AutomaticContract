@@ -441,6 +441,35 @@ Convenio_Modificatorio As screen:
                 Y: =DataCardKey18.Y + DataCardKey18.Height + 5
                 ZIndex: =2
 
+        DataCard6 As typedDataCard.blankCard:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =54
+            Width: =798
+            X: =0
+            Y: =3
+            ZIndex: =1
+
+            Label9 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Height: =21
+                Size: =13
+                Text: ="F E C H A S  D E L  C O N T R A T O"
+                Width: =798
+                Y: =39
+                ZIndex: =1
+
         NomEmpresa_DataCard1 As typedDataCard.textualViewCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
@@ -615,35 +644,6 @@ Convenio_Modificatorio As screen:
                 X: =30
                 Y: =DataCardKey21.Y + DataCardKey21.Height + 5
                 ZIndex: =2
-
-        DataCard6 As typedDataCard.blankCard:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.Solid
-            DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =54
-            Width: =798
-            X: =0
-            Y: =3
-            ZIndex: =1
-
-            Label9 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Bold
-                Height: =21
-                Size: =13
-                Text: ="F E C H A S  D E L  C O N T R A T O"
-                Width: =798
-                Y: =39
-                ZIndex: =1
 
         DataCard8 As typedDataCard.blankCard:
             BorderColor: =RGBA(61, 184, 123, 1)

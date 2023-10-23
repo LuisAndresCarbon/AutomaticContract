@@ -140,6 +140,28 @@ Dashboard As screen:
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Busqueda Filtrada"
+            Visible: |-
+                =Switch(true,
+                    Legal = "Lider Legal",
+                    true,
+                    Legal = "Legal",
+                    true,
+                    Legal = "Programador",
+                    true,
+                    Legal = "Lider Operaciones",
+                    true,
+                    Legal = "Lider Desarrollo",
+                    true,
+                    Legal = "Lider MRV",
+                    true,
+                    Legal = "Lider Originacion",
+                    true,
+                    Legal = "Lider Originacion Geovolcánico",
+                    true,
+                    Legal = "Lider SIG",
+                    true,
+                    false
+                )
             ZIndex: =8
 
         BanEntrada As icon.Tray:
@@ -158,6 +180,16 @@ Dashboard As screen:
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Bandeja de Entrada"
+            Visible: |-
+                =Switch(true,
+                    Legal = "Lider Legal",
+                    true,
+                    Legal = "Legal",
+                    true,
+                    Legal = "Programador",
+                    true,
+                    false
+                )
             ZIndex: =9
 
         ElimContrac As icon.Trash:
@@ -176,6 +208,16 @@ Dashboard As screen:
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Eliminar Contratos"
+            Visible: |-
+                =Switch(true,
+                    Legal = "Lider Legal",
+                    true,
+                    Legal = "Legal",
+                    true,
+                    Legal = "Programador",
+                    true,
+                    false
+                )
             ZIndex: =10
 
         Ajus As icon.ToolsWrench:
