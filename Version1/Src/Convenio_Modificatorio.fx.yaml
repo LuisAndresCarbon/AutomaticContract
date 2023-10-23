@@ -437,6 +437,21 @@ Convenio_Modificatorio As screen:
                 Y: =DataCardKey14.Y + DataCardKey14.Height + 5
                 ZIndex: =2
 
+        MontoHonorario_DataCard2 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="MontoHonorario"
+            Default: =ThisItem.MontoHonorario
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"MontoHonorario")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =266
+            X: =0
+            Y: =2
+            ZIndex: =9
+
         Persona_DataCard1 As typedDataCard.comboBoxViewCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
@@ -514,6 +529,21 @@ Convenio_Modificatorio As screen:
             Y: =1
             ZIndex: =9
 
+        AnexosModificar_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="CMdescripcion"
+            Default: =ThisItem.AnexosModificar
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"CMdescripcion")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =532
+            X: =0
+            Y: =3
+            ZIndex: =9
+
         NomPersonaFisica_DataCard2 As typedDataCard.textualViewCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
@@ -527,21 +557,6 @@ Convenio_Modificatorio As screen:
             Width: =266
             X: =2
             Y: =1
-            ZIndex: =9
-
-        MontoHonorario_DataCard2 As typedDataCard.textualViewCard:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="MontoHonorario"
-            Default: =ThisItem.MontoHonorario
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"MontoHonorario")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =266
-            X: =0
-            Y: =2
             ZIndex: =9
 
         FechaInicio_DataCard2 As typedDataCard.textualViewCard:
@@ -615,21 +630,6 @@ Convenio_Modificatorio As screen:
             Width: =266
             X: =2
             Y: =2
-            ZIndex: =9
-
-        AnexosModificar_DataCard1 As typedDataCard.textualViewCard:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="CMdescripcion"
-            Default: =ThisItem.AnexosModificar
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"CMdescripcion")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =532
-            X: =0
-            Y: =3
             ZIndex: =9
 
         CMFecha_DataCard1 As typedDataCard.textualViewCard:
