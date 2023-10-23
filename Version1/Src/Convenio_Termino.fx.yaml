@@ -1173,7 +1173,7 @@ Convenio_Termino As screen:
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 HoverDateFill: =RGBA(200, 200, 200, 1)
-                IconBackground: =RGBA(73, 130, 5, 1)
+                IconBackground: =RGBA(8,143,131,100)
                 IsEditable: =true
                 PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)

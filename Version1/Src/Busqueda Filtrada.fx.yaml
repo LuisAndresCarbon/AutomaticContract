@@ -18,6 +18,23 @@
         Y: =70
         ZIndex: =3
 
+        Label6 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =48
+            Size: =20
+            Text: ="CONTRATOS"
+            Width: =253
+            ZIndex: =1
+
     Container5 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
         Height: =646

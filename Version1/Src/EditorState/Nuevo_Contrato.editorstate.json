@@ -1991,8 +1991,22 @@
     "CaratulaBancariaRadio1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        "Items",
-        "RadioSelectionFill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "RadioSample",
+          "InvariantPropertyName": "Items",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "RGBA(73, 130, 5, 1)",
+          "InvariantPropertyName": "RadioSelectionFill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "RadioBackgroundFill",
         "RadioBorderColor",
         "Layout",
@@ -25375,7 +25389,14 @@
         "PressedFill",
         "HoverFill",
         "Font",
-        "FontWeight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "FontWeight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Align",
         "VerticalAlign",
         "X",
