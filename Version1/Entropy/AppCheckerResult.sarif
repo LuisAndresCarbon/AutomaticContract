@@ -224,19 +224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Convenio_Termino.Form2.FechaTerminoContrato_DataCard5.DataCardValue79.AccessibleLabel"
+                  "fullyQualifiedName": "Convenio_Termino.Form2.Fecha_CT_DataCard4.DataCardValue95.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Convenio_Termino.Form2.FechaTerminoContrato_DataCard5.DataCardValue79.AccessibleLabel",
+                  "fullyQualifiedName": "Convenio_Termino.Form2.Fecha_CT_DataCard4.DataCardValue95.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Convenio_Termino",
-                "type": "Convenio_Termino.Form2.FechaTerminoContrato_DataCard5.DataCardValue79"
+                "type": "Convenio_Termino.Form2.Fecha_CT_DataCard4.DataCardValue95"
               }
             }
           ],

@@ -1141,23 +1141,23 @@ Convenio_Termino As screen:
         Y: =408
         ZIndex: =4
 
-        FechaTerminoContrato_DataCard5 As typedDataCard.dateEditCard:
+        Fecha_CT_DataCard4 As typedDataCard.dateEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="FechaTerminoContrato"
-            Default: =ThisItem.FechaTerminoContrato
+            DataField: ="Fecha_CT"
+            Default: =ThisItem.Fecha_CT
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FechaTerminoContrato")
+            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"Fecha_CT")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue79.SelectedDate
+            Update: =DataCardValue95.SelectedDate
             Width: =800
             X: =0
             Y: =0
             ZIndex: =1
 
-            DataCardKey79 As label:
+            DataCardKey95 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -1171,14 +1171,14 @@ Convenio_Termino As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Fecha"
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue79.Height / 2) - (Self.Height / 2)
+                Y: =10 + (DataCardValue95.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            DataCardValue79 As datepicker:
+            DataCardValue95 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 Color: =RGBA(51, 51, 51, 1)
@@ -1199,11 +1199,11 @@ Convenio_Termino As screen:
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey79.X + DataCardKey79.Width
+                X: =DataCardKey95.X + DataCardKey95.Width
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage53 As label:
+            ErrorMessage58 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -1225,10 +1225,10 @@ Convenio_Termino As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue79.Y + DataCardValue79.Height
+                Y: =DataCardValue95.Y + DataCardValue95.Height
                 ZIndex: =3
 
-            StarVisible53 As label:
+            StarVisible58 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -1239,14 +1239,14 @@ Convenio_Termino As screen:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey79.Height
+                Height: =DataCardKey95.Height
                 PaddingLeft: =0
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey79.Y
+                Y: =DataCardKey95.Y
                 ZIndex: =4
 
         OtraRazonTerminacion_DataCard3 As typedDataCard.textualEditCard:
