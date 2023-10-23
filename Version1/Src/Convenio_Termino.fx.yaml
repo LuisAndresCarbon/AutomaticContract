@@ -666,7 +666,7 @@ Convenio_Termino As screen:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="CT_RazonDeTermino"
-            Default: =ThisItem.CT_RazonDeTermino
+            Default: =ThisItem.OtraRazonTerminacion
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"CT_RazonDeTermino")
             Fill: =RGBA(0, 0, 0, 0)
@@ -1027,7 +1027,7 @@ Convenio_Termino As screen:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="CT_RazonDeTermino"
-            Default: =ThisItem.CT_RazonDeTermino
+            Default: =ThisItem.OtraRazonTerminacion
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"CT_RazonDeTermino")
             Fill: =RGBA(0, 0, 0, 0)
