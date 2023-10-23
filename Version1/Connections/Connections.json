@@ -1,4 +1,18 @@
 {
+  "367db3e8-25cd-4d27-8a91-8973575c0aba": {
+    "connectionRef": {
+      "displayName": "Office\u00A0365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/henryorsborn/partial-builds/asev3migrations-with-resourceTemplate/1.0.1653.3403/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "367db3e8-25cd-4d27-8a91-8973575c0aba"
+  },
   "da8a4fc1-93a1-4784-96dd-33d18778d4aa": {
     "connectionRef": {
       "apiTier": "Standard",
@@ -31,5 +45,19 @@
     "dependencies": {},
     "dependents": [],
     "id": "da8a4fc1-93a1-4784-96dd-33d18778d4aa"
+  },
+  "edae1264-c4e4-4776-88f5-66dd0efa52c5": {
+    "connectionRef": {
+      "displayName": "Usuarios de Office 365",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/henryorsborn/partial-builds/asev3migrations-with-resourceTemplate/1.0.1653.3403/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users"
+    },
+    "datasets": {},
+    "dataSources": [
+      "UsuariosdeOffice365"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "edae1264-c4e4-4776-88f5-66dd0efa52c5"
   }
 }

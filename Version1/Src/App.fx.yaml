@@ -5,8 +5,8 @@ App As appinfo:
             Legal,
             LookUp(
                 Permisos,
-                Título = "Lider Legal" || Título = "Legal",
-                User().FullName
+                Persona.Email = User().FullName,
+                Título
             )
         )
     Theme: =PowerAppsTheme
