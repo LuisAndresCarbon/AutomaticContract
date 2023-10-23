@@ -194,12 +194,7 @@ Dashboard As screen:
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Ajustes"
-            Visible: |-
-                =Switch(
-                    true,
-                    Legal = User().FullName,
-                    true
-                )
+            Visible: =User().FullName in Legal
             ZIndex: =12
 
     Header_4 As Header:
