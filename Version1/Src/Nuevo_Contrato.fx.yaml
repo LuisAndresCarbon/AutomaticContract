@@ -113,7 +113,7 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: ="Tipo de Contrato"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30

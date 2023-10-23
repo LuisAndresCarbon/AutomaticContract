@@ -410,7 +410,7 @@
   "DoesTestStepsMetadataExist": true,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/23/2023 23:06:49",
+  "HeaderLastSavedDateTimeUTC": "10/23/2023 23:53:52",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "367db3e8-25cd-4d27-8a91-8973575c0aba": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/724b77c50f5f4e74b6d8cf384324dd87\"",
@@ -421,18 +421,22 @@
   "LocalResourceFileNames": {
     "CC_Isotipo": "0001.png",
     "CC_Isotipo_FondoBlanco": "0002.jpg",
+    "ImgPersona": "f30b4dc8-b869-43af-8aad-3a4b433a5985.PNG",
     "Logo Horizontal Texto Verde": "0003.png",
     "Logo Vertical Texto Blanco": "0004.png",
     "Logo Vertical Texto Verde": "0005.png",
-    "notificacion_confirmado": "0006.png"
+    "notificacion_confirmado": "0006.png",
+    "TipoContra": "e1e16b62-3169-474d-ab35-6eba08b1edff.PNG"
   },
   "LocalResourceRootPaths": {
     "CC_Isotipo": "https://docserverpwaprodwus.blob.core.windows.net/f8e99568-a448-4126-80e0-b473dc030e5e-1/resource/Assets0Images00001.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-23T20%3A30%3A35Z&ske=2023-10-24T20%3A45%3A35Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-24T20%3A45%3A35Z&sr=b&sp=r&sig=ouM9TDtbljoSKjH2g%2BLqYQzr8DlMhmHaPpX4QKYxCUM%3D",
     "CC_Isotipo_FondoBlanco": "https://docserverpwaprodwus.blob.core.windows.net/f8e99568-a448-4126-80e0-b473dc030e5e-1/resource/Assets0Images00002.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-23T20%3A30%3A35Z&ske=2023-10-24T20%3A45%3A35Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-24T20%3A45%3A35Z&sr=b&sp=r&sig=fPofUs0%2Bs5Hl%2FPr%2B1N%2FwLpb7mmVOhJSx9hwZOuxm%2BQ4%3D",
+    "ImgPersona": "https://docserverpwaprodwus.blob.core.windows.net/f8e99568-a448-4126-80e0-b473dc030e5e-1/resource/844788da-7fcf-433f-91f9-c7f619e44222.PNG?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-23T23%3A39%3A02Z&ske=2023-10-24T23%3A54%3A02Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-24T23%3A54%3A02Z&sr=b&sp=r&sig=w5QatFpOjhD3EgAxDBz2GLNKpZb5qh431OOi039panc%3D",
     "Logo Horizontal Texto Verde": "https://docserverpwaprodwus.blob.core.windows.net/f8e99568-a448-4126-80e0-b473dc030e5e-1/resource/Assets0Images00003.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-23T20%3A30%3A35Z&ske=2023-10-24T20%3A45%3A35Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-24T20%3A45%3A35Z&sr=b&sp=r&sig=sPdKGLOMkXFHMe8pzuJhBnPJFKbx2TVtd4g5F3ZRbPQ%3D",
     "Logo Vertical Texto Blanco": "https://docserverpwaprodwus.blob.core.windows.net/f8e99568-a448-4126-80e0-b473dc030e5e-1/resource/Assets0Images00004.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-23T20%3A30%3A35Z&ske=2023-10-24T20%3A45%3A35Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-24T20%3A45%3A35Z&sr=b&sp=r&sig=RJYcYYOKiPpQVrQJQ13S%2BH7tLcbPnOn7MH1JMxyzG00%3D",
     "Logo Vertical Texto Verde": "https://docserverpwaprodwus.blob.core.windows.net/f8e99568-a448-4126-80e0-b473dc030e5e-1/resource/Assets0Images00005.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-23T20%3A30%3A35Z&ske=2023-10-24T20%3A45%3A35Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-24T20%3A45%3A35Z&sr=b&sp=r&sig=TLgVvd3p4SUs8GadJ0dJophYcHWd5xyoEB9U%2F%2FogiFA%3D",
-    "notificacion_confirmado": "https://docserverpwaprodwus.blob.core.windows.net/f8e99568-a448-4126-80e0-b473dc030e5e-1/resource/Assets0Images00006.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-23T20%3A30%3A35Z&ske=2023-10-24T20%3A45%3A35Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-24T20%3A45%3A35Z&sr=b&sp=r&sig=LFIVVaP%2FoNUxFuOoca5wODmywYeSdqlfpZQULN8aCDw%3D"
+    "notificacion_confirmado": "https://docserverpwaprodwus.blob.core.windows.net/f8e99568-a448-4126-80e0-b473dc030e5e-1/resource/Assets0Images00006.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-23T20%3A30%3A35Z&ske=2023-10-24T20%3A45%3A35Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-24T20%3A45%3A35Z&sr=b&sp=r&sig=LFIVVaP%2FoNUxFuOoca5wODmywYeSdqlfpZQULN8aCDw%3D",
+    "TipoContra": "https://docserverpwaprodwus.blob.core.windows.net/f8e99568-a448-4126-80e0-b473dc030e5e-1/resource/3e3b4aed-c46c-4f54-b9fe-35cd7c358b37.PNG?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-23T23%3A27%3A22Z&ske=2023-10-24T23%3A42%3A22Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-24T23%3A42%3A22Z&sr=b&sp=r&sig=wkXGsbZX57tPB95CKWjA7bsEZyf9IaM%2BBkM8ULVmZTQ%3D"
   },
   "OrderComponentMetadata": {
     "188541e6812b421dba6c7985b78985b1": 1,
@@ -1292,11 +1296,13 @@
   "ResourcesJsonIndices": {
     "Image-CC_Isotipo": 1,
     "Image-CC_Isotipo_FondoBlanco": 2,
+    "Image-ImgPersona": 8,
     "Image-Logo Horizontal Texto Verde": 3,
     "Image-Logo Vertical Texto Blanco": 4,
     "Image-Logo Vertical Texto Verde": 5,
     "Image-notificacion_confirmado": 6,
-    "Image-SampleImage": 0
+    "Image-SampleImage": 0,
+    "Image-TipoContra": 7
   },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},

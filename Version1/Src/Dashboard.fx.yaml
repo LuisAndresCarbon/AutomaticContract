@@ -274,7 +274,7 @@ Dashboard As screen:
             ="<div >
                 <div >
                     <center>
-                        <h1 style='margin: 5% auto; padding:20px; font-size: 2.5em'><img width='35' height='35' src='https://img.icons8.com/ios/100/insert-page.png' alt='filter'/> Nuevo Contrato</h1>
+                        <h1 style='margin: 5% auto; padding:20px; font-size: 2.5em'><img width='35' height='35' src='https://img.icons8.com/ios/100/insert-page.png'/> Nuevo Contrato</h1>
                         </center>
                     <blockquote>
                       <p>Manual Web es una página que contiene diferentes manuales, tutoriales o <strong>guías sobre lenguajes de programación en español</strong>.
@@ -304,8 +304,26 @@ Dashboard As screen:
                 <div>
                     <h3><img width='30' height='30' src='https://img.icons8.com/ios/50/how-quest--v2.png' alt='how-quest--v2'/>Funcionamiento</h3>
                     <blockquote>
-                        <p>Todos los manuales están publicados en <a href='https://github.com/manualweb/manualweb'>GitHub</a> y puedes contribuir mejorando su contenido o corrigiendo erratas. Ayudando a todos los usuarios que estamos aprendiendo.</p>
-                    </blockquote>            
+                        <p>* Selecciona el icono: <img width='20' height='20' src='https://img.icons8.com/ios/100/insert-page.png'/>     <strong>“Nuevo Contrato”</strong>  en el menú principal.</p>
+                        <p>* Primero, selecciona el <strong>Tipo de Contrato</strong> <img src='TipoContra.PNG'/>según corresponda.</p>
+                        <p>* Segundo, selecciona <strong>'Persona'</strong><img src='ImgPersona.PNG'/>(Persona Física o Persona Moral) según corresponda.</p>
+                        <p>* Completa los datos del formulario correspondientes al <strong>tipo de persona</strong> elegido.</p>
+                    </blockquote>
+                    <blockquote>
+                        <h4>Adjuntar Documentos:</h4>
+                        <p>Dentro del formulario, encontrarás opciones de selección (Sí/No) para adjuntar documentos específicos. Selecciona <strong>“Sí”</strong> si tienes los documentos y <strong>“No”</strong> si no los tienes.</p>
+                    </blockquote>
+                    <blockquote>
+                        <h4>Fecha de Vigencia:</h4>
+                        <p>* Selecciona la <strong>Fecha de Inicio</strong> del Contrato utilizando el calendario proporcionado.</p>
+                        <p>* Utiliza el selector de <strong>meses de vigencia</strong> para especificar la duración del contrato. El sistema calculará automáticamente la fecha de finalización basándose en la fecha de inicio y el número de meses seleccionados.</p>
+                        <p>* Tienes la opción de modificar la fecha de finalización si es necesario.</p>
+                    </blockquote>
+                    <blockquote>
+                        <h4>Envío de la Solicitud</h4>
+                        <p>* Una vez completados todos los campos y adjuntados los documentos necesarios, revisa la información proporcionada para asegurarte de su precisión.</p>
+                        <p>Haz clic en <strong>“Enviar”</strong> para remitir el contrato al departamento legal para su revisión y aprobación.</p>
+                    </blockquote>
                 </div>
             </div>
             
