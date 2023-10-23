@@ -202,8 +202,7 @@ Dashboard As screen:
                     Legal = "Legal",
                     true,
                     Legal = "Programador",
-                    true,
-                    false
+                    true
                 )
             ZIndex: =12
 
