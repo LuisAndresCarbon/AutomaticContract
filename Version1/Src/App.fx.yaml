@@ -1,6 +1,14 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: =
+    OnStart: |-
+        =Set(
+            Legal,
+            LookUp(
+                Permisos,
+                Título = "Lider Legal" || Título = "Legal",
+                User().FullName
+            )
+        )
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
