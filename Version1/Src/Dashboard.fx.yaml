@@ -539,21 +539,67 @@ Dashboard As screen:
     HtmlConveTermi As htmlViewer:
         Height: =697
         HtmlText: |-
-            ="<div style='padding-top:8px'> 
+            ="<!DOCTYPE html>
+            <html lang='en'>
+            <head>
+                <meta charset='UTF-8'>
+                <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                <title>Convenio de Terminacion</title>
+            </head>
+            <body>
+                <div >
+                    <div >
+                        <blockquote>
+                            <center>
+                                <h1 style=' font-size: 2.5em'><img width='35' height='35' src='https://img.icons8.com/ios/50/box-important--v1.png' alt='box-important--v1'/>Convenio de Terminacion</h1>
+                                </center>
+                          <p><strong>Convenio de Terminación</strong> en Autatic Contract te permite gestionar la terminación de los contratos solicitados anteriormente. Aquí encontrarás información resumida sobre el contrato y podrás completar un formulario para solicitar la terminación del mismo.</p>
+                        </blockquote>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <div>
+                    <div>
+                        <h3><img width='24' height='24' src='https://img.icons8.com/ios/50/box-important--v1.png' alt='box-important--v1'/>Requerimientos</h3>
+                        <blockquote>
+                            <p>El Modulo Modificatorio de Autatic Contract te permite visualizar los contratos que has solicitado anteriormente. Aquí puedes ver una <strong>vista previa</strong> de los datos generales de los contratos solicitados, como el folio, nombre, monto, tipo de persona, nombre de la persona, fechas de inicio y término. 
+                            </p>
+                        </blockquote>            
+                    </div>
+                    <div>
+                        <h3><img width='24' height='24' src='https://img.icons8.com/ios/50/box-important--v1.png' alt='box-important--v1' />Funcionamiento</h3>
+                        <blockquote>
+                            <p>* Selecciona el icono: <img width='20' height='20' src='https://img.icons8.com/ios/50/box-important--v1.png' alt='box-important--v1'/><strong> Convenio de Terminacion</strong>en el menú principal.</p>
+                            <p>* Verás una lista de tus contratos solicitados. Haz clic en el contrato que deseas finalizar para ver los detalles.</p>
             
-            <span style='text-align:center: font-size:28px; font-weight:bold; cursor: pointer; color:black;'> 
+                        </blockquote>
             
-            <center>
-            <h1 style='margin: 5% auto; padding:20px; font-size: 3em'>Convenio de Terminacion</h1>
-            </center>
-            <p style='font-size: 1em'>Solicitar un nuevo contrato sive para.....</p>
-            <h2 style='font-size: 22px'>Consulta:</h2>
-            <p style='font-size: 1em'>Consulta y verifica el estado de solicitud de contrato que enviaste.</p>
-            <h2 style='font-size: 22px'>Documentos Requeridos:</h2>
-            <p style='font-size: 1em'>:Solicitar un nuevo contrato contendra el nombre del la persona Fisica o Moral, direccion, vigencia(fecha)...</p>
-            </span>
-            
-            </div>"
+                        <blockquote>
+                            <h4>Completar el Formulario de Terminación:</h4>
+                           <p><strong>Fecha de Solicitud de Convenio de Terminación: </strong>Ingresa la fecha en que estás solicitando el convenio de terminación utilizando el calendario proporcionado.</p>
+                            <p>* Razón de Terminación: Selecciona una opción de la lista desplegable que mejor describa la razón de la terminación del contrato. </p>
+                            <p>* <strong>Otra Razón</strong> (Si es necesario): Si no encuentras la razón de terminación adecuada en la lista desplegable, puedes ingresar una razón personalizada en este campo.</p>
+                        </blockquote>
+                        <h4>
+                            Enviar Solicitud de Terminación
+                        </h4>
+                        <p>Revisa cuidadosamente la información proporcionada y asegúrate de que esté completa y precisa.</p>
+                        <p>Haz clic en <strong>“Enviar”</strong> para remitir la solicitud de terminación al departamento legal para su revisión y procesamiento.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <hr>
+                
+                  <span>
+                    <strong>Ultima actualizacion</strong>
+                    <em>,1 de noviembre de 2023</em>
+                  </span>
+            </body>
+            </html>"
         Visible: =If(opcion = Button7,true,false)
         Width: =865
         X: =501
