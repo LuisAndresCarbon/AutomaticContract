@@ -1,4 +1,4 @@
-MenuInicial As screen:
+Busqueda As screen:
     Fill: =RGBA(227, 240, 234, 1)
     LoadingSpinnerColor: =RGBA(61,184,123,71)
     OnVisible: |-

@@ -131,8 +131,8 @@
     "UserLocale": "es-ES"
   },
   "ScreenOrder": [
-    "Dashboard",
-    "MenuInicial",
+    "Menu",
+    "Busqueda",
     "Nuevo_Contrato",
     "Convenio_Modificatorio",
     "notificacion",

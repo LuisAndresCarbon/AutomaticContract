@@ -1075,19 +1075,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.NuevoC.AccessibleLabel"
+                  "fullyQualifiedName": "Menu.Container1.NuevoC.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.NuevoC.AccessibleLabel",
+                  "fullyQualifiedName": "Menu.Container1.NuevoC.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.NuevoC"
+                "module": "Menu",
+                "type": "Menu.Container1.NuevoC"
               }
             }
           ],
@@ -1105,19 +1105,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.NuevoC.TabIndex"
+                  "fullyQualifiedName": "Menu.Container1.NuevoC.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.NuevoC.TabIndex",
+                  "fullyQualifiedName": "Menu.Container1.NuevoC.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.NuevoC"
+                "module": "Menu",
+                "type": "Menu.Container1.NuevoC"
               }
             }
           ],
@@ -1135,19 +1135,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.ConveModi.AccessibleLabel"
+                  "fullyQualifiedName": "Menu.Container1.ConveModi.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.ConveModi.AccessibleLabel",
+                  "fullyQualifiedName": "Menu.Container1.ConveModi.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.ConveModi"
+                "module": "Menu",
+                "type": "Menu.Container1.ConveModi"
               }
             }
           ],
@@ -1165,19 +1165,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.ConveModi.TabIndex"
+                  "fullyQualifiedName": "Menu.Container1.ConveModi.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.ConveModi.TabIndex",
+                  "fullyQualifiedName": "Menu.Container1.ConveModi.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.ConveModi"
+                "module": "Menu",
+                "type": "Menu.Container1.ConveModi"
               }
             }
           ],
@@ -1195,19 +1195,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.ConveTermi.AccessibleLabel"
+                  "fullyQualifiedName": "Menu.Container1.ConveTermi.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.ConveTermi.AccessibleLabel",
+                  "fullyQualifiedName": "Menu.Container1.ConveTermi.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.ConveTermi"
+                "module": "Menu",
+                "type": "Menu.Container1.ConveTermi"
               }
             }
           ],
@@ -1225,19 +1225,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.ConveTermi.TabIndex"
+                  "fullyQualifiedName": "Menu.Container1.ConveTermi.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.ConveTermi.TabIndex",
+                  "fullyQualifiedName": "Menu.Container1.ConveTermi.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.ConveTermi"
+                "module": "Menu",
+                "type": "Menu.Container1.ConveTermi"
               }
             }
           ],
@@ -1255,19 +1255,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Filtrado.AccessibleLabel"
+                  "fullyQualifiedName": "Menu.Container1.Filtrado.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Filtrado.AccessibleLabel",
+                  "fullyQualifiedName": "Menu.Container1.Filtrado.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.Filtrado"
+                "module": "Menu",
+                "type": "Menu.Container1.Filtrado"
               }
             }
           ],
@@ -1285,19 +1285,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Filtrado.TabIndex"
+                  "fullyQualifiedName": "Menu.Container1.Filtrado.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Filtrado.TabIndex",
+                  "fullyQualifiedName": "Menu.Container1.Filtrado.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.Filtrado"
+                "module": "Menu",
+                "type": "Menu.Container1.Filtrado"
               }
             }
           ],
@@ -1315,19 +1315,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.BanEntrada.AccessibleLabel"
+                  "fullyQualifiedName": "Menu.Container1.BanEntrada.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.BanEntrada.AccessibleLabel",
+                  "fullyQualifiedName": "Menu.Container1.BanEntrada.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.BanEntrada"
+                "module": "Menu",
+                "type": "Menu.Container1.BanEntrada"
               }
             }
           ],
@@ -1345,19 +1345,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.BanEntrada.TabIndex"
+                  "fullyQualifiedName": "Menu.Container1.BanEntrada.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.BanEntrada.TabIndex",
+                  "fullyQualifiedName": "Menu.Container1.BanEntrada.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.BanEntrada"
+                "module": "Menu",
+                "type": "Menu.Container1.BanEntrada"
               }
             }
           ],
@@ -1375,19 +1375,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.ElimContrac.AccessibleLabel"
+                  "fullyQualifiedName": "Menu.Container1.ElimContrac.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.ElimContrac.AccessibleLabel",
+                  "fullyQualifiedName": "Menu.Container1.ElimContrac.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.ElimContrac"
+                "module": "Menu",
+                "type": "Menu.Container1.ElimContrac"
               }
             }
           ],
@@ -1405,19 +1405,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.ElimContrac.TabIndex"
+                  "fullyQualifiedName": "Menu.Container1.ElimContrac.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.ElimContrac.TabIndex",
+                  "fullyQualifiedName": "Menu.Container1.ElimContrac.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.ElimContrac"
+                "module": "Menu",
+                "type": "Menu.Container1.ElimContrac"
               }
             }
           ],
@@ -1435,19 +1435,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Ajus.AccessibleLabel"
+                  "fullyQualifiedName": "Menu.Container1.Ajus.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Ajus.AccessibleLabel",
+                  "fullyQualifiedName": "Menu.Container1.Ajus.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.Ajus"
+                "module": "Menu",
+                "type": "Menu.Container1.Ajus"
               }
             }
           ],
@@ -1465,19 +1465,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Container1.Ajus.TabIndex"
+                  "fullyQualifiedName": "Menu.Container1.Ajus.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Container1.Ajus.TabIndex",
+                  "fullyQualifiedName": "Menu.Container1.Ajus.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Dashboard",
-                "type": "Dashboard.Container1.Ajus"
+                "module": "Menu",
+                "type": "Menu.Container1.Ajus"
               }
             }
           ],
@@ -1705,19 +1705,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "MenuInicial.Filtro_numeroC.AccessibleLabel"
+                  "fullyQualifiedName": "Busqueda.Filtro_numeroC.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "MenuInicial.Filtro_numeroC.AccessibleLabel",
+                  "fullyQualifiedName": "Busqueda.Filtro_numeroC.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Filtro_numeroC"
+                "module": "Busqueda",
+                "type": "Busqueda.Filtro_numeroC"
               }
             }
           ],
@@ -1735,19 +1735,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "MenuInicial.Filtro_nomEmpresa.AccessibleLabel"
+                  "fullyQualifiedName": "Busqueda.Filtro_nomEmpresa.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "MenuInicial.Filtro_nomEmpresa.AccessibleLabel",
+                  "fullyQualifiedName": "Busqueda.Filtro_nomEmpresa.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Filtro_nomEmpresa"
+                "module": "Busqueda",
+                "type": "Busqueda.Filtro_nomEmpresa"
               }
             }
           ],
@@ -1765,19 +1765,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "MenuInicial.Filtro_Apoderado.AccessibleLabel"
+                  "fullyQualifiedName": "Busqueda.Filtro_Apoderado.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "MenuInicial.Filtro_Apoderado.AccessibleLabel",
+                  "fullyQualifiedName": "Busqueda.Filtro_Apoderado.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Filtro_Apoderado"
+                "module": "Busqueda",
+                "type": "Busqueda.Filtro_Apoderado"
               }
             }
           ],
@@ -1795,19 +1795,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "MenuInicial.Filtro_nomPersonF.AccessibleLabel"
+                  "fullyQualifiedName": "Busqueda.Filtro_nomPersonF.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "MenuInicial.Filtro_nomPersonF.AccessibleLabel",
+                  "fullyQualifiedName": "Busqueda.Filtro_nomPersonF.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Filtro_nomPersonF"
+                "module": "Busqueda",
+                "type": "Busqueda.Filtro_nomPersonF"
               }
             }
           ],
@@ -1825,19 +1825,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "MenuInicial.Gallery3.AccessibleLabel"
+                  "fullyQualifiedName": "Busqueda.Gallery3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "MenuInicial.Gallery3.AccessibleLabel",
+                  "fullyQualifiedName": "Busqueda.Gallery3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Gallery3"
+                "module": "Busqueda",
+                "type": "Busqueda.Gallery3"
               }
             }
           ],
@@ -1855,19 +1855,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "MenuInicial.Gallery3.TabIndex"
+                  "fullyQualifiedName": "Busqueda.Gallery3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "MenuInicial.Gallery3.TabIndex",
+                  "fullyQualifiedName": "Busqueda.Gallery3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Gallery3"
+                "module": "Busqueda",
+                "type": "Busqueda.Gallery3"
               }
             }
           ],
@@ -1885,19 +1885,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "MenuInicial.Form7.C_C_DataCard6.DataCardValue126.AccessibleLabel"
+                  "fullyQualifiedName": "Busqueda.Form7.C_C_DataCard6.DataCardValue126.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "MenuInicial.Form7.C_C_DataCard6.DataCardValue126.AccessibleLabel",
+                  "fullyQualifiedName": "Busqueda.Form7.C_C_DataCard6.DataCardValue126.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "MenuInicial",
-                "type": "MenuInicial.Form7.C_C_DataCard6.DataCardValue126"
+                "module": "Busqueda",
+                "type": "Busqueda.Form7.C_C_DataCard6.DataCardValue126"
               }
             }
           ],
@@ -1909,6 +1909,66 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Menu.Container1.Icon4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Menu.Container1.Icon4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Menu",
+                "type": "Menu.Container1.Icon4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Menu.Container1.Icon4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Menu.Container1.Icon4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Menu",
+                "type": "Menu.Container1.Icon4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2095,19 +2155,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "MenuInicial.varArranque"
+                  "fullyQualifiedName": "Busqueda.varArranque"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "MenuInicial.varArranque",
+                  "fullyQualifiedName": "Busqueda.varArranque",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "varArranque",
-                "module": "MenuInicial",
-                "type": "MenuInicial"
+                "module": "Busqueda",
+                "type": "Busqueda"
               }
             }
           ],
