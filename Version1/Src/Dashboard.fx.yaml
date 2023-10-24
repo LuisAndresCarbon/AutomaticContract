@@ -481,18 +481,10 @@ Dashboard As screen:
     HtmlConveMod As htmlViewer:
         Height: =697
         HtmlText: |-
-            ="<!DOCTYPE html>
-            <html lang='en'>
-            <head>
-                <meta charset='UTF-8'>
-                <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-                <title>Convenio Modificatorio</title>
-            </head>
-            <body>
-                <div >
+            ="  <div >
                     <div >
                         <center>
-                            <h1 style='margin: 5% auto; padding:20px; font-size: 2.5em'><img width='24' height='24' src='https://img.icons8.com/ios/50/document--v1.png' alt='document--v1'Convenio Modificatorio</h1>
+                            <h1 style='margin: 5% auto; font-size: 2.5em'><img width='35' height='35' src='https://img.icons8.com/ios/50/document--v1.png' alt='document--v1'/>Convenio Modificatorio</h1>
                             </center>
                         <blockquote>
                           <p>Un Convenio modificatorio es un cambio que requieres en cualquiera de tus solicitudes de contrato.</p>
@@ -521,7 +513,7 @@ Dashboard As screen:
                         <blockquote>
                             <h4>Modificar Contrato:</h4>
                             <p>* Una vez dentro del contrato seleccionado, encontrarás un formulario con dos campos.</p>
-                            <p>* <strong>Fecha de Solicitud de Convenio de Modificatorio</strong>Este campo muestra la fecha en que estás solicitando el Convenio Modificatorio. Puedes editar esta fecha según sea necesario.</p>
+                            <p>* <strong>Fecha de Solicitud de Convenio de Modificatorio</strong> Este campo muestra la fecha en que estás solicitando el Convenio Modificatorio. Puedes editar esta fecha según sea necesario.</p>
                             <p>* <strong>Anexos a Modificar</strong> Utiliza el campo para plantear los cambios que deseas realizar en el contrato. Puedes modificar varios aspectos del contrato, excepto la fecha de inicio.</p>
                             <h4>Enviar Solicitud de Modificación:</h4>
                             <p>* Revisa cuidadosamente los cambios que has planteado.</p>
@@ -537,9 +529,7 @@ Dashboard As screen:
                   <span>
                     <strong>Ultima actualizacion</strong>
                     <em>,1 de noviembre de 2023</em>
-                  </span>
-            </body>
-            </html>"
+                  </span>"
         Visible: =If(opcion = Button6,true,false)
         Width: =865
         X: =501
