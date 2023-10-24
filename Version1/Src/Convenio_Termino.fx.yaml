@@ -749,7 +749,7 @@ Convenio_Termino As screen:
                 FontWeight: =FontWeight.Bold
                 Height: =24
                 Size: =13
-                Text: ="ñlkpkñl"
+                Text: ="C O N V E N I O  D E  T E R M I N A C I O N"
                 Width: =798
                 ZIndex: =1
 
