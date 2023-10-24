@@ -2095,6 +2095,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.TipoContra"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.TipoContra",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TipoContra",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.ImgPersona"
                 }
               ],

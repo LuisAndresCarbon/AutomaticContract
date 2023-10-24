@@ -283,7 +283,6 @@
     "Icon2_2": 290,
     "Icon2_3": 291,
     "Icon3": 124,
-    "Image1": 402,
     "Image14": 286,
     "Image15": 148,
     "Image16": 277,
@@ -411,12 +410,10 @@
   "DoesTestStepsMetadataExist": true,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/24/2023 03:01:44",
+  "HeaderLastSavedDateTimeUTC": "10/24/2023 04:55:28",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "367db3e8-25cd-4d27-8a91-8973575c0aba": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/724b77c50f5f4e74b6d8cf384324dd87\"",
-    "6defa1d2-b497-4349-ab6b-29a52908cb77": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/FAE5DFBAFCEF44579DEC48E08A97EB70-493F6F8C92733C4C\"",
-    "a4620dca-8dd5-440a-9ff2-7fed071884c3": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/3a524ddcc9bd44c7be19e6d818274506\"",
     "da8a4fc1-93a1-4784-96dd-33d18778d4aa": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/38b0eda0fb34408d9600e6eea1c95e3f\"",
     "edae1264-c4e4-4776-88f5-66dd0efa52c5": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/e8ee3522685047aabf8da1d05652625f\""
   },
@@ -429,7 +426,7 @@
     "Logo Vertical Texto Blanco": "0004.png",
     "Logo Vertical Texto Verde": "0005.png",
     "notificacion_confirmado": "0006.png",
-    "TipoContra": "e1e16b62-3169-474d-ab35-6eba08b1edff.PNG"
+    "TipoContra": "96a868a8-335e-4c70-9fc7-a6e640367a98.PNG"
   },
   "LocalResourceRootPaths": {
     "CC_Isotipo": "https://docserverpwaprodwus.blob.core.windows.net/f27265e3-75ce-464d-a674-49765e5c7cf9-1/resource/Assets0Images00001.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-24T01%3A34%3A08Z&ske=2023-10-25T01%3A49%3A08Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-25T01%3A49%3A08Z&sr=b&sp=r&sig=j8FWU8sACMhfoVn3stpCy1zRVnTUk%2F25qIG7ndgXTnY%3D",
@@ -439,7 +436,7 @@
     "Logo Vertical Texto Blanco": "https://docserverpwaprodwus.blob.core.windows.net/f27265e3-75ce-464d-a674-49765e5c7cf9-1/resource/Assets0Images00004.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-24T01%3A34%3A08Z&ske=2023-10-25T01%3A49%3A08Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-25T01%3A49%3A08Z&sr=b&sp=r&sig=H1H8naGJ4lh0%2FVb0KWv20%2BAb1eDFB8WT0VsJRA%2F%2ByEA%3D",
     "Logo Vertical Texto Verde": "https://docserverpwaprodwus.blob.core.windows.net/f27265e3-75ce-464d-a674-49765e5c7cf9-1/resource/Assets0Images00005.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-24T01%3A34%3A08Z&ske=2023-10-25T01%3A49%3A08Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-25T01%3A49%3A08Z&sr=b&sp=r&sig=002xjV%2BgYYLias7E1YI2yH7L5qu8sdLIFnRtQDfEU6E%3D",
     "notificacion_confirmado": "https://docserverpwaprodwus.blob.core.windows.net/f27265e3-75ce-464d-a674-49765e5c7cf9-1/resource/Assets0Images00006.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-24T01%3A34%3A08Z&ske=2023-10-25T01%3A49%3A08Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-25T01%3A49%3A08Z&sr=b&sp=r&sig=DQnVodAqGwCCKbjf%2B2FVk6CKcTIowvKtshwugpugk%2F4%3D",
-    "TipoContra": "https://docserverpwaprodwus.blob.core.windows.net/f27265e3-75ce-464d-a674-49765e5c7cf9-1/resource/Assets0Images0e1e16b62-3169-474d-ab35-6eba08b1edff.PNG?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-24T01%3A34%3A08Z&ske=2023-10-25T01%3A49%3A08Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-25T01%3A49%3A08Z&sr=b&sp=r&sig=XtlBkVubAFMou1n7fGueEeYGwSG4qzsiFI14kryBFXo%3D"
+    "TipoContra": "https://docserverpwaprodwus.blob.core.windows.net/f27265e3-75ce-464d-a674-49765e5c7cf9-1/resource/f642a8f2-fa89-4952-a97d-cc8f4e2ecb82.PNG?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-24T03%3A21%3A38Z&ske=2023-10-25T03%3A36%3A38Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-25T03%3A36%3A38Z&sr=b&sp=r&sig=gi9nuAAl2b62K4EijeRuoSq%2F1L5mNFHIArVIg162nj0%3D"
   },
   "OrderComponentMetadata": {
     "188541e6812b421dba6c7985b78985b1": 1,
@@ -450,16 +447,15 @@
     "32cbe7e4428b46e399973968bd1642bd": 0
   },
   "OrderDataSource": {
-    "BdContratosLegal": 3,
-    "ComboBoxSample": 4,
-    "CustomGallerySample": 5,
-    "DropDownSample": 6,
-    "LegendSample": 7,
+    "BdContratosLegal": 2,
+    "ComboBoxSample": 3,
+    "CustomGallerySample": 4,
+    "DropDownSample": 5,
+    "LegendSample": 6,
     "Office365Outlook": 0,
-    "Permisos": 8,
-    "PieChartSample": 9,
-    "PowerApp->CargarunarchivodesdeunadirecciónURL": 2,
-    "RadioSample": 10,
+    "Permisos": 7,
+    "PieChartSample": 8,
+    "RadioSample": 9,
     "UsuariosdeOffice365": 1
   },
   "OrderGroupControls": {
@@ -768,7 +764,6 @@
     "Icon2_2": {},
     "Icon2_3": {},
     "Icon3": {},
-    "Image1": {},
     "Image14": {},
     "Image15": {},
     "Image16": {},
@@ -1174,7 +1169,6 @@
     "Icon2_2": 32,
     "Icon2_3": 33,
     "Icon3": 4,
-    "Image1": 25,
     "Image14": 28,
     "Image15": 260,
     "Image16": 186,
