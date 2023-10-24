@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "fae5dfba-fcef-4457-9dec-48e08a97eb70",
+    "Name": "PowerApp->CargarunarchivodesdeunadirecciónURL",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": null
+  }
+]

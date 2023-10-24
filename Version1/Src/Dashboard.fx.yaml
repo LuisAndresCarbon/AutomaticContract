@@ -299,7 +299,7 @@ Dashboard As screen:
                     <h3><img width='30' height='30' src='https://img.icons8.com/ios/50/how-quest--v2.png' alt='how-quest--v2'/>Funcionamiento</h3>
                     <blockquote>
                         <p>* Selecciona el icono: <img width='20' height='20' src='https://img.icons8.com/ios/100/insert-page.png'/>     <strong>“Nuevo Contrato”</strong>  en el menú principal.</p>
-                        <p>* Primero, selecciona el <strong>Tipo de Contrato</strong> <img src='TipoContra.PNG'/>según corresponda.</p>
+                        <p>* Primero, selecciona el <strong>Tipo de Contrato</strong> <img src="&Image1.Image&"/>según corresponda.</p>
                         <p>* Segundo, selecciona <strong>'Persona'</strong><img src='../Assets/Images/ImgPersona.PNG'/>(Persona Física o Persona Moral) según corresponda.</p>
                         <p>* Completa los datos del formulario correspondientes al <strong>tipo de persona</strong> elegido.</p>
                     </blockquote>
@@ -532,12 +532,14 @@ Dashboard As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
+        Height: =380
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
         Image: =TipoContra
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        X: =40
-        Y: =40
+        Width: =312
+        X: =121
+        Y: =345
         ZIndex: =10
 

@@ -1,4 +1,18 @@
 {
+  "17480984-5cb4-44e8-987d-2fa65ace994c": {
+    "connectionRef": {
+      "displayName": "OneDrive para la Empresa",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1656/1.0.1656.3432/onedriveforbusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "b5aceb3f-6412-4485-938e-35ed1b958b94"
+    ],
+    "id": "17480984-5cb4-44e8-987d-2fa65ace994c"
+  },
   "367db3e8-25cd-4d27-8a91-8973575c0aba": {
     "connectionRef": {
       "displayName": "Office\u00A0365 Outlook",
@@ -12,6 +26,34 @@
     "dependencies": {},
     "dependents": [],
     "id": "367db3e8-25cd-4d27-8a91-8973575c0aba"
+  },
+  "b5aceb3f-6412-4485-938e-35ed1b958b94": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "fae5dfba-fcef-4457-9dec-48e08a97eb70"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "fae5dfba-fcef-4457-9dec-48e08a97eb70"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "PowerApp->CargarunarchivodesdeunadirecciónURL"
+    ],
+    "dependencies": {
+      "shared_onedriveforbusiness": "17480984-5cb4-44e8-987d-2fa65ace994c"
+    },
+    "dependents": [],
+    "id": "b5aceb3f-6412-4485-938e-35ed1b958b94"
   },
   "da8a4fc1-93a1-4784-96dd-33d18778d4aa": {
     "connectionRef": {
