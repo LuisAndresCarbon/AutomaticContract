@@ -31,13 +31,13 @@ Dashboard As screen:
 
         Icon3 As icon.AddDocument:
             BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
+            Color: =RGBA(8,143,131,100)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
             FocusedBorderThickness: =4
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Filter
             OnSelect: =Navigate('Busqueda Filtrada')
@@ -61,13 +61,13 @@ Dashboard As screen:
 
         NuevoC As icon.AddDocument:
             BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
+            Color: =RGBA(8,143,131,100)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
             FocusedBorderThickness: =4
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.AddDocument
             OnSelect: =Navigate(Nuevo_Contrato)
@@ -79,13 +79,13 @@ Dashboard As screen:
 
         ConveModi As icon.DocumentwithContent:
             BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
+            Color: =RGBA(8,143,131,100)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
             FocusedBorderThickness: =4
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.DocumentWithContent
             OnSelect: =Navigate(Convenio_Modificatorio)
@@ -97,13 +97,13 @@ Dashboard As screen:
 
         ConveTermi As icon.Error:
             BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
+            Color: =RGBA(8,143,131,100)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
             FocusedBorderThickness: =4
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Error
             OnSelect: =Navigate(Convenio_Termino)
@@ -127,13 +127,13 @@ Dashboard As screen:
 
         Filtrado As icon.FilterFlat:
             BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
+            Color: =RGBA(8,143,131,100)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
             FocusedBorderThickness: =4
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.FilterFlat
             OnSelect: =Navigate(MenuInicial)
@@ -167,13 +167,13 @@ Dashboard As screen:
 
         BanEntrada As icon.Tray:
             BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
+            Color: =RGBA(8,143,131,100)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
             FocusedBorderThickness: =4
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Tray
             OnSelect: =Navigate(Bandeja)
@@ -195,13 +195,13 @@ Dashboard As screen:
 
         ElimContrac As icon.Trash:
             BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
+            Color: =RGBA(8,143,131,100)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
             FocusedBorderThickness: =4
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Trash
             OnSelect: =Navigate(BorrarContratos)
@@ -223,13 +223,13 @@ Dashboard As screen:
 
         Ajus As icon.ToolsWrench:
             BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
+            Color: =RGBA(8,143,131,100)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
             FocusedBorderThickness: =4
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.ToolsWrench
             OnSelect: =Navigate(Ajustes)
@@ -378,15 +378,15 @@ Dashboard As screen:
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(73, 130, 5, 1)
+                Fill: =RGBA(8, 143, 131, 1)
                 FocusedBorderColor: =ColorFade(Self.Fill, -75%)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+                HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
                 OnSelect: =Set(opcion,Button5)
-                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 RadiusBottomLeft: =0
@@ -418,15 +418,15 @@ Dashboard As screen:
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(73, 130, 5, 1)
+                Fill: =RGBA(8, 143, 131, 1)
                 FocusedBorderColor: =ColorFade(Self.Fill, -75%)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+                HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
                 OnSelect: =Set(opcion,Button6)
-                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 RadiusBottomLeft: =0
@@ -458,15 +458,15 @@ Dashboard As screen:
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(73, 130, 5, 1)
+                Fill: =RGBA(8, 143, 131, 1)
                 FocusedBorderColor: =ColorFade(Self.Fill, -75%)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+                HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
                 OnSelect: =Set(opcion,Button7)
-                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 RadiusBottomLeft: =0
