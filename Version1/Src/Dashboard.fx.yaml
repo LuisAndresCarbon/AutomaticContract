@@ -281,9 +281,7 @@ Dashboard As screen:
                     </blockquote>
                 </div>
             </div>
-            
             <hr>
-            
             <div>
                 <div>
                     <h3><img width='24' height='24' src='https://img.icons8.com/android/24/filter.png' alt='filter'/>Consulta</h3>
@@ -291,7 +289,6 @@ Dashboard As screen:
                         <p>Todos los manuales están publicados en <a href='https://github.com/manualweb/manualweb'>GitHub</a> y puedes contribuir mejorando su contenido o corrigiendo erratas. Ayudando a todos los usuarios que estamos aprendiendo.</p>
                     </blockquote>            
                 </div>
-            
                 <div>
                     <h3><img width='30' height='30' src='https://img.icons8.com/windows/32/separate-by-using-blank-sheets.png' alt='separate-by-using-blank-sheets'/>Documentos Requeridos</h3>
                     <blockquote>
@@ -303,7 +300,7 @@ Dashboard As screen:
                     <blockquote>
                         <p>* Selecciona el icono: <img width='20' height='20' src='https://img.icons8.com/ios/100/insert-page.png'/>     <strong>“Nuevo Contrato”</strong>  en el menú principal.</p>
                         <p>* Primero, selecciona el <strong>Tipo de Contrato</strong> <img src='TipoContra.PNG'/>según corresponda.</p>
-                        <p>* Segundo, selecciona <strong>'Persona'</strong><img src='ImgPersona.PNG'/>(Persona Física o Persona Moral) según corresponda.</p>
+                        <p>* Segundo, selecciona <strong>'Persona'</strong><img src='../Assets/Images/ImgPersona.PNG'/>(Persona Física o Persona Moral) según corresponda.</p>
                         <p>* Completa los datos del formulario correspondientes al <strong>tipo de persona</strong> elegido.</p>
                     </blockquote>
                     <blockquote>
@@ -324,10 +321,7 @@ Dashboard As screen:
                 </div>
             </div>
             
-            
-            
             <hr>
-            
               <span>
                 <strong>Ultima actualizacion</strong>
                 <em>,1 de noviembre de 2023</em>
@@ -530,4 +524,20 @@ Dashboard As screen:
         X: =501
         Y: =71
         ZIndex: =9
+
+    Image1 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =TipoContra
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =40
+        Y: =40
+        ZIndex: =10
 
