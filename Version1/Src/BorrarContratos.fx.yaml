@@ -16,6 +16,25 @@ BorrarContratos As screen:
         Y: =158
         ZIndex: =1
 
+        Label29 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =39
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="Fecha de inicio:"
+            Width: =216
+            X: =412
+            Y: =126
+            ZIndex: =1
+
         Label22 As label:
             BorderColor: =RGBA(8, 143, 131, 1)
             BorderThickness: =2
@@ -32,7 +51,7 @@ BorrarContratos As screen:
             Width: =372
             X: =16
             Y: =124
-            ZIndex: =1
+            ZIndex: =2
 
         Label17 As label:
             BorderColor: =RGBA(8, 143, 131, 1)
@@ -50,7 +69,7 @@ BorrarContratos As screen:
             Width: =372
             X: =16
             Y: =37
-            ZIndex: =3
+            ZIndex: =4
 
         Title4 As label:
             Color: =RGBA(50, 49, 48, 1)
@@ -69,7 +88,7 @@ BorrarContratos As screen:
             Width: =222
             X: =16
             Y: =11
-            ZIndex: =4
+            ZIndex: =5
 
         Subtitle4 As label:
             Color: =RGBA(51, 51, 51, 1)
@@ -88,7 +107,7 @@ BorrarContratos As screen:
             Width: =138
             X: =178
             Y: =42
-            ZIndex: =5
+            ZIndex: =6
 
         Separator3 As rectangle:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -97,7 +116,7 @@ BorrarContratos As screen:
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =7
+            ZIndex: =8
 
         Rectangle5 As rectangle:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -106,25 +125,6 @@ BorrarContratos As screen:
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
             Width: =4
-            ZIndex: =8
-
-        Icon7 As icon.Trash:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(8, 143, 131, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(61,184,123,71), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.Trash
-            OnSelect: =Select(Parent)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(61,184,123,71), -50%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            X: =1276
-            Y: =78
             ZIndex: =9
 
         Group3 As group:
@@ -150,7 +150,7 @@ BorrarContratos As screen:
                 Width: =372
                 X: =16
                 Y: =87
-                ZIndex: =2
+                ZIndex: =3
 
             Body1 As label:
                 Color: =RGBA(51, 51, 51, 1)
@@ -169,7 +169,26 @@ BorrarContratos As screen:
                 Width: =257
                 X: =178
                 Y: =90
-                ZIndex: =6
+                ZIndex: =7
+
+        Icon7 As icon.Trash:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(8, 143, 131, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Trash
+            OnSelect: =Select(Parent)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -50%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            X: =1276
+            Y: =78
+            ZIndex: =10
 
         Label21 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -187,7 +206,145 @@ BorrarContratos As screen:
             Width: =190
             X: =178
             Y: =123
-            ZIndex: =10
+            ZIndex: =11
+
+        Label23 As label:
+            BorderColor: =RGBA(8, 143, 131, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =30
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="Tipo de Persona:"
+            Width: =414
+            X: =412
+            Y: =37
+            ZIndex: =12
+
+        Label24 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.Persona.Value
+            X: =555
+            Y: =32
+            ZIndex: =13
+
+        Label25 As label:
+            BorderColor: =RGBA(8, 143, 131, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =24
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="            Nombre:"
+            Width: =414
+            X: =412
+            Y: =87
+            ZIndex: =14
+
+        Label26 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =35
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.NomPersonaFisica
+            Width: =184
+            X: =548
+            Y: =80
+            ZIndex: =15
+
+        Label27 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =52
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.NomEmpresa
+            Width: =208
+            X: =682
+            Y: =70
+            ZIndex: =16
+
+        Label28 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.FechaInicio
+            X: =534
+            Y: =125
+            ZIndex: =17
+
+        Label30 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =33
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="Fecha de termino:"
+            X: =628
+            Y: =128
+            ZIndex: =18
+
+        Label31 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.FechaTerminoContrato
+            X: =767
+            Y: =124
+            ZIndex: =19
 
     Component_Footer_2 As Component_Footer:
         Y: =716
