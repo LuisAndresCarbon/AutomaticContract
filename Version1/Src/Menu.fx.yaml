@@ -141,7 +141,7 @@ Menu As screen:
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Busqueda Filtrada"
+            Tooltip: ="Bandeja de Contratos"
             Visible: |-
                 =Switch(true,
                     Legal = "Lider Legal",

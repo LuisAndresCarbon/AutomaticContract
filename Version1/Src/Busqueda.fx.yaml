@@ -411,7 +411,7 @@ Busqueda As screen:
         HeadingFont: =Font.'Segoe UI'
         HeadingFontWeight: =FontWeight.Normal
         HeadingSize: =13
-        Height: =545
+        Height: =579
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(61, 184, 123, 1)
         InputFill: =RGBA(255, 255, 255, 1)
@@ -426,7 +426,7 @@ Busqueda As screen:
         Size: =13
         Width: =1366
         X: =0
-        Y: =168
+        Y: =133
         ZIndex: =27
 
         Título_Columna2 As dataTableColumn.textualColumn:
