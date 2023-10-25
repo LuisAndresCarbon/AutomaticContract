@@ -346,6 +346,35 @@ BorrarContratos As screen:
             Y: =124
             ZIndex: =19
 
+        Container8 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =53
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =204
+            X: =858
+            Y: =37
+            ZIndex: =20
+
+            Label32 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =Switch(true,ThisItem.StatusContrato.Value="Vigente",RGBA(67, 116, 6,1))
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Fill: =Switch(true,ThisItem.StatusContrato.Value="Vigente",RGBA(202, 240, 204,1))
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =53
+                Size: =20
+                Text: =ThisItem.StatusContrato.Value
+                Width: =204
+                ZIndex: =1
+
     Component_Footer_2 As Component_Footer:
         Y: =716
         ZIndex: =2
