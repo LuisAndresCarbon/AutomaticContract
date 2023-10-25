@@ -362,7 +362,7 @@ Busqueda As screen:
         DefaultMode: =FormMode.New
         Height: =65
         Width: =650
-        X: =716
+        X: =202
         Y: =703
         ZIndex: =25
 
@@ -519,8 +519,8 @@ Busqueda As screen:
         Size: =15
         Text: ="Siguiente"
         Width: =119
-        X: =1160
-        Y: =716
+        X: =613
+        Y: =717
         ZIndex: =26
 
     DataTable2 As dataTable.datatable:
@@ -537,7 +537,7 @@ Busqueda As screen:
         HeadingFont: =Font.'Segoe UI'
         HeadingFontWeight: =FontWeight.Normal
         HeadingSize: =13
-        Height: =500
+        Height: =545
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(61, 184, 123, 1)
         InputFill: =RGBA(255, 255, 255, 1)
@@ -932,4 +932,34 @@ Busqueda As screen:
             X: =0
             Y: =0
             ZIndex: =31
+
+    Button2 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(8, 143, 131, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =49
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
+        OnSelect: |-
+            =Navigate(Bandeja);
+            Set(varDataBit,1)
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Inspeccionar"
+        Width: =255
+        X: =1104
+        Y: =719
+        ZIndex: =28
 
