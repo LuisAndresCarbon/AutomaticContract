@@ -1623,6 +1623,16 @@ Bandeja As screen:
         RadiusTopRight: =0
         Size: =15
         Text: ="Editar"
+        Visible: |-
+            =Switch(true,
+                Legal = "Lider Legal",
+                true,
+                Legal = "Legal",
+                true,
+                Legal = "Programador",
+                true,
+                false
+            )
         X: =1158
         Y: =728
         ZIndex: =4
