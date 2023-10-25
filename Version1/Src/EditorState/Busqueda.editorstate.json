@@ -452,7 +452,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button2",
-      "ParentIndex": 22,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -789,7 +789,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button2_1",
-      "ParentIndex": 15,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1122,7 +1122,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button2_2",
-      "ParentIndex": 21,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1825,7 +1825,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Component_Footer_5",
-      "ParentIndex": 20,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2778,7 +2778,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataTable2",
-      "ParentIndex": 18,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3834,7 +3834,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Filtro_Apoderado",
-      "ParentIndex": 14,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4089,7 +4089,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Filtro_nomEmpresa",
-      "ParentIndex": 13,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4358,7 +4358,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Filtro_nomPersonF",
-      "ParentIndex": 16,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4613,7 +4613,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Filtro_numeroC",
-      "ParentIndex": 12,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4947,7 +4947,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Form7",
-      "ParentIndex": 19,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5067,7 +5067,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon2_3",
-      "ParentIndex": 7,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5773,7 +5773,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon3",
-      "ParentIndex": 17,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
