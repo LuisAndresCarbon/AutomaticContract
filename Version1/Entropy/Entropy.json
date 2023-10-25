@@ -527,7 +527,7 @@
   "DoesTestStepsMetadataExist": true,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/25/2023 16:46:32",
+  "HeaderLastSavedDateTimeUTC": "10/25/2023 16:46:40",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "367db3e8-25cd-4d27-8a91-8973575c0aba": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/78f9215a5ba248468bee7d38e8c2e344\"",
