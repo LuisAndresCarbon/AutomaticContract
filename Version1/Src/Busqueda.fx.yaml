@@ -68,98 +68,6 @@ Busqueda As screen:
         X: =408
         ZIndex: =8
 
-    Icon2 As icon.Filter:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        Color: =RGBA(8,143,131,100)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =45
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Filter
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =49
-        X: =11
-        Y: =68
-        ZIndex: =10
-
-    Filtro_1 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =28
-        Size: =15
-        Text: ="FOLIO"
-        Width: =296
-        X: =59
-        Y: =73
-        ZIndex: =12
-
-    Filtro_2 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =28
-        Size: =15
-        Text: ="NOMBRE DE LA EMPRESA"
-        Width: =296
-        X: =218
-        Y: =73
-        ZIndex: =13
-
-    Filtro_3 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =28
-        Size: =15
-        Text: ="NOMBRE DE LA PERSONA FISICA"
-        Width: =352
-        X: =830
-        Y: =73
-        ZIndex: =14
-
-    Filtro_4 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =28
-        Size: =15
-        Text: ="APODERADO LEGAL"
-        Width: =296
-        X: =544
-        Y: =73
-        ZIndex: =15
-
     Button2_1 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -169,6 +77,7 @@ Busqueda As screen:
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
+        Height: =42
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
@@ -183,9 +92,9 @@ Busqueda As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Text: ="Buscar"
-        Width: =199
-        X: =1160
-        Y: =113
+        Width: =166
+        X: =1193
+        Y: =73
         ZIndex: =16
 
     Filtro_numeroC As text:
@@ -198,7 +107,7 @@ Busqueda As screen:
         DisabledFill: =RGBA(244, 244, 244, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        HintText: ="Filtrado por Folio"
+        HintText: ="Folio"
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(255, 255, 255, 1)
@@ -212,7 +121,7 @@ Busqueda As screen:
         Size: =13
         Width: =158
         X: =11
-        Y: =113
+        Y: =73
         ZIndex: =17
 
     Filtro_nomEmpresa As text:
@@ -225,7 +134,7 @@ Busqueda As screen:
         DisabledFill: =RGBA(244, 244, 244, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        HintText: ="Filtrado por Empresa"
+        HintText: ="Nombre de la empresa"
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(255, 255, 255, 1)
@@ -239,7 +148,7 @@ Busqueda As screen:
         Size: =13
         Width: =287
         X: =218
-        Y: =113
+        Y: =73
         ZIndex: =18
 
     Filtro_Apoderado As text:
@@ -252,7 +161,7 @@ Busqueda As screen:
         DisabledFill: =RGBA(244, 244, 244, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        HintText: ="Filtrado por Apoderado Legal"
+        HintText: ="Apoderado Legal"
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(255, 255, 255, 1)
@@ -266,7 +175,7 @@ Busqueda As screen:
         Size: =13
         Width: =247
         X: =544
-        Y: =113
+        Y: =73
         ZIndex: =19
 
     Filtro_nomPersonF As text:
@@ -294,52 +203,12 @@ Busqueda As screen:
         RadiusTopRight: =0
         Size: =13
         X: =830
-        Y: =115
+        Y: =75
         ZIndex: =20
 
     Component_Footer_5 As Component_Footer:
         Y: =716
         ZIndex: =21
-
-    Icon2_1 As icon.Filter:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        Color: =RGBA(8,143,131,100)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =45
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Filter
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =49
-        X: =169
-        Y: =68
-        ZIndex: =22
-
-    Icon2_2 As icon.Filter:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        Color: =RGBA(8,143,131,100)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =45
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Filter
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =49
-        X: =505
-        Y: =68
-        ZIndex: =23
 
     Icon2_3 As icon.Filter:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -348,7 +217,7 @@ Busqueda As screen:
         DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =45
+        Height: =28
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
         HoverFill: =RGBA(0, 0, 0, 0)
@@ -356,9 +225,9 @@ Busqueda As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =49
-        X: =791
-        Y: =68
+        Width: =31
+        X: =796
+        Y: =80
         ZIndex: =24
 
     Form7 As form:
@@ -987,7 +856,67 @@ Busqueda As screen:
         PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =45
-        X: =1193
-        Y: =116
+        X: =1201
+        Y: =76
         ZIndex: =29
+
+    Icon2_4 As icon.Filter:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(8,143,131,100)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =28
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Filter
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =31
+        X: =508
+        Y: =80
+        ZIndex: =30
+
+    Icon2_5 As icon.Filter:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(8,143,131,100)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =28
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Filter
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =31
+        X: =170
+        Y: =80
+        ZIndex: =31
+
+    Icon2_6 As icon.Filter:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(8,143,131,100)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =28
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Filter
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =31
+        X: =1156
+        Y: =80
+        ZIndex: =32
 
