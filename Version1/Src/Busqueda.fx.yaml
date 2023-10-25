@@ -88,147 +88,6 @@ Busqueda As screen:
         Y: =68
         ZIndex: =10
 
-    "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
-        BorderColor: =RGBA(61,184,123,71)
-        DelayItemLoading: =true
-        Fill: =RGBA(33, 182, 168, 0.27)
-        Height: =558
-        Items: =BdContratosLegal
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =104
-        Width: =1366
-        Y: =158
-        ZIndex: =11
-
-        Title1 As label:
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.contratos.Value
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 173
-            X: =100
-            Y: =8
-            ZIndex: =2
-
-        Subtitle3 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.NomEmpresa
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title1.Width
-            X: =Title1.X
-            Y: =53
-            ZIndex: =3
-
-        NextArrow3 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Color: =RGBA(166, 166, 166, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =16
-            PaddingLeft: =16
-            PaddingRight: =16
-            PaddingTop: =16
-            Tooltip: ="Ver los detalles del elemento"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
-
-        Separator3 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =5
-
-        Rectangle4 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            Height: =Parent.TemplateHeight - Separator3.Height
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =4
-            ZIndex: =6
-
-        Title1_1 As label:
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.ApoderadoLegal
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 173
-            X: =100
-            Y: =28
-            ZIndex: =7
-
-        Subtitle3_1 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.NomPersonaFisica
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title1.Width
-            X: =Title1.X
-            Y: =70
-            ZIndex: =8
-
-        Subtitle3_2 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =64
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.StatusContrato.Value
-            VerticalAlign: =VerticalAlign.Top
-            Width: =319
-            X: =433
-            Y: =16
-            ZIndex: =9
-
     Filtro_1 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -663,4 +522,414 @@ Busqueda As screen:
         X: =1160
         Y: =716
         ZIndex: =26
+
+    DataTable2 As dataTable.datatable:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.Solid
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        HeadingColor: =RGBA(255, 255, 255, 1)
+        HeadingFill: =RGBA(61, 184, 123, 1)
+        HeadingFont: =Font.'Segoe UI'
+        HeadingFontWeight: =FontWeight.Normal
+        HeadingSize: =13
+        Height: =500
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(61, 184, 123, 1)
+        InputFill: =RGBA(255, 255, 255, 1)
+        InvertedColor: =RGBA(255, 255, 255, 1)
+        Items: =BdContratosLegal
+        LinkColor: =RGBA(0, 134, 208, 1)
+        PrimaryColor1: =RGBA(73, 130, 5, 1)
+        PrimaryColor2: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PrimaryColor3: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        SelectedColor: =RGBA(51, 51, 51, 1)
+        SelectedFill: =RGBA(8, 143, 131, 0.49)
+        Size: =13
+        Width: =1366
+        X: =0
+        Y: =168
+        ZIndex: =27
+
+        Título_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Título"
+            FieldName: ="Title"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.Título
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =5
+
+        contratos_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="contratos"
+            FieldName: ="contratos"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.contratos.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =6
+
+        C_C_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="C_C"
+            FieldName: ="C_C"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.C_C.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =7
+
+        FolioContrato_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="FolioContrato"
+            FieldName: ="NomContratoInterno"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.FolioContrato
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =8
+
+        Persona_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Persona"
+            FieldName: ="Persona"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.Persona.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =9
+
+        NomEmpresa_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="NomEmpresa"
+            FieldName: ="NomEmpresa"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =ThisItem.NomEmpresa
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =10
+
+        NomPersonaFisica_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="NomPersonaFisica"
+            FieldName: ="NomPersonaFisica"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =7
+            Text: =ThisItem.NomPersonaFisica
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =11
+
+        ApoderadoLegal_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="ApoderadoLegal"
+            FieldName: ="ApoderadoLegal"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =8
+            Text: =ThisItem.ApoderadoLegal
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =12
+
+        PoderRepresentanteLegal_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="PoderRepresentanteLegal"
+            FieldName: ="PoderRepresentanteLegal"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =9
+            Text: =ThisItem.PoderRepresentanteLegal
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =13
+
+        ActaConstitutiva_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="ActaConstitutiva"
+            FieldName: ="ActaConstitutiva"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =10
+            Text: =ThisItem.ActaConstitutiva
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =14
+
+        ineRepresentante_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="ineRepresentante"
+            FieldName: ="ineRepresentante"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =11
+            Text: =ThisItem.ineRepresentante
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =15
+
+        InePersonaFisica_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="InePersonaFisica"
+            FieldName: ="InePersonaFisica"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =12
+            Text: =ThisItem.InePersonaFisica
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =16
+
+        CaratulaBancaria_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="CaratulaBancaria"
+            FieldName: ="CaratulaBancaria"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =13
+            Text: =ThisItem.CaratulaBancaria
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =17
+
+        DomicilioEmpresa_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="DomicilioEmpresa"
+            FieldName: ="DomicilioEmpresa"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =14
+            Text: =ThisItem.DomicilioEmpresa
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =18
+
+        DomicilioPersonaFisica_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="DomicilioPersonaFisica"
+            FieldName: ="DimicilioPersonaFisica"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =15
+            Text: =ThisItem.DomicilioPersonaFisica
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =19
+
+        MontoHonorario_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="MontoHonorario"
+            FieldName: ="MontoHonorario"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =16
+            Text: =ThisItem.MontoHonorario
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =20
+
+        FechaInicio_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="FechaInicio"
+            FieldName: ="FechaInicio"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =17
+            Text: =ThisItem.FechaInicio
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =21
+
+        FechaTerminoContrato_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="FechaTerminoContrato"
+            FieldName: ="FechaTerminoContrato"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =18
+            Text: =ThisItem.FechaTerminoContrato
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =22
+
+        AnexosModificar_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="AnexosModificar"
+            FieldName: ="CMdescripcion"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =19
+            Text: =ThisItem.AnexosModificar
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =23
+
+        CMFecha_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="CMFecha"
+            FieldName: ="CMFecha"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =20
+            Text: =ThisItem.CMFecha
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =24
+
+        "'Convenio Termino_Columna2' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Convenio Termino"
+            FieldName: ="ConvenioTermino"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =21
+            Text: =ThisItem.'Convenio Termino'.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =25
+
+        OtraRazonTerminacion_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="OtraRazonTerminacion"
+            FieldName: ="CT_RazonDeTermino"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =22
+            Text: =ThisItem.OtraRazonTerminacion
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =26
+
+        StatusContrato_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="StatusContrato"
+            FieldName: ="StatusContrato"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =23
+            Text: =ThisItem.StatusContrato.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =27
+
+        Incumplido_Columna2 As dataTableColumn.booleanColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Incumplido"
+            FieldName: ="Incumplido"
+            FieldVariantName: ="booleanColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =24
+            Text: =ThisItem.Incumplido
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =28
+
+        MesesEstimados_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="MesesEstimados"
+            FieldName: ="MesesEstimados"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =25
+            Text: =ThisItem.MesesEstimados
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =29
+
+        Fecha_CT_Columna2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Fecha_CT"
+            FieldName: ="Fecha_CT"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =26
+            Text: =ThisItem.Fecha_CT
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =30
+
+        "'Datos adjuntos_Columna2' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Datos adjuntos"
+            FieldName: ="{Attachments}"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =27
+            Text: =ThisItem.'Datos adjuntos'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =31
 
