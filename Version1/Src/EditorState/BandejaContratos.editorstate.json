@@ -279,7 +279,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "Busqueda": {
+    "BandejaContratos": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -314,13 +314,13 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Busqueda",
+      "Name": "BandejaContratos",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
           "Category": "Design",
-          "PropertyName": "Fill",
+          "PropertyName": "Height",
           "RuleProviderType": "Unknown"
         },
         {
@@ -330,17 +330,7 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Height",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Size",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "LoadingSpinnerColor",
+          "PropertyName": "Fill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -350,12 +340,22 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Orientation",
+          "PropertyName": "Size",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
           "PropertyName": "LoadingSpinner",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Orientation",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "LoadingSpinnerColor",
           "RuleProviderType": "Unknown"
         },
         {
@@ -8139,5 +8139,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "Busqueda"
+  "TopParentName": "BandejaContratos"
 }

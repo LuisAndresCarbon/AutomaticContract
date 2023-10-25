@@ -132,15 +132,15 @@
   },
   "ScreenOrder": [
     "Menu",
-    "Busqueda",
-    "Nuevo_Contrato",
-    "Convenio_Modificatorio",
-    "notificacion",
-    "Convenio_Termino",
-    "Bandeja",
+    "BandejaContratos",
+    "InspeccionaInformacion",
+    "Editor",
     "BorrarContratos",
-    "Ajustes",
+    "Nuevo_Contrato",
+    "notificacion",
+    "Convenio_Modificatorio",
+    "Convenio_Termino",
     "Estados",
-    "BandejaEntrada"
+    "Ajustes"
   ]
 }

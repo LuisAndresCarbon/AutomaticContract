@@ -137,7 +137,7 @@ Menu As screen:
             HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Tray
-            OnSelect: =Navigate(Busqueda)
+            OnSelect: =Navigate(BandejaContratos)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
@@ -209,7 +209,7 @@ Menu As screen:
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Ajustes"
+            Tooltip: ="Ajustes,Estados,Incumplidos"
             Visible: |-
                 =Switch(true,
                     Legal = "Lider Legal",

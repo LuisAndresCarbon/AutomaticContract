@@ -1,4 +1,4 @@
-BandejaEntrada As screen:
+Editor As screen:
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
     Header_9 As Header:
@@ -2355,23 +2355,6 @@ BandejaEntrada As screen:
                 Wrap: =false
                 Y: =DataCardKey74.Y
                 ZIndex: =4
-
-    Label17 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =30
-        Text: ="EDITAR"
-        Width: =336
-        ZIndex: =4
 
     Image10 As image:
         BorderColor: =RGBA(0, 0, 0, 0)

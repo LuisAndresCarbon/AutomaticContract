@@ -1,4 +1,4 @@
-Bandeja As screen:
+InspeccionaInformacion As screen:
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
     Header_5 As Header:
@@ -1656,7 +1656,7 @@ Bandeja As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
-        OnSelect: =Navigate(BandejaEntrada)
+        OnSelect: =Navigate(Editor)
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
