@@ -363,10 +363,18 @@ BorrarContratos As screen:
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =Switch(true,ThisItem.StatusContrato.Value="Vigente",RGBA(67, 116, 6,1))
+                Color: |-
+                    =Switch(true,ThisItem.StatusContrato.Value="Vigente",RGBA(67, 116, 6,1),
+                    ThisItem.StatusContrato.Value="En Proceso",Color.Blue,
+                    ThisItem.StatusContrato.Value="PorVencer",RGBA(143, 98, 0,1),
+                    ThisItem.StatusContrato.Value="Vencido",RGBA(164, 38, 44,1))
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =Switch(true,ThisItem.StatusContrato.Value="Vigente",RGBA(202, 240, 204,1))
+                Fill: |-
+                    =Switch(true,ThisItem.StatusContrato.Value="Vigente",RGBA(202, 240, 204,1),
+                    ThisItem.StatusContrato.Value="En Proceso",RGBA(212, 231, 246,4),
+                    ThisItem.StatusContrato.Value="PorVencer",Color.Yellow,
+                    ThisItem.StatusContrato.Value="Vencido",RGBA(250, 187, 195,1))
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Height: =53
