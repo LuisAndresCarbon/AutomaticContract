@@ -96,7 +96,7 @@
             "Name": "Button3_3",
             "Parent": "Container3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 593,
+            "PublishOrderIndex": 611,
             "Rules": [
               {
                 "Category": "Data",
@@ -404,7 +404,7 @@
         "Name": "Container3",
         "Parent": "Component_Footer",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 592,
+        "PublishOrderIndex": 610,
         "Rules": [
           {
             "Category": "Design",
