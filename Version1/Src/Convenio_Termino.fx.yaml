@@ -1426,7 +1426,7 @@ Convenio_Termino As screen:
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Size: =15
-            Text: ="Guardar"
+            Text: ="Enviar"
             X: =1158
             Y: =8
             ZIndex: =1

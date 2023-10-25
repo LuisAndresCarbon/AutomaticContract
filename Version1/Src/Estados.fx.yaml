@@ -295,7 +295,7 @@ Estados As screen:
             FontWeight: =FontWeight.Bold
             Size: =20
             Text: ="CONTRATO"
-            Width: =1113
+            Width: =1053
             ZIndex: =1
 
         "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
@@ -396,4 +396,21 @@ Estados As screen:
                 Visible: =ThisItem.IsSelected
                 Width: =4
                 ZIndex: =5
+
+    Image9 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =70
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =CC_Isotipo
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =86
+        X: =435
+        ZIndex: =5
 
