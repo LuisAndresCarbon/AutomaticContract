@@ -1,25 +1,20 @@
 BorrarContratos As screen:
-    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+    LoadingSpinnerColor: =RGBA(8,143,131,100)
 
     Header_6 As Header:
 
-    Component_Footer_2 As Component_Footer:
-        Y: =716
-        ZIndex: =2
-
-    "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
-        BorderColor: =RGBA(166, 166, 166, 1)
+    "Gallery4 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+        BorderColor: =RGBA(8,143,131,100)
         DelayItemLoading: =true
-        Height: =646
+        Height: =558
         Items: =BdContratosLegal
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
-        TemplateSize: =104
-        Width: =710
-        X: =318
-        Y: =70
-        ZIndex: =3
+        TemplateSize: =228
+        Width: =1366
+        Y: =158
+        ZIndex: =1
 
         Title4 As label:
             Color: =RGBA(50, 49, 48, 1)
@@ -34,10 +29,10 @@ BorrarContratos As screen:
             PaddingTop: =0
             Text: =ThisItem.Título
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 173
-            X: =103
-            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle4.Size * 1.8)) / 2
-            ZIndex: =2
+            Width: =Parent.TemplateWidth - 86
+            X: =16
+            Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle4.Size*1.8 + 2 + Body1.Size*1.8)) / 2
+            ZIndex: =1
 
         Subtitle4 As label:
             Color: =RGBA(51, 51, 51, 1)
@@ -56,74 +51,9 @@ BorrarContratos As screen:
             Width: =Title4.Width
             X: =Title4.X
             Y: =Title4.Y + Title4.Height
-            ZIndex: =3
-
-        NextArrow4 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Color: =RGBA(166, 166, 166, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =16
-            PaddingLeft: =16
-            PaddingRight: =16
-            PaddingTop: =16
-            Tooltip: ="Ver los detalles del elemento"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
-
-        Separator4 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =5
-
-        Rectangle5 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            Height: =Parent.TemplateHeight - Separator4.Height
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =4
-            ZIndex: =6
-
-    "Gallery5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
-        BorderColor: =RGBA(166, 166, 166, 1)
-        DelayItemLoading: =true
-        Height: =646
-        Items: =BdContratosLegal
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =104
-        Width: =318
-        Y: =70
-        ZIndex: =4
-
-        Title5 As label:
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.Título
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 173
-            X: =103
-            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle5.Size * 1.8)) / 2
             ZIndex: =2
 
-        Subtitle5 As label:
+        Body1 As label:
             Color: =RGBA(51, 51, 51, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Font: =Font.'Segoe UI'
@@ -135,30 +65,14 @@ BorrarContratos As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =12
-            Text: =ThisItem.ID
+            Text: =ThisItem.contratos.Value
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title5.Width
-            X: =Title5.X
-            Y: =Title5.Y + Title5.Height
+            Width: =Title4.Width
+            X: =Title4.X
+            Y: =Subtitle4.Y + Subtitle4.Height
             ZIndex: =3
 
-        NextArrow5 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Color: =RGBA(166, 166, 166, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =16
-            PaddingLeft: =16
-            PaddingRight: =16
-            PaddingTop: =16
-            Tooltip: ="Ver los detalles del elemento"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
-
-        Separator5 As rectangle:
+        Separator3 As rectangle:
             BorderColor: =RGBA(0, 0, 0, 0)
             Fill: =RGBA(255, 255, 255, 1)
             Height: =8
@@ -167,14 +81,37 @@ BorrarContratos As screen:
             Y: =Parent.TemplateHeight - Self.Height
             ZIndex: =5
 
-        Rectangle6 As rectangle:
+        Rectangle5 As rectangle:
             BorderColor: =RGBA(0, 0, 0, 0)
             Fill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            Height: =Parent.TemplateHeight - Separator5.Height
+            Height: =Parent.TemplateHeight - Separator3.Height
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
             Width: =4
             ZIndex: =6
+
+        Icon7 As icon.Trash:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(8, 143, 131, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Trash
+            OnSelect: =Select(Parent)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            X: =1276
+            Y: =78
+            ZIndex: =7
+
+    Component_Footer_2 As Component_Footer:
+        Y: =716
+        ZIndex: =2
 
     Image8 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -192,4 +129,80 @@ BorrarContratos As screen:
         Width: =82
         X: =387
         ZIndex: =5
+
+    Container9 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =70
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        Y: =70
+        ZIndex: =6
+
+        Dropdown2 As dropdown:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            ChevronBackground: =RGBA(255, 255, 255, 1)
+            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+            ChevronFill: =RGBA(33, 33, 33, 1)
+            ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+            ChevronHoverFill: =RGBA(33, 33, 33, 1)
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Font: =Font.'Segoe UI'
+            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverColor: =RGBA(51, 51, 51, 1)
+            HoverFill: =RGBA(212, 212, 212, 1)
+            Items: =DropDownSample
+            PaddingBottom: =5
+            PaddingLeft: =12
+            PaddingRight: =5
+            PaddingTop: =5
+            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =RGBA(73, 130, 5, 1)
+            SelectionFill: =RGBA(73, 130, 5, 1)
+            Size: =13
+            X: =974
+            Y: =24
+            ZIndex: =1
+
+        Icon6 As icon.Search:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(73, 130, 5, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =48
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Search
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            X: =1302
+            Y: =20
+            ZIndex: =2
+
+        Label20 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =24
+            Size: =13
+            Text: ="Solicitante"
+            Width: =328
+            X: =974
+            ZIndex: =3
 
