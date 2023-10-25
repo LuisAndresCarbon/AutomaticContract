@@ -16,61 +16,79 @@ BorrarContratos As screen:
         Y: =158
         ZIndex: =1
 
+        Label22 As label:
+            BorderColor: =RGBA(8, 143, 131, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =41
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="           Solicitante:"
+            Width: =372
+            X: =16
+            Y: =124
+            ZIndex: =1
+
+        Label17 As label:
+            BorderColor: =RGBA(8, 143, 131, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =30
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="                   Folio:"
+            Width: =372
+            X: =16
+            Y: =37
+            ZIndex: =3
+
         Title4 As label:
             Color: =RGBA(50, 49, 48, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
+            FontWeight: =FontWeight.Bold
+            Height: =26
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =18
             Text: =ThisItem.Título
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 86
+            Width: =222
             X: =16
-            Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle4.Size*1.8 + 2 + Body1.Size*1.8)) / 2
-            ZIndex: =1
+            Y: =11
+            ZIndex: =4
 
         Subtitle4 As label:
             Color: =RGBA(51, 51, 51, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Font: =Font.'Segoe UI'
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
+            Height: =45
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
             Size: =12
-            Text: =ThisItem.ID
+            Text: =ThisItem.FolioContrato
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title4.Width
-            X: =Title4.X
-            Y: =Title4.Y + Title4.Height
-            ZIndex: =2
-
-        Body1 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.contratos.Value
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title4.Width
-            X: =Title4.X
-            Y: =Subtitle4.Y + Subtitle4.Height
-            ZIndex: =3
+            Width: =138
+            X: =178
+            Y: =42
+            ZIndex: =5
 
         Separator3 As rectangle:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -79,7 +97,7 @@ BorrarContratos As screen:
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =5
+            ZIndex: =7
 
         Rectangle5 As rectangle:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -88,7 +106,7 @@ BorrarContratos As screen:
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
             Width: =4
-            ZIndex: =6
+            ZIndex: =8
 
         Icon7 As icon.Trash:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -107,7 +125,69 @@ BorrarContratos As screen:
             PressedFill: =RGBA(0, 0, 0, 0)
             X: =1276
             Y: =78
-            ZIndex: =7
+            ZIndex: =9
+
+        Group3 As group:
+            Height: =5
+            Width: =5
+            X: =40
+            Y: =40
+            ZIndex: =9
+
+            Label18 As label:
+                BorderColor: =RGBA(8, 143, 131, 1)
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =24
+                OnSelect: =Select(Parent)
+                Size: =13
+                Text: |-
+                    ="Tipo de contrato:"
+                Width: =372
+                X: =16
+                Y: =87
+                ZIndex: =2
+
+            Body1 As label:
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                Height: =39
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =12
+                Text: =ThisItem.contratos.Value
+                VerticalAlign: =VerticalAlign.Top
+                Width: =257
+                X: =178
+                Y: =90
+                ZIndex: =6
+
+        Label21 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =42
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.Solicitante
+            Width: =190
+            X: =178
+            Y: =123
+            ZIndex: =10
 
     Component_Footer_2 As Component_Footer:
         Y: =716
