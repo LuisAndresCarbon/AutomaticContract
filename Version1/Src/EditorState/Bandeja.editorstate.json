@@ -17341,7 +17341,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "NomPersonaFisica_DataCard3",
-      "ParentIndex": 23,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -19161,7 +19161,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Título_DataCard3",
-      "ParentIndex": 22,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
