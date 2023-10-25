@@ -42,7 +42,7 @@ Menu As screen:
             Icon: =Icon.LogJournal
             OnSelect: =Navigate(Estados)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Consulta de Contratos"
             ZIndex: =2
@@ -73,7 +73,7 @@ Menu As screen:
             Icon: =Icon.AddDocument
             OnSelect: =Navigate(Nuevo_Contrato)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Nuevo Contrato"
             ZIndex: =5
@@ -91,7 +91,7 @@ Menu As screen:
             Icon: =Icon.DocumentWithContent
             OnSelect: =Navigate(Convenio_Modificatorio)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Convenio Modificatorio"
             ZIndex: =6
@@ -109,7 +109,7 @@ Menu As screen:
             Icon: =Icon.Error
             OnSelect: =Navigate(Convenio_Termino)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Convenios de Terminacion"
             ZIndex: =7
@@ -139,7 +139,7 @@ Menu As screen:
             Icon: =Icon.Tray
             OnSelect: =Navigate(Busqueda)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Bandeja de Contratos"
             Visible: |-
@@ -179,7 +179,7 @@ Menu As screen:
             Icon: =Icon.Trash
             OnSelect: =Navigate(BorrarContratos)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Eliminar Contratos"
             Visible: |-
@@ -207,7 +207,7 @@ Menu As screen:
             Icon: =Icon.ToolsWrench
             OnSelect: =Navigate(Ajustes)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Ajustes"
             Visible: |-
@@ -380,7 +380,7 @@ Menu As screen:
                 OnSelect: =Set(opcion,Button5)
                 PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
@@ -420,7 +420,7 @@ Menu As screen:
                 OnSelect: =Set(opcion,Button6)
                 PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
@@ -460,7 +460,7 @@ Menu As screen:
                 OnSelect: =Set(opcion,Button7)
                 PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0

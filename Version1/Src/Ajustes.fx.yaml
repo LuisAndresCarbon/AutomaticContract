@@ -308,8 +308,8 @@ Ajustes As screen:
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
                 Size: =13
                 Tooltip: =Parent.DisplayName
-                TrueFill: =RGBA(73, 130, 5, 1)
-                TrueHoverFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                TrueFill: =RGBA(8, 143, 131, 1)
+                TrueHoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
                 TrueText: =
                 X: =30
                 Y: =DataCardKey117.Y + DataCardKey117.Height + 5
@@ -372,10 +372,10 @@ Ajustes As screen:
         FontWeight: =FontWeight.Semibold
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
