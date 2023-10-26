@@ -55,276 +55,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Ajustes.Form6.StatusContrato_DataCard3.DataCardValue116.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Ajustes.Form6.StatusContrato_DataCard3.DataCardValue116.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Ajustes",
-                "type": "Ajustes.Form6.StatusContrato_DataCard3.DataCardValue116"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.FalseText"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.FalseText",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FalseText",
-                "module": "Ajustes",
-                "type": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-StateIndicationTextNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.TrueText"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.TrueText",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TrueText",
-                "module": "Ajustes",
-                "type": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-StateIndicationTextNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Ajustes",
-                "type": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.StatusContrato_DataCard1.DataCardValue45.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.StatusContrato_DataCard1.DataCardValue45.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "InspeccionaInformacion",
-                "type": "InspeccionaInformacion.FormViewer3.StatusContrato_DataCard1.DataCardValue45"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.Persona_DataCard2.DataCardValue25.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.Persona_DataCard2.DataCardValue25.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "InspeccionaInformacion",
-                "type": "InspeccionaInformacion.FormViewer3.Persona_DataCard2.DataCardValue25"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.contratos_DataCard3.DataCardValue24.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.contratos_DataCard3.DataCardValue24.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "InspeccionaInformacion",
-                "type": "InspeccionaInformacion.FormViewer3.contratos_DataCard3.DataCardValue24"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.'Convenio Termino_DataCard1'.DataCardValue40.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.'Convenio Termino_DataCard1'.DataCardValue40.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "InspeccionaInformacion",
-                "type": "InspeccionaInformacion.FormViewer3.'Convenio Termino_DataCard1'.DataCardValue40"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.Incumplido_DataCard1.DataCardValue49.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.Incumplido_DataCard1.DataCardValue49.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "InspeccionaInformacion",
-                "type": "InspeccionaInformacion.FormViewer3.Incumplido_DataCard1.DataCardValue49"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Editor.Form4.Título_DataCard5.DataCardValue54.AccessibleLabel"
                 }
               ],
@@ -445,6 +175,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Editor.Form4.DomicilioEmpresa_DataCard3.DataCardValue57.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Editor.Form4.DomicilioEmpresa_DataCard3.DataCardValue57.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Editor",
+                "type": "Editor.Form4.DomicilioEmpresa_DataCard3.DataCardValue57"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Editor.Form4.NomPersonaFisica_DataCard5.DataCardValue58.AccessibleLabel"
                 }
               ],
@@ -488,6 +248,36 @@
                 "member": "AccessibleLabel",
                 "module": "Editor",
                 "type": "Editor.Form4.DomicilioPersonaFisica_DataCard2.DataCardValue59"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Editor.Form4.ApoderadoLegal_DataCard2.DataCardValue60.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Editor.Form4.ApoderadoLegal_DataCard2.DataCardValue60.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Editor",
+                "type": "Editor.Form4.ApoderadoLegal_DataCard2.DataCardValue60"
               }
             }
           ],
@@ -565,6 +355,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Editor.Form4.EsCarpeta_DataCard1.DataCardValue63.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Editor.Form4.EsCarpeta_DataCard1.DataCardValue63.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Editor",
+                "type": "Editor.Form4.EsCarpeta_DataCard1.DataCardValue63"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Editor.Form4.ActaConstitutiva_DataCard3.DataCardValue65.AccessibleLabel"
                 }
               ],
@@ -608,6 +428,36 @@
                 "member": "AccessibleLabel",
                 "module": "Editor",
                 "type": "Editor.Form4.ineRepresentante_DataCard3.DataCardValue67"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Editor.Form4.InePersonaFisica_DataCard3.DataCardValue68.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Editor.Form4.InePersonaFisica_DataCard3.DataCardValue68.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Editor",
+                "type": "Editor.Form4.InePersonaFisica_DataCard3.DataCardValue68"
               }
             }
           ],
@@ -685,6 +535,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Editor.Form4.FechaInicio_DataCard4.DataCardValue71.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Editor.Form4.FechaInicio_DataCard4.DataCardValue71.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Editor",
+                "type": "Editor.Form4.FechaInicio_DataCard4.DataCardValue71"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Editor.Form4.FechaTerminoContrato_DataCard4.DataCardValue72.AccessibleLabel"
                 }
               ],
@@ -728,156 +608,6 @@
                 "member": "AccessibleLabel",
                 "module": "Editor",
                 "type": "Editor.Form4.CMFecha_DataCard4.DataCardValue73"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Editor.Form4.DomicilioEmpresa_DataCard3.DataCardValue57.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Editor.Form4.DomicilioEmpresa_DataCard3.DataCardValue57.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Editor",
-                "type": "Editor.Form4.DomicilioEmpresa_DataCard3.DataCardValue57"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Editor.Form4.ApoderadoLegal_DataCard2.DataCardValue60.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Editor.Form4.ApoderadoLegal_DataCard2.DataCardValue60.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Editor",
-                "type": "Editor.Form4.ApoderadoLegal_DataCard2.DataCardValue60"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Editor.Form4.EsCarpeta_DataCard1.DataCardValue63.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Editor.Form4.EsCarpeta_DataCard1.DataCardValue63.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Editor",
-                "type": "Editor.Form4.EsCarpeta_DataCard1.DataCardValue63"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Editor.Form4.InePersonaFisica_DataCard3.DataCardValue68.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Editor.Form4.InePersonaFisica_DataCard3.DataCardValue68.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Editor",
-                "type": "Editor.Form4.InePersonaFisica_DataCard3.DataCardValue68"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Editor.Form4.FechaInicio_DataCard4.DataCardValue71.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Editor.Form4.FechaInicio_DataCard4.DataCardValue71.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Editor",
-                "type": "Editor.Form4.FechaInicio_DataCard4.DataCardValue71"
               }
             }
           ],
@@ -978,7 +708,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1038,7 +768,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1098,7 +828,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1158,7 +888,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1218,7 +948,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1278,7 +1008,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1338,7 +1068,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1428,7 +1158,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1585,6 +1315,156 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.StatusContrato_DataCard1.DataCardValue45.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.StatusContrato_DataCard1.DataCardValue45.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "InspeccionaInformacion",
+                "type": "InspeccionaInformacion.FormViewer3.StatusContrato_DataCard1.DataCardValue45"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.contratos_DataCard3.DataCardValue24.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.contratos_DataCard3.DataCardValue24.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "InspeccionaInformacion",
+                "type": "InspeccionaInformacion.FormViewer3.contratos_DataCard3.DataCardValue24"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.Persona_DataCard2.DataCardValue25.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.Persona_DataCard2.DataCardValue25.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "InspeccionaInformacion",
+                "type": "InspeccionaInformacion.FormViewer3.Persona_DataCard2.DataCardValue25"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.'Convenio Termino_DataCard1'.DataCardValue40.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.'Convenio Termino_DataCard1'.DataCardValue40.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "InspeccionaInformacion",
+                "type": "InspeccionaInformacion.FormViewer3.'Convenio Termino_DataCard1'.DataCardValue40"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.Incumplido_DataCard1.DataCardValue49.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.Incumplido_DataCard1.DataCardValue49.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "InspeccionaInformacion",
+                "type": "InspeccionaInformacion.FormViewer3.Incumplido_DataCard1.DataCardValue49"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Convenio_Modificatorio.Gallery1.AccessibleLabel"
                 }
               ],
@@ -1638,7 +1518,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1668,7 +1548,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1848,7 +1728,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2088,7 +1968,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2868,7 +2748,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2928,7 +2808,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2958,7 +2838,127 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Ajustes.Form6.StatusContrato_DataCard3.DataCardValue116.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Ajustes.Form6.StatusContrato_DataCard3.DataCardValue116.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ajustes",
+                "type": "Ajustes.Form6.StatusContrato_DataCard3.DataCardValue116"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.FalseText"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.FalseText",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FalseText",
+                "module": "Ajustes",
+                "type": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-StateIndicationTextNeeded",
           "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.TrueText"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.TrueText",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TrueText",
+                "module": "Ajustes",
+                "type": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-StateIndicationTextNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ajustes",
+                "type": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3175,36 +3175,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.Item"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.Item",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Item",
-                "module": "InspeccionaInformacion",
-                "type": "InspeccionaInformacion.FormViewer3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Editor.Form4.Item"
                 }
               ],
@@ -3259,6 +3229,36 @@
           },
           "ruleId": "app-UnusedVariables",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.Item"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "InspeccionaInformacion.FormViewer3.Item",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Item",
+                "module": "InspeccionaInformacion",
+                "type": "InspeccionaInformacion.FormViewer3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 6
         }
       ],
       "tool": {
@@ -3301,23 +3301,6 @@
               }
             },
             {
-              "id": "acc-StateIndicationTextNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Add State indication text"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Set ShowValue = true to show the current state of the control."
-                ],
-                "level": "Low",
-                "primaryCategory": "accessibility",
-                "whyFix": "Users won't get confirmation of their actions if the state of the control isn't showing."
-              }
-            },
-            {
               "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
               "messageStrings": {
                 "issue": {
@@ -3332,6 +3315,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "acc-StateIndicationTextNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Add State indication text"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Set ShowValue = true to show the current state of the control."
+                ],
+                "level": "Low",
+                "primaryCategory": "accessibility",
+                "whyFix": "Users won't get confirmation of their actions if the state of the control isn't showing."
               }
             },
             {
