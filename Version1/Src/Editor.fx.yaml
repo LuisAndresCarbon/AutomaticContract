@@ -2385,6 +2385,9 @@ Editor As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
+        OnSelect: |-
+            = Notify("Contrato, Actualizado", NotificationType.Success);
+            SubmitForm(Form4);EditForm(Form4);
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)

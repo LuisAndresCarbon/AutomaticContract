@@ -419,6 +419,47 @@ BorrarContratos As screen:
                 Width: =390
                 ZIndex: =2
 
+        Icon9 As icon.Warning:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(255, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =35
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Warning
+            OnSelect: =Select(Parent)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =If(Label26.Text = "Incumplido",true)
+            Width: =40
+            X: =1010
+            Y: =140
+            ZIndex: =28
+
+        Label26 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =33
+            OnSelect: =Select(Parent)
+            Size: =20
+            Text: =If(ThisItem.Incumplido = true,"Incumplido",true,"")
+            Width: =170
+            X: =1050
+            Y: =142
+            ZIndex: =29
+
     Component_Footer_2 As Component_Footer:
         Y: =716
         ZIndex: =2
