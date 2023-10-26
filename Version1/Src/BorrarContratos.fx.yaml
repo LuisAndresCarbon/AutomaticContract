@@ -435,7 +435,7 @@ BorrarContratos As screen:
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
-            Visible: =If(Label26.Text = "Incumplido",true)
+            Visible: =If(Label26.Text = "Incumplido",true, IsBlank(false))
             Width: =40
             X: =1010
             Y: =140

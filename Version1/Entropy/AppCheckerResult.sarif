@@ -1825,19 +1825,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Ajustes.Form6.StatusContrato_DataCard3.DataCardValue116.AccessibleLabel"
+                  "fullyQualifiedName": "Ajustes.Dropdown1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Ajustes.Form6.StatusContrato_DataCard3.DataCardValue116.AccessibleLabel",
+                  "fullyQualifiedName": "Ajustes.Dropdown1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Ajustes",
-                "type": "Ajustes.Form6.StatusContrato_DataCard3.DataCardValue116"
+                "type": "Ajustes.Dropdown1"
               }
             }
           ],
@@ -1855,19 +1855,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.FalseText"
+                  "fullyQualifiedName": "Ajustes.Gallery5.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.FalseText",
+                  "fullyQualifiedName": "Ajustes.Gallery5.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "FalseText",
+                "member": "TabIndex",
                 "module": "Ajustes",
-                "type": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117"
+                "type": "Ajustes.Gallery5"
               }
             }
           ],
@@ -1875,59 +1875,29 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Low"
+            "level": "Medium"
           },
-          "ruleId": "acc-StateIndicationTextNeeded",
-          "ruleIndex": 3
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.TrueText"
+                  "fullyQualifiedName": "Ajustes.Gallery5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.TrueText",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TrueText",
-                "module": "Ajustes",
-                "type": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-StateIndicationTextNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117.AccessibleLabel",
+                  "fullyQualifiedName": "Ajustes.Gallery5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Ajustes",
-                "type": "Ajustes.Form6.Incumplido_DataCard2.DataCardValue117"
+                "type": "Ajustes.Gallery5"
               }
             }
           ],
@@ -3168,7 +3138,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3198,7 +3168,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3228,7 +3198,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3258,7 +3228,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3288,7 +3258,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3318,7 +3288,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3348,7 +3318,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 5
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -3378,7 +3348,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 5
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -3408,7 +3378,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
+          "ruleIndex": 5
         }
       ],
       "tool": {
@@ -3465,23 +3435,6 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
-              }
-            },
-            {
-              "id": "acc-StateIndicationTextNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Add State indication text"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Set ShowValue = true to show the current state of the control."
-                ],
-                "level": "Low",
-                "primaryCategory": "accessibility",
-                "whyFix": "Users won't get confirmation of their actions if the state of the control isn't showing."
               }
             },
             {
