@@ -51,7 +51,7 @@ Ajustes As screen:
         SelectedColor: =
         SelectedFill: =RGBA(61, 184, 123, 1)
         Size: =13
-        Width: =770
+        Width: =1132
         X: =0
         Y: =70
         ZIndex: =4
@@ -131,8 +131,8 @@ Ajustes As screen:
         DataSource: =BdContratosLegal
         Height: =650
         Item: =DataTable1.Selected
-        Width: =590
-        X: =776
+        Width: =232
+        X: =1132
         Y: =70
         ZIndex: =5
 
@@ -147,7 +147,7 @@ Ajustes As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue116.Selected
-            Width: =588
+            Width: =231
             X: =0
             Y: =0
             ZIndex: =6
@@ -265,7 +265,7 @@ Ajustes As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue117.Value
-            Width: =588
+            Width: =231
             X: =0
             Y: =1
             ZIndex: =6
@@ -373,6 +373,18 @@ Ajustes As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
+        OnSelect: |-
+            =If(
+                IsBlank(DataCardValue116.Selected),
+                Notify("Por favor, selecciona una opcion", NotificationType.Error),
+                Switch(
+                    DataCardValue116.Selected.Value,
+                    "Vencido", SubmitForm(Form6);EditForm(Form6);Notify("El estado a cambiado a Vencido", NotificationType.Success);,
+                    "PorVencer",SubmitForm(Form6);EditForm(Form6);Notify("El estado a cambiado a Por Vencer", NotificationType.Success);,
+                    "En Proceso",SubmitForm(Form6);EditForm(Form6);Notify("El estado a cambiado a En Proceso", NotificationType.Success);,
+                    "Vigente",SubmitForm(Form6);EditForm(Form6);Notify("El estado a cambiado a Vigente", NotificationType.Success);
+                )
+            )
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
