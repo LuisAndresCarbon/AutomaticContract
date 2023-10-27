@@ -1514,7 +1514,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "FolioContrato_Columna3",
-      "ParentIndex": 0,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2299,7 +2299,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Incumplido_Columna1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2832,7 +2832,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Solicitante_Columna1",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2925,7 +2925,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "StatusContrato_Columna1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
