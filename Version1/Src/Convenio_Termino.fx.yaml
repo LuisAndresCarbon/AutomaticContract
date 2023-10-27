@@ -7,7 +7,10 @@ Convenio_Termino As screen:
         BorderColor: =RGBA(166, 166, 166, 1)
         DelayItemLoading: =true
         Height: =646
-        Items: =BdContratosLegal
+        Items: |-
+            =Filter(BdContratosLegal,
+            (Solicitante = User().FullName)
+            )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0

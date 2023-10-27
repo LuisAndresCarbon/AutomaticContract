@@ -416,7 +416,13 @@ BandejaContratos As screen:
         HoverFill: =RGBA(61, 184, 123, 1)
         InputFill: =RGBA(255, 255, 255, 1)
         InvertedColor: =RGBA(255, 255, 255, 1)
-        Items: =BdContratosLegal
+        Items: |-
+            =Filter(BdContratosLegal,
+            (IsBlank(Filtro_numeroC.Text) || Filtro_numeroC.Text in FolioContrato) &&
+            (IsBlank(Filtro_nomEmpresa.Text) || Filtro_nomEmpresa.Text in NomEmpresa) &&
+            (IsBlank(Filtro_Apoderado.Text) || Filtro_Apoderado.Text in ApoderadoLegal) &&
+            (IsBlank(Filtro_nomPersonF.Text) || Filtro_nomPersonF.Text in NomPersonaFisica)
+            )
         LinkColor: =RGBA(0, 134, 208, 1)
         PrimaryColor1: =RGBA(73, 130, 5, 1)
         PrimaryColor2: =ColorFade(RGBA(73, 130, 5, 1), -30%)
