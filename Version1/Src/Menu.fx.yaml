@@ -319,7 +319,7 @@ Menu As screen:
                 <strong>Ultima actualizacion</strong>
                 <em>,1 de noviembre de 2023</em>
               </span>"
-        Visible: =If(opcion = Button5,true)
+        Visible: =If(opcion = Button5,true,false)
         Width: =865
         X: =501
         Y: =70
