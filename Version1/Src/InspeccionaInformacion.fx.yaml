@@ -12,7 +12,8 @@ InspeccionaInformacion As screen:
         DataSource: =BdContratosLegal
         Height: =646
         Item: =DataTable2.Selected
-        Width: =1366
+        Width: =1294
+        X: =72
         Y: =70
         ZIndex: =3
 
@@ -26,7 +27,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
-            Width: =455
+            Width: =431
             X: =0
             Y: =0
             ZIndex: =1
@@ -84,7 +85,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =1
             Y: =0
             ZIndex: =1
@@ -143,7 +144,7 @@ InspeccionaInformacion As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue45.Selected
-            Width: =455
+            Width: =431
             X: =2
             Y: =0
             ZIndex: =1
@@ -261,7 +262,7 @@ InspeccionaInformacion As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue24.Selected
-            Width: =455
+            Width: =431
             X: =0
             Y: =1
             ZIndex: =1
@@ -377,7 +378,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =1
             Y: =1
             ZIndex: =1
@@ -436,7 +437,7 @@ InspeccionaInformacion As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue25.Selected
-            Width: =455
+            Width: =431
             X: =2
             Y: =1
             ZIndex: =1
@@ -552,7 +553,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =0
             Y: =2
             ZIndex: =1
@@ -610,7 +611,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =1
             Y: =2
             ZIndex: =1
@@ -668,7 +669,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =2
             Y: =2
             ZIndex: =1
@@ -726,7 +727,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =0
             Y: =3
             ZIndex: =1
@@ -784,7 +785,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =1
             Y: =3
             ZIndex: =1
@@ -842,7 +843,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =2
             Y: =3
             ZIndex: =1
@@ -900,7 +901,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =0
             Y: =4
             ZIndex: =1
@@ -958,7 +959,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =1
             Y: =4
             ZIndex: =1
@@ -1016,7 +1017,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =2
             Y: =4
             ZIndex: =1
@@ -1075,7 +1076,7 @@ InspeccionaInformacion As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue40.Selected
-            Width: =455
+            Width: =431
             X: =0
             Y: =5
             ZIndex: =1
@@ -1191,7 +1192,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =1
             Y: =5
             ZIndex: =1
@@ -1249,7 +1250,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =2
             Y: =5
             ZIndex: =1
@@ -1307,7 +1308,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =0
             Y: =6
             ZIndex: =1
@@ -1365,7 +1366,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =1
             Y: =6
             ZIndex: =1
@@ -1423,7 +1424,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Width: =455
+            Width: =431
             X: =2
             Y: =6
             ZIndex: =1
@@ -1480,7 +1481,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =0
             Y: =7
             ZIndex: =1
@@ -1538,7 +1539,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =1
             Y: =7
             ZIndex: =1
@@ -1596,7 +1597,7 @@ InspeccionaInformacion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =455
+            Width: =431
             X: =2
             Y: =7
             ZIndex: =1
@@ -1693,6 +1694,226 @@ InspeccionaInformacion As screen:
         Image: =CC_Isotipo
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        X: =415
+        X: =347
         ZIndex: =5
+
+    Container1_4 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(227, 240, 234, 1)
+        Height: =649
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =72
+        Y: =67
+        ZIndex: =6
+
+        pocoEspacio_2 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =20
+            HoverFill: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =70
+            ZIndex: =1
+
+        Icon4_1 As icon.LogJournal:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(8,143,131,100)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.LogJournal
+            OnSelect: =Set(Ver_Contrato,Blank());Navigate(Estados)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Consulta de Contratos"
+            ZIndex: =2
+
+        pocoEspacio_3 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =20
+            HoverFill: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =70
+            ZIndex: =4
+
+        NuevoC_1 As icon.AddDocument:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(8,143,131,100)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.AddDocument
+            OnSelect: =Navigate(Nuevo_Contrato)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Nuevo Contrato"
+            ZIndex: =5
+
+        ConveModi_1 As icon.DocumentwithContent:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(8,143,131,100)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.DocumentWithContent
+            OnSelect: =Navigate(Convenio_Modificatorio)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Convenio Modificatorio"
+            ZIndex: =6
+
+        ConveTermi_1 As icon.Error:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(8,143,131,100)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Error
+            OnSelect: =Navigate(Convenio_Termino)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Convenios de Terminacion"
+            ZIndex: =7
+
+        espacio_1 As circle:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(227, 240, 234, 1)
+            Height: =64
+            HoverFill: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =60
+            ZIndex: =8
+
+        Filtrado_1 As icon.FilterFlat:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(8,143,131,100)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Tray
+            OnSelect: =Navigate(BandejaContratos)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Bandeja de Contratos"
+            Visible: |-
+                =Switch(true,
+                    Legal = "Lider Legal",
+                    true,
+                    Legal = "Legal",
+                    true,
+                    Legal = "Programador",
+                    true,
+                    Legal = "Lider Operaciones",
+                    true,
+                    Legal = "Lider Desarrollo",
+                    true,
+                    Legal = "Lider MRV",
+                    true,
+                    Legal = "Lider Originacion",
+                    true,
+                    Legal = "Lider Originacion Geovolcánico",
+                    true,
+                    Legal = "Lider SIG",
+                    true,
+                    false
+                )
+            ZIndex: =9
+
+        ElimContrac_1 As icon.Trash:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(8,143,131,100)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Trash
+            OnSelect: =Navigate(BorrarContratos)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Eliminar Contratos"
+            Visible: |-
+                =Switch(true,
+                    Legal = "Lider Legal",
+                    true,
+                    Legal = "Legal",
+                    true,
+                    Legal = "Programador",
+                    true,
+                    false
+                )
+            ZIndex: =11
+
+        Ajus_1 As icon.ToolsWrench:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(8,143,131,100)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.ToolsWrench
+            OnSelect: =Navigate(Ajustes)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Ajustes,Estados,Incumplidos"
+            Visible: |-
+                =Switch(true,
+                    Legal = "Lider Legal",
+                    true,
+                    Legal = "Legal",
+                    true,
+                    Legal = "Programador",
+                    true,
+                    false
+                )
+            ZIndex: =12
 
