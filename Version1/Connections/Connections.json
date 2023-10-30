@@ -27,6 +27,9 @@
         "dataSources": {
           "Permisos": {
             "tableName": "2a2c56f3-1b67-4e80-8540-68e620e117a3"
+          },
+          "Portafolio Users": {
+            "tableName": "ec7d48cc-f260-471a-bc44-c78470f805b3"
           }
         }
       },
@@ -40,7 +43,8 @@
     },
     "dataSources": [
       "BdContratosLegal",
-      "Permisos"
+      "Permisos",
+      "Portafolio Users"
     ],
     "dependencies": {},
     "dependents": [],
