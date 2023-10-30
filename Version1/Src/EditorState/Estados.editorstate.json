@@ -196,7 +196,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "AnexosModificar_DataCard5",
-      "ParentIndex": 23,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2006,7 +2006,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CMFecha_DataCard5",
-      "ParentIndex": 15,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -17484,7 +17484,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DomicilioEmpresa_DataCard4",
-      "ParentIndex": 17,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -17618,7 +17618,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DomicilioPersonaFisica_DataCard3",
-      "ParentIndex": 18,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -18944,7 +18944,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Fecha_CT_DataCard5",
-      "ParentIndex": 16,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -19078,7 +19078,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "FechaInicio_DataCard6",
-      "ParentIndex": 19,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -19212,7 +19212,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "FechaTerminoContrato_DataCard5",
-      "ParentIndex": 11,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21207,7 +21207,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Incumplido_DataCard2",
-      "ParentIndex": 12,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21341,7 +21341,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InePersonaFisica_DataCard4",
-      "ParentIndex": 21,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21475,7 +21475,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ineRepresentante_DataCard4",
-      "ParentIndex": 13,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -22486,7 +22486,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MesesEstimados_DataCard3",
-      "ParentIndex": 20,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -22620,7 +22620,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MontoHonorario_DataCard4",
-      "ParentIndex": 14,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -23523,7 +23523,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PoderRepresentanteLegal_DataCard4",
-      "ParentIndex": 22,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

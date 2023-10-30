@@ -1755,6 +1755,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "BorrarContratos.Container9.Filtro_Solicitante.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BorrarContratos.Container9.Filtro_Solicitante.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "BorrarContratos",
+                "type": "BorrarContratos.Container9.Filtro_Solicitante"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "BorrarContratos.Gallery4.AccessibleLabel"
                 }
               ],
@@ -3688,36 +3718,6 @@
                 "member": "AccessibleLabel",
                 "module": "Estados",
                 "type": "Estados.Ver_Contratos.FormViewer4.'Convenio Termino_DataCard4'.DataCardValue103"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BorrarContratos.Container9.Filtro_Solicitante.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BorrarContratos.Container9.Filtro_Solicitante.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "BorrarContratos",
-                "type": "BorrarContratos.Container9.Filtro_Solicitante"
               }
             }
           ],

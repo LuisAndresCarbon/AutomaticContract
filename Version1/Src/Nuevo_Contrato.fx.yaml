@@ -1692,7 +1692,7 @@
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="FechaTerminoContrato"
                         Default: =ThisItem.FechaTerminoContrato
-                        DisplayMode: =Parent.DisplayMode
+                        DisplayMode: =DisplayMode.View
                         DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FechaTerminoContrato")
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
@@ -2847,7 +2847,7 @@
                             Y: =DataCardKey64.Y
                             ZIndex: =4
 
-        HtmlText2 As htmlViewer:
+        HtmlText_Info As htmlViewer:
             HtmlText: |-
                 ="<!DOCTYPE html>
                 <html lang='pl'>
@@ -3106,6 +3106,7 @@
                 		</div>
                 	</body>
                 </html>"
+            Visible: =false
             ZIndex: =4
 
     Container1_1 As groupContainer.manualLayoutContainer:
@@ -3132,11 +3133,27 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
-            OnSelect: |
-                =If(Form3.Valid,
+            OnSelect: |-
+                =If(
+                    Form3.Valid,
                     Navigate(notificacion),
-                    Notify("Por favor, completa todos los campos requeridos", NotificationType.Error)
+                    Notify(
+                        "Por favor, completa todos los campos requeridos",
+                        NotificationType.Error
+                    )
                 ) && SubmitForm(Form3);
+                Office365Outlook.SendEmailV2(
+                    "uriel@canopiacarbon.com",
+                    User().FullName & "Solicitud de Contrato",
+                    HtmlText_Info.HtmlText,
+                    {Importance: "High"}
+                );
+                Office365Outlook.SendEmailV2(
+                    "luis@canopiacarbon.com",
+                    User().FullName & "Solicitud de Contrato",
+                    HtmlText_Info.HtmlText,
+                    {Importance: "High"}
+                )
             PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)

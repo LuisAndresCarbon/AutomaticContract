@@ -362,7 +362,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Body2_1",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2228,7 +2228,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "FolioContrato_Columna3",
-      "ParentIndex": 0,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2806,7 +2806,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Incumplido_Columna1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2922,7 +2922,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplateBrowseGalleryNextIcon.ID%",
       "Name": "NextArrow3",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3345,7 +3345,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Solicitante_Columna1",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3438,7 +3438,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "StatusContrato_Columna1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3792,7 +3792,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplateBrowseGalleryTitle.ID%",
       "Name": "Title1",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
