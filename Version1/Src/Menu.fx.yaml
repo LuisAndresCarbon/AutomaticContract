@@ -222,6 +222,33 @@ Menu As screen:
                 )
             ZIndex: =12
 
+        Icon8 As icon.ListWatchlistRemind:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(73, 130, 5, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.ListWatchlistRemind
+            OnSelect: =Navigate(Asignar)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: |-
+                =Switch(true,
+                    Legal = "Lider Legal",
+                    true,
+                    Legal = "Legal",
+                    true,
+                    Legal = "Programador",
+                    true,
+                    false
+                )
+            ZIndex: =13
+
     Header_4 As Header:
         ZIndex: =2
 

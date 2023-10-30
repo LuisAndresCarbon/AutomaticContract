@@ -5,6 +5,7 @@
         BorderColor: =RGBA(166, 166, 166, 1)
         DataSource: =BdContratosLegal
         Height: =535
+        NumberOfColumns: =4
         Width: =1366
         Y: =99
         ZIndex: =1
@@ -19,7 +20,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
-            Width: =468
+            Width: =341
             X: =0
             Y: =0
             ZIndex: =2
@@ -78,7 +79,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue23.Selected
-            Width: =468
+            Width: =341
             X: =1
             Y: =0
             ZIndex: =2
@@ -195,7 +196,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue24.Selected
-            Width: =468
+            Width: =341
             X: =2
             Y: =0
             ZIndex: =2
@@ -311,9 +312,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =0
-            Y: =1
+            Width: =341
+            X: =3
+            Y: =0
             ZIndex: =2
 
             DataCardKey25 As label:
@@ -370,8 +371,8 @@
             Height: =50
             Required: =false
             Update: =DataCardValue26.Selected
-            Width: =468
-            X: =1
+            Width: =341
+            X: =0
             Y: =1
             ZIndex: =2
 
@@ -486,8 +487,8 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =2
+            Width: =341
+            X: =1
             Y: =1
             ZIndex: =2
 
@@ -544,9 +545,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =0
-            Y: =2
+            Width: =341
+            X: =2
+            Y: =1
             ZIndex: =2
 
             DataCardKey29 As label:
@@ -602,9 +603,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =1
-            Y: =2
+            Width: =341
+            X: =3
+            Y: =1
             ZIndex: =2
 
             DataCardKey30 As label:
@@ -660,8 +661,8 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =2
+            Width: =341
+            X: =0
             Y: =2
             ZIndex: =2
 
@@ -718,9 +719,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =0
-            Y: =3
+            Width: =341
+            X: =1
+            Y: =2
             ZIndex: =2
 
             DataCardKey33 As label:
@@ -776,9 +777,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =1
-            Y: =3
+            Width: =341
+            X: =2
+            Y: =2
             ZIndex: =2
 
             DataCardKey34 As label:
@@ -834,9 +835,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =2
-            Y: =3
+            Width: =341
+            X: =3
+            Y: =2
             ZIndex: =2
 
             DataCardKey35 As label:
@@ -892,9 +893,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
+            Width: =341
             X: =0
-            Y: =4
+            Y: =3
             ZIndex: =2
 
             DataCardKey37 As label:
@@ -950,9 +951,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
+            Width: =341
             X: =1
-            Y: =4
+            Y: =3
             ZIndex: =2
 
             DataCardKey40 As label:
@@ -1008,9 +1009,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
+            Width: =341
             X: =2
-            Y: =4
+            Y: =3
             ZIndex: =2
 
             DataCardKey41 As label:
@@ -1066,9 +1067,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =0
-            Y: =5
+            Width: =341
+            X: =3
+            Y: =3
             ZIndex: =2
 
             DataCardKey45 As label:
@@ -1124,9 +1125,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =1
-            Y: =5
+            Width: =341
+            X: =0
+            Y: =4
             ZIndex: =2
 
             DataCardKey46 As label:
@@ -1182,9 +1183,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =2
-            Y: =5
+            Width: =341
+            X: =1
+            Y: =4
             ZIndex: =2
 
             DataCardKey47 As label:
@@ -1240,9 +1241,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =0
-            Y: =6
+            Width: =341
+            X: =2
+            Y: =4
             ZIndex: =2
 
             DataCardKey48 As label:
@@ -1298,9 +1299,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =1
-            Y: =6
+            Width: =341
+            X: =3
+            Y: =4
             ZIndex: =2
 
             DataCardKey49 As label:
@@ -1357,9 +1358,9 @@
             Height: =50
             Required: =false
             Update: =DataCardValue50.Selected
-            Width: =468
-            X: =2
-            Y: =6
+            Width: =341
+            X: =0
+            Y: =5
             ZIndex: =2
 
             DataCardKey50 As label:
@@ -1473,9 +1474,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
-            X: =0
-            Y: =7
+            Width: =341
+            X: =1
+            Y: =5
             ZIndex: =2
 
             DataCardKey51 As label:
@@ -1532,9 +1533,9 @@
             Height: =50
             Required: =false
             Update: =DataCardValue52.Selected
-            Width: =468
-            X: =1
-            Y: =7
+            Width: =341
+            X: =2
+            Y: =5
             ZIndex: =2
 
             DataCardKey52 As label:
@@ -1648,9 +1649,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Width: =468
-            X: =2
-            Y: =7
+            Width: =341
+            X: =3
+            Y: =5
             ZIndex: =2
 
             DataCardKey63 As label:
@@ -1705,9 +1706,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
+            Width: =341
             X: =0
-            Y: =8
+            Y: =6
             ZIndex: =2
 
             DataCardKey102 As label:
@@ -1763,9 +1764,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
+            Width: =341
             X: =1
-            Y: =8
+            Y: =6
             ZIndex: =2
 
             DataCardKey106 As label:
@@ -1821,9 +1822,9 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =468
+            Width: =341
             X: =2
-            Y: =8
+            Y: =6
             ZIndex: =2
 
             DataCardKey107 As label:
