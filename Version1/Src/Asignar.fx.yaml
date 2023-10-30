@@ -539,7 +539,7 @@ Asignar As screen:
         ZIndex: =6
 
     HtmlText2 As htmlViewer:
-        AutoHeight: =
+        Height: =82
         HtmlText: |-
             ="<!DOCTYPE html>
             <html lang='pl'>
@@ -749,10 +749,11 @@ Asignar As screen:
             								<img width='250' height='60'src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkRFxZPnfzxqfkUL8bZ-IxhRfZdCIONdFZRnddZ9y&s'/>
             								<h1>Se te a asignado un nuevo contrato.</h1>
             							</center>
-                                        <h2>Saludos <p>""</p></h2>
+                                        <h2>Saludos <p>Prueba</p></h2>
             							<h2>Informacion:</h2>
-            							<p>
-            								"&Concatenate(Gallery5.Selected.FolioContrato)&"
+            							<p>"&Text(
+                    Value(Text(Gallery5.Selected.FolioContrato)&"
+            								
             							</p>
             						</td>
             					</tr>
@@ -774,7 +775,7 @@ Asignar As screen:
             							<br />
             							<h3>Solicitado por:</h3>
             							<p>
-            								"&&"
+            								PRUEBA
             							</p>
             						</td>
             					</tr>
@@ -799,6 +800,7 @@ Asignar As screen:
             	</body>
             </html>"
         OnSelect: =
+        Width: =246
         X: =1058
         Y: =215
         ZIndex: =7
