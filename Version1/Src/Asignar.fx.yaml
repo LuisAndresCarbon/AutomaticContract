@@ -515,8 +515,7 @@ Asignar As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-        OnSelect: |-
-            =Office365Outlook.SendEmailV2(Text(Dropdown3_1.SelectedText.Value) ,User().FullName & "Asignacion de Contrato",HtmlText2.HtmlText,{Importance: "High"})
+        OnSelect: =
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
