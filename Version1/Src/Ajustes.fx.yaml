@@ -148,7 +148,7 @@ Ajustes As screen:
     "Gallery5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         BorderColor: =RGBA(8,143,131,100)
         DelayItemLoading: =true
-        Height: =666
+        Height: =646
         Items: |-
             =Filter(BdContratosLegal,
             (Solicitante = Filtro_Solicitante.Selected.Result || Filtro_Solicitante.Selected.Result = Blank())
