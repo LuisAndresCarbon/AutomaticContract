@@ -3059,8 +3059,8 @@
                 							</center>
                 							<h2>Informacion:</h2>
                 							<p>
-                								"&Concatenate("Nombre del Contrato: ",DataCardValue1.Text,
-                                                "Tipo de contrato: ",DataCardValue38.Text)&"
+                								"&Concatenate("Tipo de contrato : ",DataCardValue42.Selected.Value,"<br>",
+                                                "Nombre del Contrato: ",DataCardValue38.Text)&"
                 							</p>
                 						</td>
                 					</tr>
@@ -3094,7 +3094,7 @@
                 								<span style='color: #706d6b'> © 2023 Canopia Carbon</span>
                 							</center>
                 							<div class='contra-flex'>
-                								<a href='https://contra.me' class='contra-link'>
+                								<a href='mailto:uriel@canopiacarbon.com' class='contra-link'>
                 									<img src='https://img.icons8.com/?size=64&id=LPcVDft9Isqt&format=png' alt='Image' />
                 								</a>
                 							</div>
