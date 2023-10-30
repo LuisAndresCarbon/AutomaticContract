@@ -3059,7 +3059,8 @@
                 							</center>
                 							<h2>Informacion:</h2>
                 							<p>
-                								"&Concatenate("Nombre del Contrato: ",DataCardValue1.Text)&"
+                								"&Concatenate("Nombre del Contrato: ",DataCardValue1.Text,
+                                                "Tipo de contrato: ",DataCardValue38.Text)&"
                 							</p>
                 						</td>
                 					</tr>
@@ -3081,7 +3082,7 @@
                 							<br />
                 							<h3>Solicitado por:</h3>
                 							<p>
-                								'&"Concatenate(Text(Value(DataCardValue42.Text)))"&'
+                								"&Concatenate(DataCardValue15.Text)&"
                 							</p>
                 						</td>
                 					</tr>
