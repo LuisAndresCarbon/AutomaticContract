@@ -3055,7 +3055,7 @@
                 							<div class='contra-margin'></div>
                 							<center>
                 								<h1>Nuevo Contrato !</h1>
-                								<img width='200' height='100'src='"&Image1.Image&"' alt='Image1' />
+                								<img width='200' height='100'src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkRFxZPnfzxqfkUL8bZ-IxhRfZdCIONdFZRnddZ9y&s'/>
                 							</center>
                 							<h2>Informacion:</h2>
                 							<p>
@@ -3071,7 +3071,7 @@
                 
                 						<td class='contra-td' colspan='2' style='padding-left: 5px; width: 33%'>
                 							<a href='https://make.powerapps.com/' class='contra-link'>
-                							'"&Image1.Image&"'
+                								<img width='48' height='48' src='https://img.icons8.com/fluency/48/microsoft-power-apps.png' alt='microsoft-power-apps'/>
                 							</a>
                 						</td>
                 					</tr>
