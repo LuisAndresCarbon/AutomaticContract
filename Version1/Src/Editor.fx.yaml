@@ -12,8 +12,7 @@ Editor As screen:
         DataSource: =BdContratosLegal
         Height: =646
         Item: =DataTable2.Selected
-        Width: =1302
-        X: =64
+        Width: =1366
         Y: =70
         ZIndex: =3
 
@@ -29,7 +28,7 @@ Editor As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "Title")
             Required: =true
             Update: =DataCardValue54.Text
-            Width: =434
+            Width: =455
             X: =0
             Y: =0
             ZIndex: =1
@@ -143,7 +142,7 @@ Editor As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue75.Selected
-            Width: =434
+            Width: =455
             X: =1
             Y: =0
             ZIndex: =1
@@ -261,7 +260,7 @@ Editor As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =434
+            Width: =455
             X: =2
             Y: =0
             ZIndex: =1
@@ -320,7 +319,7 @@ Editor As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue55.Selected
-            Width: =434
+            Width: =455
             X: =0
             Y: =1
             ZIndex: =1
@@ -439,7 +438,7 @@ Editor As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "NomEmpresa")
             Required: =false
             Update: =DataCardValue56.Text
-            Width: =434
+            Width: =455
             X: =1
             Y: =1
             ZIndex: =1
@@ -554,7 +553,7 @@ Editor As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "DomicilioEmpresa")
             Required: =false
             Update: =DataCardValue57.Text
-            Width: =434
+            Width: =455
             X: =2
             Y: =1
             ZIndex: =1
@@ -669,7 +668,7 @@ Editor As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "NomPersonaFisica")
             Required: =false
             Update: =DataCardValue58.Text
-            Width: =434
+            Width: =455
             X: =0
             Y: =2
             ZIndex: =1
@@ -784,7 +783,7 @@ Editor As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "DimicilioPersonaFisica")
             Required: =false
             Update: =DataCardValue59.Text
-            Width: =434
+            Width: =455
             X: =1
             Y: =2
             ZIndex: =1
@@ -899,7 +898,7 @@ Editor As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "ApoderadoLegal")
             Required: =false
             Update: =DataCardValue60.Text
-            Width: =434
+            Width: =455
             X: =2
             Y: =2
             ZIndex: =1
@@ -1014,7 +1013,7 @@ Editor As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "PoderRepresentanteLegal")
             Required: =false
             Update: =DataCardValue61.Text
-            Width: =434
+            Width: =455
             X: =0
             Y: =3
             ZIndex: =1
@@ -1129,7 +1128,7 @@ Editor As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "CaratulaBancaria")
             Required: =false
             Update: =DataCardValue62.Text
-            Width: =434
+            Width: =455
             X: =1
             Y: =3
             ZIndex: =1
@@ -1232,63 +1231,6 @@ Editor As screen:
                 Y: =DataCardKey62.Y
                 ZIndex: =4
 
-        EsCarpeta_DataCard1 As typedDataCard.toggleViewCard:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="{IsFolder}"
-            Default: =ThisItem.EsCarpeta
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"{IsFolder}")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Width: =434
-            X: =2
-            Y: =3
-            ZIndex: =1
-
-            DataCardKey63 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                PaddingLeft: =0
-                Size: =13
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue63 As toggleSwitch:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderStyle: =BorderStyle.None
-                Color: =RGBA(51, 51, 51, 1)
-                Default: =Parent.Default
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisplayMode: =Parent.DisplayMode
-                FalseFill: =RGBA(102, 102, 102, 1)
-                FalseHoverFill: =RGBA(33, 33, 33, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                HandleFill: =RGBA(255, 255, 255, 1)
-                HoverBorderColor: =RGBA(0, 0, 0, 0)
-                PressedBorderColor: =RGBA(0, 0, 0, 0)
-                Size: =13
-                TrueFill: =RGBA(73, 130, 5, 1)
-                TrueHoverFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                X: =30
-                Y: =DataCardKey63.Y + DataCardKey63.Height + 5
-                ZIndex: =2
-
         ActaConstitutiva_DataCard3 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
@@ -1301,9 +1243,9 @@ Editor As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "ActaConstitutiva")
             Required: =false
             Update: =DataCardValue65.Text
-            Width: =434
-            X: =0
-            Y: =4
+            Width: =455
+            X: =2
+            Y: =3
             ZIndex: =1
 
             DataCardKey65 As label:
@@ -1416,8 +1358,8 @@ Editor As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "ineRepresentante")
             Required: =false
             Update: =DataCardValue67.Text
-            Width: =434
-            X: =1
+            Width: =455
+            X: =0
             Y: =4
             ZIndex: =1
 
@@ -1531,8 +1473,8 @@ Editor As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "InePersonaFisica")
             Required: =false
             Update: =DataCardValue68.Text
-            Width: =434
-            X: =2
+            Width: =455
+            X: =1
             Y: =4
             ZIndex: =1
 
@@ -1645,9 +1587,9 @@ Editor As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue69.Selected
-            Width: =434
-            X: =0
-            Y: =5
+            Width: =455
+            X: =2
+            Y: =4
             ZIndex: =1
 
             DataCardKey69 As label:
@@ -1764,8 +1706,8 @@ Editor As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "MontoHonorario")
             Required: =false
             Update: =DataCardValue70.Text
-            Width: =434
-            X: =1
+            Width: =455
+            X: =0
             Y: =5
             ZIndex: =1
 
@@ -1878,8 +1820,8 @@ Editor As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue71.SelectedDate
-            Width: =434
-            X: =2
+            Width: =455
+            X: =1
             Y: =5
             ZIndex: =1
 
@@ -1986,9 +1928,9 @@ Editor As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue72.SelectedDate
-            Width: =434
-            X: =0
-            Y: =6
+            Width: =455
+            X: =2
+            Y: =5
             ZIndex: =1
 
             DataCardKey72 As label:
@@ -2094,8 +2036,8 @@ Editor As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue73.SelectedDate
-            Width: =434
-            X: =1
+            Width: =455
+            X: =0
             Y: =6
             ZIndex: =1
 
@@ -2202,8 +2144,8 @@ Editor As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue74.SelectedDate
-            Width: =434
-            X: =2
+            Width: =455
+            X: =1
             Y: =6
             ZIndex: =1
 
@@ -2309,9 +2251,9 @@ Editor As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =434
-            X: =0
-            Y: =7
+            Width: =455
+            X: =2
+            Y: =6
             ZIndex: =1
 
             DataCardKey76 As label:
@@ -2401,224 +2343,4 @@ Editor As screen:
         X: =1168
         Y: =722
         ZIndex: =6
-
-    Container1_5 As groupContainer.verticalAutoLayoutContainer:
-        DropShadow: =DropShadow.Light
-        Fill: =RGBA(227, 240, 234, 1)
-        Height: =649
-        LayoutDirection: =LayoutDirection.Vertical
-        LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =4
-        RadiusBottomRight: =4
-        RadiusTopLeft: =4
-        RadiusTopRight: =4
-        Width: =64
-        Y: =67
-        ZIndex: =7
-
-        pocoEspacio_4 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            Fill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =20
-            HoverFill: =RGBA(0, 0, 0, 0)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =70
-            ZIndex: =1
-
-        Icon4_2 As icon.LogJournal:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(8,143,131,100)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.LogJournal
-            OnSelect: =Set(Ver_Contrato,Blank());Navigate(Estados)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Consulta de Contratos"
-            ZIndex: =2
-
-        pocoEspacio_5 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            Fill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =20
-            HoverFill: =RGBA(0, 0, 0, 0)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =70
-            ZIndex: =4
-
-        NuevoC_2 As icon.AddDocument:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(8,143,131,100)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.AddDocument
-            OnSelect: =Navigate(Nuevo_Contrato)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Nuevo Contrato"
-            ZIndex: =5
-
-        ConveModi_2 As icon.DocumentwithContent:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(8,143,131,100)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.DocumentWithContent
-            OnSelect: =Navigate(Convenio_Modificatorio)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Convenio Modificatorio"
-            ZIndex: =6
-
-        ConveTermi_2 As icon.Error:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(8,143,131,100)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.Error
-            OnSelect: =Navigate(Convenio_Termino)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Convenios de Terminacion"
-            ZIndex: =7
-
-        espacio_2 As circle:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            Fill: =RGBA(227, 240, 234, 1)
-            Height: =64
-            HoverFill: =RGBA(0, 0, 0, 0)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =60
-            ZIndex: =8
-
-        Filtrado_2 As icon.FilterFlat:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(8,143,131,100)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.Tray
-            OnSelect: =Navigate(BandejaContratos)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Bandeja de Contratos"
-            Visible: |-
-                =Switch(true,
-                    Legal = "Lider Legal",
-                    true,
-                    Legal = "Legal",
-                    true,
-                    Legal = "Programador",
-                    true,
-                    Legal = "Lider Operaciones",
-                    true,
-                    Legal = "Lider Desarrollo",
-                    true,
-                    Legal = "Lider MRV",
-                    true,
-                    Legal = "Lider Originacion",
-                    true,
-                    Legal = "Lider Originacion Geovolcánico",
-                    true,
-                    Legal = "Lider SIG",
-                    true,
-                    false
-                )
-            ZIndex: =9
-
-        ElimContrac_2 As icon.Trash:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(8,143,131,100)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.Trash
-            OnSelect: =Navigate(BorrarContratos)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Eliminar Contratos"
-            Visible: |-
-                =Switch(true,
-                    Legal = "Lider Legal",
-                    true,
-                    Legal = "Legal",
-                    true,
-                    Legal = "Programador",
-                    true,
-                    false
-                )
-            ZIndex: =11
-
-        Ajus_2 As icon.ToolsWrench:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(8,143,131,100)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.ToolsWrench
-            OnSelect: =Navigate(Ajustes)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Ajustes,Estados,Incumplidos"
-            Visible: |-
-                =Switch(true,
-                    Legal = "Lider Legal",
-                    true,
-                    Legal = "Legal",
-                    true,
-                    Legal = "Programador",
-                    true,
-                    false
-                )
-            ZIndex: =12
 

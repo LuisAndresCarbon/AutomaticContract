@@ -4,158 +4,6 @@ Ajustes As screen:
     Component_Footer_3 As Component_Footer:
         Y: =716
 
-    "Gallery5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
-        BorderColor: =RGBA(166, 166, 166, 1)
-        DelayItemLoading: =true
-        Height: =361
-        Items: =BdContratosLegal
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =116
-        Width: =794
-        Y: =330
-        ZIndex: =1
-
-        Title1 As label:
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.Título
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 86
-            X: =16
-            Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle3.Size*1.8 + 2 + Body2.Size*1.8)) / 2
-            ZIndex: =1
-
-        Subtitle3 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.FolioContrato
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title1.Width
-            X: =Title1.X
-            Y: =Title1.Y + Title1.Height
-            ZIndex: =2
-
-        Body2 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.Solicitante
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title1.Width
-            X: =Title1.X
-            Y: =Subtitle3.Y + Subtitle3.Height
-            ZIndex: =3
-
-        NextArrow3 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(166, 166, 166, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =50
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =16
-            PaddingLeft: =16
-            PaddingRight: =16
-            PaddingTop: =16
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Ver los detalles del elemento"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
-
-        Separator4 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =5
-
-        Rectangle4 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            Height: =Parent.TemplateHeight - Separator4.Height
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =4
-            ZIndex: =6
-
-        Body2_1 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =21
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.StatusContrato.Value
-            VerticalAlign: =VerticalAlign.Top
-            Width: =351
-            X: =298
-            Y: =24
-            ZIndex: =7
-
-        Body2_2 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =21
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.Incumplido
-            VerticalAlign: =VerticalAlign.Top
-            Width: =351
-            X: =298
-            Y: =62
-            ZIndex: =8
-
     Header_8 As Header:
         ZIndex: =2
 
@@ -175,109 +23,6 @@ Ajustes As screen:
         Width: =68
         X: =442
         ZIndex: =3
-
-    DataTable1 As dataTable.datatable:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.Solid
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisplayMode: =DisplayMode.Edit
-        Fill: =RGBA(0, 0, 0, 0)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Normal
-        HeadingColor: =RGBA(255, 255, 255, 1)
-        HeadingFill: =RGBA(8, 143, 131, 1)
-        HeadingFont: =Font.'Segoe UI'
-        HeadingFontWeight: =FontWeight.Normal
-        HeadingSize: =13
-        Height: =260
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(8, 143, 131, 0.46)
-        InputFill: =RGBA(255, 255, 255, 1)
-        InvertedColor: =RGBA(255, 255, 255, 1)
-        Items: =BdContratosLegal
-        LinkColor: =RGBA(0, 134, 208, 1)
-        PrimaryColor1: =RGBA(73, 130, 5, 1)
-        PrimaryColor2: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        PrimaryColor3: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-        SelectedColor: =
-        SelectedFill: =RGBA(61, 184, 123, 1)
-        Size: =13
-        Width: =794
-        X: =0
-        Y: =70
-        ZIndex: =4
-
-        StatusContrato_Columna1 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="StatusContrato"
-            FieldName: ="StatusContrato"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =24
-            Text: =ThisItem.StatusContrato.Value
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =23
-
-        Incumplido_Columna1 As dataTableColumn.booleanColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Incumplido"
-            FieldName: ="Incumplido"
-            FieldVariantName: ="booleanColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            OnSelect: =
-            Order: =27
-            Text: =ThisItem.Incumplido
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =24
-
-        Solicitante_Columna1 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Solicitante"
-            FieldName: ="Solicitante"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =28
-            Text: =ThisItem.Solicitante
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =27
-
-        FolioContrato_Columna3 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="FolioContrato"
-            FieldName: ="NomContratoInterno"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =23
-            Text: =ThisItem.FolioContrato
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =28
-
-        Título_Columna3 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Título"
-            FieldName: ="Title"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =29
-            Text: =ThisItem.Título
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =29
 
     Button12 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -304,8 +49,8 @@ Ajustes As screen:
         Size: =15
         Text: ="Confirmar"
         Width: =176
-        X: =1155
-        Y: =123
+        X: =1190
+        Y: =122
         ZIndex: =6
 
     Dropdown1 As dropdown:
@@ -334,8 +79,9 @@ Ajustes As screen:
         PressedFill: =RGBA(73, 130, 5, 1)
         SelectionFill: =RGBA(73, 130, 5, 1)
         Size: =13
-        X: =794
-        Y: =121
+        Width: =190
+        X: =967
+        Y: =120
         ZIndex: =7
 
     Dropdown3 As dropdown:
@@ -351,6 +97,7 @@ Ajustes As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Font: =Font.'Segoe UI'
+        Height: =39
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
@@ -364,8 +111,9 @@ Ajustes As screen:
         PressedFill: =RGBA(73, 130, 5, 1)
         SelectionFill: =RGBA(73, 130, 5, 1)
         Size: =13
-        X: =794
-        Y: =180
+        Width: =190
+        X: =967
+        Y: =179
         ZIndex: =9
 
     Button12_1 As button:
@@ -393,7 +141,449 @@ Ajustes As screen:
         Size: =15
         Text: ="Confirmar"
         Width: =176
-        X: =1155
-        Y: =181
+        X: =1190
+        Y: =180
         ZIndex: =10
+
+    "Gallery5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        BorderColor: =RGBA(8,143,131,100)
+        DelayItemLoading: =true
+        Height: =666
+        Items: |-
+            =Filter(BdContratosLegal,
+            (Solicitante = Filtro_Solicitante.Selected.Result || Filtro_Solicitante.Selected.Result = Blank())
+            )
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =228
+        Width: =951
+        Y: =70
+        ZIndex: =11
+
+        Title4_1 As label:
+            Color: =RGBA(50, 49, 48, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =26
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: =ThisItem.Título
+            VerticalAlign: =VerticalAlign.Top
+            Width: =222
+            X: =16
+            Y: =11
+            ZIndex: =5
+
+        Separator3_1 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =8
+
+        Rectangle5_1 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Fill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            Height: =Parent.TemplateHeight - Separator3_1.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =9
+
+        Container8_1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =39
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =182
+            X: =556
+            Y: =136
+            ZIndex: =20
+
+            Label32_1 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: |-
+                    =Switch(true,ThisItem.StatusContrato.Value="Vigente",RGBA(67, 116, 6,1),
+                    ThisItem.StatusContrato.Value="En Proceso",Color.Blue,
+                    ThisItem.StatusContrato.Value="PorVencer",RGBA(143, 98, 0,1),
+                    ThisItem.StatusContrato.Value="Vencido",RGBA(164, 38, 44,1))
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Fill: |-
+                    =Switch(true,ThisItem.StatusContrato.Value="Vigente",RGBA(202, 240, 204,1),
+                    ThisItem.StatusContrato.Value="En Proceso",RGBA(212, 231, 246,4),
+                    ThisItem.StatusContrato.Value="PorVencer",Color.Yellow,
+                    ThisItem.StatusContrato.Value="Vencido",RGBA(250, 187, 195,1))
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =39
+                Size: =20
+                Text: =ThisItem.StatusContrato.Value
+                Width: =182
+                ZIndex: =1
+
+        Container10_1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =36
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =243
+            X: =275
+            Y: =175
+            ZIndex: =21
+
+            Label30_1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =25
+                OnSelect: =
+                Size: =13
+                Text: |-
+                    ="Fecha de termino:"
+                Width: =165
+                Y: =9
+                ZIndex: =1
+
+            Label31_1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =25
+                OnSelect: =
+                Size: =13
+                Text: =ThisItem.FechaTerminoContrato
+                Width: =103
+                X: =140
+                Y: =9
+                ZIndex: =2
+
+        Container11_1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =36
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =245
+            X: =16
+            Y: =175
+            ZIndex: =22
+
+            Label29_1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =24
+                OnSelect: =
+                Size: =13
+                Text: |-
+                    ="   Fecha de inicio:"
+                Width: =143
+                Y: =9
+                ZIndex: =1
+
+            Label28_1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =24
+                OnSelect: =
+                Size: =13
+                Text: =ThisItem.FechaInicio
+                Width: =100
+                X: =143
+                Y: =9
+                ZIndex: =2
+
+        Container12_1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =35
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =446
+            X: =16
+            Y: =85
+            ZIndex: =23
+
+            Label18_1 As label:
+                BorderColor: =RGBA(8, 143, 131, 1)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =26
+                OnSelect: =
+                Size: =13
+                Text: |-
+                    ="Tipo de contrato:"
+                Width: =169
+                ZIndex: =1
+
+            Body1_1 As label:
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                Height: =35
+                OnSelect: =
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =12
+                Text: =ThisItem.contratos.Value
+                VerticalAlign: =VerticalAlign.Top
+                Width: =277
+                X: =169
+                ZIndex: =2
+
+        Container14_1 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =28
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =446
+            X: =16
+            Y: =46
+            ZIndex: =24
+
+            Label17_1 As label:
+                BorderColor: =RGBA(8, 143, 131, 1)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =30
+                OnSelect: =
+                Size: =13
+                Text: |-
+                    ="                   Folio:"
+                Width: =169
+                X: =16
+                Y: =37
+                ZIndex: =1
+
+            Subtitle4_1 As label:
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                Height: =28
+                OnSelect: =
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =12
+                Text: =ThisItem.FolioContrato
+                VerticalAlign: =VerticalAlign.Top
+                Width: =138
+                X: =178
+                Y: =42
+                ZIndex: =2
+
+        Container15_1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =36
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =446
+            X: =16
+            Y: =130
+            ZIndex: =25
+
+            Label22_1 As label:
+                BorderColor: =RGBA(8, 143, 131, 1)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =36
+                OnSelect: =
+                Size: =13
+                Text: |-
+                    ="           Solicitante:"
+                Width: =162
+                ZIndex: =1
+
+            Label21_1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =36
+                OnSelect: =
+                Size: =13
+                Text: =ThisItem.Solicitante
+                Width: =284
+                X: =162
+                ZIndex: =2
+
+        Container17_1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =26
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =390
+            X: =518
+            Y: =11
+            ZIndex: =26
+
+            Label23_1 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =26
+                Size: =13
+                Text: =ThisItem.Persona.Value
+                Width: =390
+                ZIndex: =1
+
+        Container21_1 As groupContainer.verticalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =74
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =390
+            X: =518
+            Y: =46
+            ZIndex: =27
+
+            Label25_1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Size: =13
+                Text: =ThisItem.NomEmpresa
+                Width: =390
+                ZIndex: =1
+
+            Label24_1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =28
+                Size: =13
+                Text: =ThisItem.NomPersonaFisica
+                Width: =390
+                ZIndex: =2
+
+        Icon9_1 As icon.Warning:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(255, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =35
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Warning
+            OnSelect: =Select(Parent)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =If(Label26_1.Text = "Incumplido",true, IsBlank(false))
+            Width: =40
+            X: =544
+            Y: =185
+            ZIndex: =28
+
+        Label26_1 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =33
+            OnSelect: =Select(Parent)
+            Size: =20
+            Text: =If(ThisItem.Incumplido = true,"Incumplido",true,"")
+            Width: =170
+            X: =584
+            Y: =187
+            ZIndex: =29
 
