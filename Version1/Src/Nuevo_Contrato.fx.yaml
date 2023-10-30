@@ -345,7 +345,7 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: ="Folio del Contrato"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -440,9 +440,7 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: |-
-                                ="Nombre de la Empresa
-                                "
+                            Text: ="Nombre de la Empresa"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -558,7 +556,7 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: ="Nombre de la Persona Física" 
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -674,7 +672,7 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: ="Apoderado Legal"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -781,7 +779,7 @@
                             Font: =Font.'Segoe UI'
                             FontWeight: =FontWeight.Semibold
                             Size: =13
-                            Text: ="Poder Representante Legal"
+                            Text: ="Poder del Representante Legal"
                             Width: =250
                             X: =40
                             Y: =10
@@ -886,7 +884,7 @@
                             Font: =Font.'Segoe UI'
                             FontWeight: =FontWeight.Semibold
                             Size: =13
-                            Text: ="INE Representante"
+                            Text: ="INE del Representante"
                             Width: =200
                             X: =40
                             Y: =10
@@ -939,7 +937,7 @@
                             Font: =Font.'Segoe UI'
                             FontWeight: =FontWeight.Semibold
                             Size: =13
-                            Text: ="INE Persona Fisica"
+                            Text: ="INE de la Persona Fisica"
                             Width: =200
                             X: =40
                             Y: =10
@@ -1079,7 +1077,7 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: ="Domiciolio de la Empresa"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -1195,7 +1193,7 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: ="Domicilio de la Persona Física"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -1338,7 +1336,7 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: ="Monto Honorario"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -1453,7 +1451,7 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: ="Fecha de Inicio"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -1719,7 +1717,7 @@
                             Height: =34
                             PaddingLeft: =0
                             Size: =13
-                            Text: =Parent.DisplayName
+                            Text: ="Fecha de Termino del Contrato"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30

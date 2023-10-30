@@ -319,7 +319,7 @@ Menu As screen:
                 <strong>Ultima actualizacion</strong>
                 <em>,1 de noviembre de 2023</em>
               </span>"
-        Visible: =If(opcion = Button5,true,false)
+        Visible: =N_C
         Width: =865
         X: =501
         Y: =70
@@ -377,7 +377,10 @@ Menu As screen:
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
-                OnSelect: =Set(opcion,Button5)
+                OnSelect: |-
+                    =Set(C_T,Blank());
+                    Set(C_M,Blank());
+                    Set(N_C,true)
                 PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
@@ -417,7 +420,10 @@ Menu As screen:
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
-                OnSelect: =Set(opcion,Button6)
+                OnSelect: |-
+                    =Set(N_C,Blank());
+                    Set(C_T,Blank());
+                    Set(C_M,true)
                 PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
@@ -457,7 +463,10 @@ Menu As screen:
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
-                OnSelect: =Set(opcion,Button7)
+                OnSelect: |-
+                    =Set(N_C,Blank());
+                    Set(C_M,Blank());
+                    Set(C_T,true)
                 PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
@@ -522,7 +531,7 @@ Menu As screen:
                     <strong>Ultima actualizacion</strong>
                     <em>,1 de noviembre de 2023</em>
                   </span>"
-        Visible: =If(opcion = Button6,true,false)
+        Visible: =C_M
         Width: =865
         X: =501
         Y: =71
@@ -592,7 +601,7 @@ Menu As screen:
                   </span>
             </body>
             </html>"
-        Visible: =If(opcion = Button7,true,false)
+        Visible: =C_T
         Width: =865
         X: =501
         Y: =71

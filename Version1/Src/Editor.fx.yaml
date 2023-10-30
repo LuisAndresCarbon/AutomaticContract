@@ -162,7 +162,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Status del Contrato"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -280,7 +280,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Folio del Contrato"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -458,7 +458,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Nombre de la Empresa"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -573,7 +573,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Domicilio de la Empresa"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -688,7 +688,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Nombre de la Persona Física"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -803,7 +803,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Domicilio de la Persona Físcia"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -918,7 +918,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Apoderado Legal"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -1033,7 +1033,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Poder del Representante Legal"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -1148,7 +1148,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Caratula Bancaria"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -1320,7 +1320,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Acta Constitutiva"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -1435,7 +1435,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="INE del Representante"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -1550,7 +1550,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="INE Persona Física"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -1783,7 +1783,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Monto del Honorario"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -1897,7 +1897,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Fecha de Inicio"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -2005,7 +2005,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Fecha Termino del Contrato"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -2113,7 +2113,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Fecha de Convenio Modificatorio"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -2221,7 +2221,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Fecha Converio Termino"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -2328,7 +2328,7 @@ Editor As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Meses de Termino Estimados"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30

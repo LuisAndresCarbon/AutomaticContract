@@ -8,6 +8,9 @@ App As appinfo:
                 Persona.Email = User().Email,
                 Título
             )
+        );
+        Set(
+            N_C,true
         )
     Theme: =PowerAppsTheme
 
