@@ -3405,36 +3405,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.Logo Vertical Texto Verde"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.Logo Vertical Texto Verde",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Logo Vertical Texto Verde",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.TipoContra"
                 }
               ],

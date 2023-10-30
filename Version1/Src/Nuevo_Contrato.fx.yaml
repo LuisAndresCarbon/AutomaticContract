@@ -3055,7 +3055,7 @@
                 							<div class='contra-margin'></div>
                 							<center>
                 								<h1>Nuevo Contrato !</h1>
-                								<img width='200' height='100'src='Image' alt='Image' />
+                								<img width='200' height='100'src='"&Image1&"' alt='Image' />
                 							</center>
                 							<h2>Informacion:</h2>
                 							<p>
@@ -3256,4 +3256,20 @@
         X: =962
         Y: =726
         ZIndex: =12
+
+    Image1 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: ='Logo Vertical Texto Verde'
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =1236
+        Y: =592
+        ZIndex: =13
 
