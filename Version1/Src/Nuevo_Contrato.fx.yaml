@@ -3055,11 +3055,11 @@
                 							<div class='contra-margin'></div>
                 							<center>
                 								<h1>Nuevo Contrato !</h1>
-                								<img width='200' height='100'src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkRFxZPnfzxqfkUL8bZ-IxhRfZdCIONdFZRnddZ9y&s'/>
+                								<img width='250' height='60'src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkRFxZPnfzxqfkUL8bZ-IxhRfZdCIONdFZRnddZ9y&s'/>
                 							</center>
                 							<h2>Informacion:</h2>
                 							<p>
-                								'Datos Contrato &''&'
+                								"&Concatenate("Nombre del Contrato: ",DataCardValue1.Text)&"
                 							</p>
                 						</td>
                 					</tr>
@@ -3081,7 +3081,7 @@
                 							<br />
                 							<h3>Solicitado por:</h3>
                 							<p>
-                								'&&'
+                								'&"Concatenate(Text(Value(DataCardValue42.Text)))"&'
                 							</p>
                 						</td>
                 					</tr>

@@ -97,7 +97,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 1,
+    "BindingErrorCount": 5,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -116,7 +116,7 @@
     "ManualOfflineProfileId": "",
     "Name": "Automatic Contract",
     "OriginatingVersion": "1.334",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 3,
     "ShowStatusBar": false
   },
   "PublishInfo": {
