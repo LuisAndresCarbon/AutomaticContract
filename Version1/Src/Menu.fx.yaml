@@ -224,7 +224,7 @@ Menu As screen:
 
         Icon8 As icon.ListWatchlistRemind:
             BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
+            Color: =RGBA(8, 143, 131, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
