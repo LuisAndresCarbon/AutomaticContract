@@ -243,7 +243,9 @@
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             BorderThickness: =2
                             Color: =RGBA(51, 51, 51, 1)
-                            Default: =//4 valores de tipo de contrato + valor seleccionado de persona "predeterminado"
+                            Default: |-
+                                =//4 valores de tipo de contrato + valor seleccionado de persona "predeterminado"
+                                Left(Text(DataCardValue42.Selected.Value), 4)&Text(DataCardValue64.Selected.Value)
                             DelayOutput: =true
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -316,22 +318,24 @@
                             Y: =DataCardKey38.Y
                             ZIndex: =4
 
-                    FolioContrato_DataCard1 As typedDataCard.textualViewCard:
+                    FolioContrato_DataCard7 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="FolioContrato"
-                        Default: =ThisItem.NomContratoInterno
+                        Default: =ThisItem.FolioContrato
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FolioContrato")
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
+                        MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "FolioContrato")
                         Required: =false
+                        Update: =DataCardValue129.Text
                         Width: =332
                         X: =3
                         Y: =0
                         ZIndex: =1
 
-                        DataCardKey36 As label:
+                        DataCardKey129 As label:
                             AutoHeight: =true
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
@@ -352,11 +356,11 @@
                             Y: =10
                             ZIndex: =1
 
-                        DataCardValue36 As text:
+                        DataCardValue129 As text:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             BorderThickness: =2
                             Color: =RGBA(51, 51, 51, 1)
-                            Default: =Parent.Default
+                            Default: =Right(Text(DataCardValue12.SelectedDate),2)&Text(DataCardValue13.SelectedDate)&Left(Text(DataCardValue42.Selected.Value),4)&Left(Text(DataCardValue64.Selected.Value),1)
                             DelayOutput: =true
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -380,10 +384,10 @@
                             Tooltip: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             X: =30
-                            Y: =DataCardKey36.Y + DataCardKey36.Height + 5
+                            Y: =DataCardKey129.Y + DataCardKey129.Height + 5
                             ZIndex: =2
 
-                        ErrorMessage52 As label:
+                        ErrorMessage54 As label:
                             AutoHeight: =true
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
@@ -405,10 +409,10 @@
                             Visible: =Parent.DisplayMode=DisplayMode.Edit
                             Width: =Parent.Width - 60
                             X: =30
-                            Y: =DataCardValue36.Y + DataCardValue36.Height
+                            Y: =DataCardValue129.Y + DataCardValue129.Height
                             ZIndex: =3
 
-                        StarVisible52 As label:
+                        StarVisible54 As label:
                             Align: =Align.Center
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
@@ -419,14 +423,14 @@
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
                             FontWeight: =FontWeight.Semibold
-                            Height: =DataCardKey36.Height
+                            Height: =DataCardKey129.Height
                             PaddingLeft: =0
                             Size: =13
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                             Width: =30
                             Wrap: =false
-                            Y: =DataCardKey36.Y
+                            Y: =DataCardKey129.Y
                             ZIndex: =4
 
                     TextTitle As typedDataCard.blankCard:
@@ -3314,20 +3318,4 @@
         X: =962
         Y: =726
         ZIndex: =12
-
-    Image1 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: ='Logo Vertical Texto Verde'
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        X: =1236
-        Y: =592
-        ZIndex: =13
 
