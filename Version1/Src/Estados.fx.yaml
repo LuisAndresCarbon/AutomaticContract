@@ -538,6 +538,21 @@ Estados As screen:
                     Y: =DataCardKey78.Y + DataCardKey78.Height + 5
                     ZIndex: =2
 
+            FolioContrato_DataCard7 As typedDataCard.textualViewCard:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="FolioContrato"
+                Default: =ThisItem.NomContratoInterno
+                DisplayMode: =DisplayMode.View
+                DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FolioContrato")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =40
+                Required: =false
+                Width: =800
+                X: =0
+                Y: =0
+                ZIndex: =1
+
             Persona_DataCard6 As typedDataCard.comboBoxViewCard:
                 BorderColor: =RGBA(166, 166, 166, 1)
                 BorderStyle: =BorderStyle.Solid
@@ -2164,19 +2179,4 @@ Estados As screen:
                     X: =30
                     Y: =DataCardKey119.Y + DataCardKey119.Height + 5
                     ZIndex: =2
-
-            FolioContrato_DataCard7 As typedDataCard.textualViewCard:
-                BorderColor: =RGBA(166, 166, 166, 1)
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="FolioContrato"
-                Default: =ThisItem.FolioContrato
-                DisplayMode: =DisplayMode.View
-                DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FolioContrato")
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =40
-                Required: =false
-                Width: =800
-                X: =0
-                Y: =0
-                ZIndex: =1
 

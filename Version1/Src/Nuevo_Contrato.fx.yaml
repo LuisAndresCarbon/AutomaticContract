@@ -320,14 +320,12 @@
                         BorderColor: =RGBA(166, 166, 166, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="FolioContrato"
-                        Default: =ThisItem.FolioContrato
+                        Default: =ThisItem.NomContratoInterno
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FolioContrato")
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "FolioContrato")
                         Required: =false
-                        Update: =DataCardValue36.Text
                         Width: =332
                         X: =3
                         Y: =0
