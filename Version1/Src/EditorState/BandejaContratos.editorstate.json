@@ -4815,7 +4815,7 @@
       "StyleName": "defaultTextStyle",
       "Type": "ControlInfo"
     },
-    "FolioContrato_Columna2": {
+    "FolioContrato_Columna1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "FieldName",
@@ -4840,7 +4840,7 @@
       "IsLocked": true,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "FolioContrato_Columna2",
+      "Name": "FolioContrato_Columna1",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [

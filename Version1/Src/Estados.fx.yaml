@@ -480,6 +480,64 @@ Estados As screen:
             Y: =50
             ZIndex: =3
 
+            FolioContrato_DataCard7 As typedDataCard.textualViewCard:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="FolioContrato"
+                Default: =ThisItem.FolioContrato
+                DisplayMode: =DisplayMode.View
+                DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FolioContrato")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =40
+                Required: =false
+                Width: =800
+                X: =0
+                Y: =0
+                ZIndex: =1
+
+                DataCardKey111 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =34
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue111 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =Parent.DisplayMode
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    Height: =27
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =13
+                    Text: =Parent.Default
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey111.Y + DataCardKey111.Height + 5
+                    ZIndex: =2
+
             Título_DataCard7 As typedDataCard.textualViewCard:
                 BorderColor: =RGBA(166, 166, 166, 1)
                 BorderStyle: =BorderStyle.Solid
@@ -655,64 +713,6 @@ Estados As screen:
                     Y: =DataCardKey120.Y
                     ZIndex: =4
 
-            FolioContrato_DataCard3 As typedDataCard.textualViewCard:
-                BorderColor: =RGBA(166, 166, 166, 1)
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="NomContratoInterno"
-                Default: =ThisItem.FolioContrato
-                DisplayMode: =DisplayMode.View
-                DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"NomContratoInterno")
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =40
-                Required: =false
-                Width: =300
-                X: =2
-                Y: =0
-                ZIndex: =1
-
-                DataCardKey111 As label:
-                    AutoHeight: =true
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =34
-                    PaddingLeft: =0
-                    Size: =13
-                    Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    Wrap: =false
-                    X: =30
-                    Y: =10
-                    ZIndex: =1
-
-                DataCardValue111 As label:
-                    AutoHeight: =true
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =Parent.DisplayMode
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    Height: =27
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Size: =13
-                    Text: =Parent.Default
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey111.Y + DataCardKey111.Height + 5
-                    ZIndex: =2
-
             Solicitante_DataCard2 As typedDataCard.textualViewCard:
                 BorderColor: =RGBA(166, 166, 166, 1)
                 BorderStyle: =BorderStyle.Solid
@@ -724,8 +724,8 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =0
-                Y: =1
+                X: =2
+                Y: =0
                 ZIndex: =1
 
                 DataCardKey123 As label:
@@ -783,7 +783,7 @@ Estados As screen:
                 Required: =false
                 Update: =DataCardValue124.Selected
                 Width: =300
-                X: =1
+                X: =0
                 Y: =1
                 ZIndex: =1
 
@@ -900,7 +900,7 @@ Estados As screen:
                 Required: =false
                 Update: =DataCardValue79.Selected
                 Width: =300
-                X: =2
+                X: =1
                 Y: =1
                 ZIndex: =1
 
@@ -1016,8 +1016,8 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =0
-                Y: =2
+                X: =2
+                Y: =1
                 ZIndex: =1
 
                 DataCardKey118 As label:
@@ -1074,7 +1074,7 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =1
+                X: =0
                 Y: =2
                 ZIndex: =1
 
@@ -1132,7 +1132,7 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =2
+                X: =1
                 Y: =2
                 ZIndex: =1
 
@@ -1190,8 +1190,8 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =0
-                Y: =3
+                X: =2
+                Y: =2
                 ZIndex: =1
 
                 DataCardKey99 As label:
@@ -1248,7 +1248,7 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =1
+                X: =0
                 Y: =3
                 ZIndex: =1
 
@@ -1306,7 +1306,7 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =2
+                X: =1
                 Y: =3
                 ZIndex: =1
 
@@ -1364,8 +1364,8 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =0
-                Y: =4
+                X: =2
+                Y: =3
                 ZIndex: =1
 
                 DataCardKey105 As label:
@@ -1422,7 +1422,7 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =1
+                X: =0
                 Y: =4
                 ZIndex: =1
 
@@ -1480,7 +1480,7 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =2
+                X: =1
                 Y: =4
                 ZIndex: =1
 
@@ -1538,8 +1538,8 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =0
-                Y: =5
+                X: =2
+                Y: =4
                 ZIndex: =1
 
                 DataCardKey110 As label:
@@ -1596,7 +1596,7 @@ Estados As screen:
                 Height: =50
                 Required: =false
                 Width: =300
-                X: =1
+                X: =0
                 Y: =5
                 ZIndex: =1
 
@@ -1653,7 +1653,7 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =2
+                X: =1
                 Y: =5
                 ZIndex: =1
 
@@ -1711,8 +1711,8 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =0
-                Y: =6
+                X: =2
+                Y: =5
                 ZIndex: =1
 
                 DataCardKey114 As label:
@@ -1769,7 +1769,7 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =1
+                X: =0
                 Y: =6
                 ZIndex: =1
 
@@ -1827,7 +1827,7 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =2
+                X: =1
                 Y: =6
                 ZIndex: =1
 
@@ -1885,8 +1885,8 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =0
-                Y: =7
+                X: =2
+                Y: =6
                 ZIndex: =1
 
                 DataCardKey101 As label:
@@ -1943,7 +1943,7 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =1
+                X: =0
                 Y: =7
                 ZIndex: =1
 
@@ -2001,7 +2001,7 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =2
+                X: =1
                 Y: =7
                 ZIndex: =1
 
@@ -2060,8 +2060,8 @@ Estados As screen:
                 Required: =false
                 Update: =DataCardValue103.Selected
                 Width: =300
-                X: =0
-                Y: =8
+                X: =2
+                Y: =7
                 ZIndex: =1
 
                 DataCardKey103 As label:
@@ -2176,7 +2176,7 @@ Estados As screen:
                 Height: =40
                 Required: =false
                 Width: =300
-                X: =1
+                X: =0
                 Y: =8
                 ZIndex: =1
 

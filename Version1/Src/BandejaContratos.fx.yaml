@@ -477,20 +477,6 @@ BandejaContratos As screen:
             Y: =0
             ZIndex: =7
 
-        FolioContrato_Columna2 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="FolioContrato"
-            FieldName: ="NomContratoInterno"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =4
-            Text: =ThisItem.FolioContrato
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =8
-
         Persona_Columna2 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Persona"
@@ -498,7 +484,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =5
+            Order: =6
             Text: =ThisItem.Persona.Value
             Width: =100
             X: =0
@@ -512,7 +498,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =6
+            Order: =7
             Text: =ThisItem.NomEmpresa
             Width: =100
             X: =0
@@ -526,7 +512,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =7
+            Order: =8
             Text: =ThisItem.NomPersonaFisica
             Width: =100
             X: =0
@@ -540,7 +526,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =8
+            Order: =9
             Text: =ThisItem.ApoderadoLegal
             Width: =100
             X: =0
@@ -554,7 +540,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =9
+            Order: =10
             Text: =ThisItem.PoderRepresentanteLegal
             Width: =100
             X: =0
@@ -568,7 +554,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =10
+            Order: =11
             Text: =ThisItem.ActaConstitutiva
             Width: =100
             X: =0
@@ -582,7 +568,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =11
+            Order: =12
             Text: =ThisItem.ineRepresentante
             Width: =100
             X: =0
@@ -596,7 +582,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =12
+            Order: =13
             Text: =ThisItem.InePersonaFisica
             Width: =100
             X: =0
@@ -610,7 +596,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =13
+            Order: =14
             Text: =ThisItem.CaratulaBancaria
             Width: =100
             X: =0
@@ -624,7 +610,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =14
+            Order: =15
             Text: =ThisItem.DomicilioEmpresa
             Width: =100
             X: =0
@@ -638,7 +624,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =15
+            Order: =16
             Text: =ThisItem.DomicilioPersonaFisica
             Width: =100
             X: =0
@@ -652,7 +638,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =16
+            Order: =17
             Text: =ThisItem.MontoHonorario
             Width: =100
             X: =0
@@ -666,7 +652,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =17
+            Order: =18
             Text: =ThisItem.FechaInicio
             Width: =100
             X: =0
@@ -680,7 +666,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =18
+            Order: =19
             Text: =ThisItem.FechaTerminoContrato
             Width: =100
             X: =0
@@ -694,7 +680,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =19
+            Order: =20
             Text: =ThisItem.AnexosModificar
             Width: =100
             X: =0
@@ -708,7 +694,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =20
+            Order: =21
             Text: =ThisItem.CMFecha
             Width: =100
             X: =0
@@ -722,7 +708,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =21
+            Order: =22
             Text: =ThisItem.'Convenio Termino'.Value
             Width: =100
             X: =0
@@ -736,7 +722,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =22
+            Order: =23
             Text: =ThisItem.OtraRazonTerminacion
             Width: =100
             X: =0
@@ -750,7 +736,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =23
+            Order: =24
             Text: =ThisItem.StatusContrato.Value
             Width: =100
             X: =0
@@ -764,7 +750,7 @@ BandejaContratos As screen:
             FieldVariantName: ="booleanColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =24
+            Order: =25
             Text: =ThisItem.Incumplido
             Width: =100
             X: =0
@@ -778,7 +764,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =25
+            Order: =26
             Text: =ThisItem.MesesEstimados
             Width: =100
             X: =0
@@ -792,7 +778,7 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =26
+            Order: =27
             Text: =ThisItem.Fecha_CT
             Width: =100
             X: =0
@@ -806,12 +792,26 @@ BandejaContratos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =27
+            Order: =28
             Text: =ThisItem.'Datos adjuntos'
             Width: =100
             X: =0
             Y: =0
             ZIndex: =31
+
+        FolioContrato_Columna1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="FolioContrato"
+            FieldName: ="FolioContrato"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.FolioContrato
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =32
 
     Button2 As button:
         BorderColor: =RGBA(0, 0, 0, 0)

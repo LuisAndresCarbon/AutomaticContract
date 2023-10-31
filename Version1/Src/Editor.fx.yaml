@@ -254,7 +254,7 @@ Editor As screen:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="NomContratoInterno"
-            Default: =ThisItem.FolioContrato
+            Default: =ThisItem.NomContratoInterno
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"NomContratoInterno")
             Fill: =RGBA(0, 0, 0, 0)
