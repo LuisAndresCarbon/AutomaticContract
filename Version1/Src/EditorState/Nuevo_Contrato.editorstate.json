@@ -677,7 +677,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%BottomContainer.ID%",
       "Name": "BottomContainer1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -22651,7 +22651,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%HeaderContainer.ID%",
       "Name": "HeaderContainer1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -22856,7 +22856,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "HtmlText_Info",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
