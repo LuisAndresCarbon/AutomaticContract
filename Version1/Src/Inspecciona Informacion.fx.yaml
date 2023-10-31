@@ -4,11 +4,11 @@
     FormViewer3 As formViewer:
         BorderColor: =RGBA(166, 166, 166, 1)
         DataSource: =BdContratosLegal
-        Height: =535
+        Height: =642
         Item: =DataTable2.Selected
         NumberOfColumns: =4
         Width: =1366
-        Y: =99
+        Y: =74
         ZIndex: =1
 
         Título_DataCard3 As typedDataCard.textualViewCard:
