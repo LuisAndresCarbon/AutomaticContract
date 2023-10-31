@@ -118,27 +118,8 @@ Convenio_Modificatorio As screen:
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 173
             X: =103
-            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle1.Size * 1.8)) / 2
+            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Label37.Size * 1.8)) / 2
             ZIndex: =2
-
-        Subtitle1 As label:
-            Color: =If(ThisItem.IsSelected,RGBA(209,65,13,69),Color.Black)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.NomContratoInterno
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title2.Width
-            X: =Title2.X
-            Y: =Title2.Y + Title2.Height
-            ZIndex: =3
 
         NextArrow1 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
@@ -174,6 +155,22 @@ Convenio_Modificatorio As screen:
             Width: =4
             ZIndex: =6
 
+        Label37 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.FolioContrato
+            X: =103
+            Y: =56
+            ZIndex: =7
+
     FormViewer1 As formViewer:
         AcceptsFocus: =false
         BorderColor: =RGBA(61, 184, 123, 1)
@@ -185,11 +182,11 @@ Convenio_Modificatorio As screen:
         Y: =73
         ZIndex: =8
 
-        FolioContrato_DataCard8 As typedDataCard.textualViewCard:
+        FolioContrato_DataCard2 As typedDataCard.textualViewCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="FolioContrato"
-            Default: =ThisItem.NomContratoInterno
+            Default: =ThisItem.FolioContrato
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FolioContrato")
             Fill: =RGBA(0, 0, 0, 0)
@@ -200,7 +197,7 @@ Convenio_Modificatorio As screen:
             Y: =0
             ZIndex: =1
 
-            DataCardKey127 As label:
+            DataCardKey14 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -221,7 +218,7 @@ Convenio_Modificatorio As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue127 As label:
+            DataCardValue14 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -240,7 +237,7 @@ Convenio_Modificatorio As screen:
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey127.Y + DataCardKey127.Height + 5
+                Y: =DataCardKey14.Y + DataCardKey14.Height + 5
                 ZIndex: =2
 
         MontoHonorario_DataCard2 As typedDataCard.textualViewCard:

@@ -807,7 +807,7 @@ BandejaContratos As screen:
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =5
-            Text: =ThisItem.NomContratoInterno
+            Text: =ThisItem.FolioContrato
             Width: =100
             X: =0
             Y: =0
