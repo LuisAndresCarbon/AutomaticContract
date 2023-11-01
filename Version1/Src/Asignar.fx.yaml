@@ -830,7 +830,7 @@ Asignar As screen:
             Height: =50
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+            HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
             OnSelect: |-
                 ="Asignado a:";
                 Patch(
@@ -847,7 +847,7 @@ Asignar As screen:
                 If(
                     Equipo_Legal.Selected.Value = "Daniel Garcia",
                     Office365Outlook.SendEmailV2(
-                        "luis@canopiacarbon.com",
+                        "daniel@canopiacarbon.com",
                         User().FullName & " Te asigno un contrato",
                         HtmlText2.HtmlText,
                         {Importance: "High"}
@@ -871,7 +871,7 @@ Asignar As screen:
                     If(
                         Equipo_Legal.Selected.Value = "Daniel Matias Sosa",
                         Office365Outlook.SendEmailV2(
-                            "uriel@canopiacarbon.com",
+                            "danielm@canopiacarbon.com",
                             User().FullName & " Te asigno un contrato",
                             HtmlText2.HtmlText,
                             {Importance: "High"}
@@ -879,9 +879,9 @@ Asignar As screen:
                     )
                 );
                 Reset(Equipo_Legal);
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
             RadiusBottomLeft: =0
             RadiusBottomRight: =0
             RadiusTopLeft: =0
