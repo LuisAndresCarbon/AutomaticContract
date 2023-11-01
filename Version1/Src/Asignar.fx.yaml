@@ -946,7 +946,7 @@ Asignar As screen:
             Height: =239
             HtmlText: |-
                 ="<div
-                    style='margin: 1%; height: 200px;width:390px; border-radius: 25px; background-color: white; box-shadow:0 0 10px rgba(0,0,0,0.6);'>
+                    style='margin: 1%; height: 220px;width:390px; border-radius: 25px; background-color: white; box-shadow:0 0 10px rgba(0,0,0,0.6);'>
                     <div>
                         <center>
                             <h1 style='margin: 1% auto; font-size: 20px'><img width='35' height='35'
@@ -954,7 +954,7 @@ Asignar As screen:
                             <h3 align='left' style='margin: 1% auto; font-size: 20px'><small>En este caso:</small></h3>
                         </center>
                         <div>
-                            <blockquote style='revert-layer; font-size: 13px'>
+                            <blockquote style='revert-layer; font-size: 15px'>
                                 <li>'ERPA' representa el tipo de contrato. </li>
                                 <li>'Fisica' representa Persona </li>
                                 <li>'_' se utiliza para separar las partes</li>
