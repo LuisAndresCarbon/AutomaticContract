@@ -235,7 +235,7 @@ Menu As screen:
             Icon: =Icon.ListWatchlistRemind
             OnSelect: =Navigate(Asignar)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Visible: |-
                 =Switch(true,
