@@ -945,18 +945,25 @@ Asignar As screen:
         HtmlText3 As htmlViewer:
             Height: =187
             HtmlText: |-
-                ="<div style='margin: 1%; height: 150px;width:390px; border-radius: 25px; background-color: white; box-shadow:0 0 10px rgba(0,0,0,0.6);'> 
-                    <span style='text-align:center: font-size:28px; font-weight:bold; cursor: pointer; color:black;'> 
-                    <img align='left' width='35' height='35' src='https://img.icons8.com/wired/64/parallel-tasks.png'/>
-                    
-                <p style='font-size: 20px'>Recuerda</p>
-                    
-                        
-                    
-                    <p style='margin: 5% auto;  font-size: 5px'>Tienes que renombrar el nombre manteniendo la estructura, de esta manera se ordenara correctamente.</p>
-                    </span>
-                    
-                    </div>"
+                ="<div
+                    style='margin: 1%; height: 150px;width:390px; border-radius: 25px; background-color: white; box-shadow:0 0 10px rgba(0,0,0,0.6);'>
+                    <div>
+                        <center>
+                            <h1 style='margin: 1% auto; font-size: 20px'><img width='35' height='35'
+                                    src='https://img.icons8.com/wired/64/parallel-tasks.png' /> Convencion</h1>
+                            <h3 align='left' style='margin: 1% auto; font-size: 20px'><small>En este caso:</small></h3>
+                        </center>
+                        <div>
+                            <blockquote style='revert-layer; font-size: 13px'>
+                                <li>'ERPA' representa el tipo de contrato. </li>
+                                <li>'Fisica' representa Persona </li>
+                                <li>'_' se utiliza para separar las partes</li>
+                                <li>Puedes agregar nombre o numero de proyecto </li>
+                                <strong>MEJORA SU ORGANIZACION Y BUSQUEDA.</strong>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>"
             Width: =415
             ZIndex: =10
 
