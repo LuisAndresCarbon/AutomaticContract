@@ -631,25 +631,25 @@ Asignar As screen:
             PressedFill: =RGBA(0, 0, 0, 0)
             Tooltip: ="Actualizar el Nombre"
             Width: =58
-            X: =324
-            Y: =70
+            X: =337
+            Y: =187
             ZIndex: =7
 
         TextInput1 As text:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =""
+            Default: =Gallery6.Selected.Título
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
             HintText: ="Cambia el nombre del contrato"
-            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverBorderColor: =ColorFade(RGBA(61,184,123,71), -30%)
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(255, 255, 255, 1)
-            PressedBorderColor: =RGBA(73, 130, 5, 1)
+            PressedBorderColor: =RGBA(8, 143, 131, 1)
             PressedColor: =RGBA(51, 51, 51, 1)
             PressedFill: =RGBA(255, 255, 255, 1)
             RadiusBottomLeft: =0
@@ -657,7 +657,27 @@ Asignar As screen:
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Size: =13
-            X: =4
-            Y: =76
+            X: =17
+            Y: =193
             ZIndex: =9
+
+        HtmlText3 As htmlViewer:
+            Height: =133
+            HtmlText: |-
+                ="<div style='margin: 10%; height: 100px;width:100px; border-radius: 25px; background-color: white; box-shadow:0 0 10px rgba(0,0,0,0.6);'> 
+                    <span style='text-align:center: font-size:28px; font-weight:bold; cursor: pointer; color:black;'> <center>
+                
+                        
+                    
+                    <p style='margin: 5% auto; padding:1px; font-size: 10px'><img width="25" height="25" src='https://img.icons8.com/wired/64/parallel-tasks.png'/>Recuerda</p>
+                    
+                    </center>
+                    <p style='margin: 5% auto;  font-size: 5px'>Tienes que renombrar el nombre manteniendo la estructura, de esta manera se ordenara correctamente.</p>
+                    </span>
+                    
+                    </div>"
+            Width: =365
+            X: =17
+            Y: =54
+            ZIndex: =10
 
