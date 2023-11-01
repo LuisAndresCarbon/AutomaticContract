@@ -78,7 +78,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ActaConstitutiva_DataCard3",
-      "ParentIndex": 8,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -238,7 +238,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ApoderadoLegal_DataCard2",
-      "ParentIndex": 6,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -677,7 +677,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CaratulaBancaria_DataCard2",
-      "ParentIndex": 7,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -829,7 +829,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CMFecha_DataCard4",
-      "ParentIndex": 20,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1052,7 +1052,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Convenio Termino_DataCard3",
-      "ParentIndex": 10,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -13823,7 +13823,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DomicilioEmpresa_DataCard3",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -13983,7 +13983,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DomicilioPersonaFisica_DataCard2",
-      "ParentIndex": 5,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -19823,7 +19823,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Fecha_CT_DataCard2",
-      "ParentIndex": 13,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -19970,7 +19970,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "FechaInicio_DataCard4",
-      "ParentIndex": 11,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -20117,7 +20117,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "FechaTerminoContrato_DataCard4",
-      "ParentIndex": 12,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -20810,7 +20810,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InePersonaFisica_DataCard3",
-      "ParentIndex": 9,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -20970,7 +20970,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ineRepresentante_DataCard3",
-      "ParentIndex": 18,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21114,7 +21114,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MesesEstimados_DataCard2",
-      "ParentIndex": 14,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21264,7 +21264,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MontoHonorario_DataCard3",
-      "ParentIndex": 19,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21424,7 +21424,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "NomEmpresa_DataCard5",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21584,7 +21584,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "NomPersonaFisica_DataCard5",
-      "ParentIndex": 16,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21736,7 +21736,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Persona_DataCard4",
-      "ParentIndex": 15,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21891,7 +21891,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PoderRepresentanteLegal_DataCard3",
-      "ParentIndex": 17,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

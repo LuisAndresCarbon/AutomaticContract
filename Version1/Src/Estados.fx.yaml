@@ -538,6 +538,64 @@ Estados As screen:
                     Y: =DataCardKey78.Y + DataCardKey78.Height + 5
                     ZIndex: =2
 
+            FolioContrato_DataCard6 As typedDataCard.textualViewCard:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="FolioContrato"
+                Default: =ThisItem.FolioContrato
+                DisplayMode: =DisplayMode.View
+                DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FolioContrato")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =40
+                Required: =false
+                Width: =800
+                X: =0
+                Y: =0
+                ZIndex: =1
+
+                DataCardKey128 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =34
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue128 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =Parent.DisplayMode
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    Height: =27
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =13
+                    Text: =Parent.Default
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey128.Y + DataCardKey128.Height + 5
+                    ZIndex: =2
+
             Persona_DataCard6 As typedDataCard.comboBoxViewCard:
                 BorderColor: =RGBA(166, 166, 166, 1)
                 BorderStyle: =BorderStyle.Solid
@@ -711,64 +769,6 @@ Estados As screen:
                     Width: =Parent.Width - 60
                     X: =30
                     Y: =DataCardKey123.Y + DataCardKey123.Height + 5
-                    ZIndex: =2
-
-            FolioContrato_DataCard6 As typedDataCard.textualViewCard:
-                BorderColor: =RGBA(166, 166, 166, 1)
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="FolioContrato"
-                Default: =ThisItem.FolioContrato
-                DisplayMode: =DisplayMode.View
-                DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FolioContrato")
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =40
-                Required: =false
-                Width: =800
-                X: =0
-                Y: =0
-                ZIndex: =1
-
-                DataCardKey128 As label:
-                    AutoHeight: =true
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =34
-                    PaddingLeft: =0
-                    Size: =13
-                    Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    Wrap: =false
-                    X: =30
-                    Y: =10
-                    ZIndex: =1
-
-                DataCardValue128 As label:
-                    AutoHeight: =true
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =Parent.DisplayMode
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    Height: =27
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Size: =13
-                    Text: =Parent.Default
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey128.Y + DataCardKey128.Height + 5
                     ZIndex: =2
 
             StatusContrato_DataCard3 As typedDataCard.comboBoxViewCard:

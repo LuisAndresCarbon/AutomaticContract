@@ -343,122 +343,6 @@ Convenio_Termino As screen:
                 Y: =DataCardKey89.Y + DataCardKey89.Height + 5
                 ZIndex: =2
 
-        NomEmpresa_DataCard3 As typedDataCard.textualViewCard:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="NomEmpresa"
-            Default: =ThisItem.NomEmpresa
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"NomEmpresa")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =266
-            X: =1
-            Y: =1
-            ZIndex: =1
-
-            DataCardKey82 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                PaddingLeft: =0
-                Size: =13
-                Text: ="Nombre de la empresa"
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue82 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                Height: =27
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =13
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey82.Y + DataCardKey82.Height + 5
-                ZIndex: =2
-
-        NomPersonaFisica_DataCard4 As typedDataCard.textualViewCard:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="NomPersonaFisica"
-            Default: =ThisItem.NomPersonaFisica
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"NomPersonaFisica")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =266
-            X: =2
-            Y: =1
-            ZIndex: =1
-
-            DataCardKey83 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                PaddingLeft: =0
-                Size: =13
-                Text: ="Nombre de la persona"
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue83 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                Height: =27
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =13
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey83.Y + DataCardKey83.Height + 5
-                ZIndex: =2
-
         Persona_DataCard5 As typedDataCard.comboBoxViewCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
@@ -575,6 +459,122 @@ Convenio_Termino As screen:
                 Wrap: =false
                 Y: =DataCardKey84.Y
                 ZIndex: =4
+
+        NomEmpresa_DataCard3 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="NomEmpresa"
+            Default: =ThisItem.NomEmpresa
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"NomEmpresa")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =266
+            X: =1
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey82 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =34
+                PaddingLeft: =0
+                Size: =13
+                Text: ="Nombre de la empresa"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue82 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey82.Y + DataCardKey82.Height + 5
+                ZIndex: =2
+
+        NomPersonaFisica_DataCard4 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="NomPersonaFisica"
+            Default: =ThisItem.NomPersonaFisica
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"NomPersonaFisica")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =266
+            X: =2
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey83 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =34
+                PaddingLeft: =0
+                Size: =13
+                Text: ="Nombre de la persona"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue83 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey83.Y + DataCardKey83.Height + 5
+                ZIndex: =2
 
         "'Espacio Fechas' As typedDataCard.blankCard":
             BorderColor: =RGBA(166, 166, 166, 1)
