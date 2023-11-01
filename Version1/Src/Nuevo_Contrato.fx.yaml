@@ -822,6 +822,7 @@
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =97
                         Required: =true
+                        Visible: =If(vista = "Fisica",false,true)
                         Width: =332
                         X: =3
                         Y: =2
