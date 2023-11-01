@@ -815,7 +815,7 @@ Asignar As screen:
             Text: ="Asignar encargado"
             Width: =216
             X: =27
-            Y: =286
+            Y: =299
             ZIndex: =3
 
         Button14 As button:
@@ -913,7 +913,7 @@ Asignar As screen:
             Tooltip: ="Actualizar el Nombre"
             Width: =58
             X: =337
-            Y: =187
+            Y: =239
             ZIndex: =7
 
         TextInput1 As text:
@@ -939,14 +939,14 @@ Asignar As screen:
             RadiusTopRight: =0
             Size: =13
             X: =17
-            Y: =193
+            Y: =245
             ZIndex: =9
 
         HtmlText3 As htmlViewer:
-            Height: =187
+            Height: =239
             HtmlText: |-
                 ="<div
-                    style='margin: 1%; height: 150px;width:390px; border-radius: 25px; background-color: white; box-shadow:0 0 10px rgba(0,0,0,0.6);'>
+                    style='margin: 1%; height: 200px;width:390px; border-radius: 25px; background-color: white; box-shadow:0 0 10px rgba(0,0,0,0.6);'>
                     <div>
                         <center>
                             <h1 style='margin: 1% auto; font-size: 20px'><img width='35' height='35'
