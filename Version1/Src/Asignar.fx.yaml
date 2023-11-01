@@ -832,14 +832,53 @@ Asignar As screen:
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
             OnSelect: |-
-                ="Asignado a:";Patch(BdContratosLegal,Gallery6.Selected,{Asignado:Equipo_Legal.Selected.Value});Notify("El contrato ya fue asignado y se notificará vía correo.",NotificationType.Success,4000);Reset(Equipo_Legal)
+                ="Asignado a:";
+                Patch(
+                    BdContratosLegal,
+                    Gallery6.Selected,
+                    {Asignado: Equipo_Legal.Selected.Value}
+                );
+                Notify(
+                    "El contrato ya fue asignado y se notificará vía correo.",
+                    NotificationType.Success,
+                    4000
+                );
                 
-                /*Office365Outlook.SendEmailV2(
-                    "uriel@canopiacarbon.com",
-                    User().FullName & "Contrato Asignado",
-                    HtmlText_Info.HtmlText,
-                    {Importance: "High"}
-                );*/
+                If(
+                    Equipo_Legal.Selected.Value = "Daniel Garcia",
+                    Office365Outlook.SendEmailV2(
+                        "luis@canopiacarbon.com",
+                        User().FullName & " Te asigno un contrato",
+                        HtmlText2.HtmlText,
+                        {Importance: "High"}
+                    ),
+                    If(
+                        Equipo_Legal.Selected.Value = "Luisa Ortiz",
+                        Office365Outlook.SendEmailV2(
+                            "uriel@canopiacarbon.com",
+                            User().FullName & " Te asigno un contrato",
+                            HtmlText2.HtmlText,
+                            {Importance: "High"}
+                        )
+                    ),
+                        Equipo_Legal.Selected.Value = "Roberto May",
+                    Office365Outlook.SendEmailV2(
+                        "luis@canopiacarbon.com",
+                        User().FullName & " Te asigno un contrato",
+                        HtmlText2.HtmlText,
+                        {Importance: "High"}
+                    ),
+                    If(
+                        Equipo_Legal.Selected.Value = "Daniel Matias Sosa",
+                        Office365Outlook.SendEmailV2(
+                            "uriel@canopiacarbon.com",
+                            User().FullName & " Te asigno un contrato",
+                            HtmlText2.HtmlText,
+                            {Importance: "High"}
+                            )
+                    )
+                );
+                Reset(Equipo_Legal);
             PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
