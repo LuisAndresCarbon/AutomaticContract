@@ -463,20 +463,6 @@ BandejaContratos As screen:
             Y: =0
             ZIndex: =6
 
-        C_C_Columna2 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="C_C"
-            FieldName: ="C_C"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =3
-            Text: =ThisItem.C_C.Value
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =7
-
         Persona_Columna2 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Persona"

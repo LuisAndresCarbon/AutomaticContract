@@ -581,7 +581,7 @@ Asignar As screen:
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(73, 130, 5, 1)
+            Fill: =RGBA(8, 143, 131, 1)
             FocusedBorderColor: =ColorFade(Self.Fill, -75%)
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
@@ -614,14 +614,14 @@ Asignar As screen:
 
         Icon11 As icon.Reload:
             BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
+            Color: =RGBA(8, 143, 131, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
             FocusedBorderThickness: =4
             Height: =53
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -10%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Reload
             OnSelect: |-
