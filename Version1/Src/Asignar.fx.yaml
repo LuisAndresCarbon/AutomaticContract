@@ -906,7 +906,7 @@ Asignar As screen:
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Reload
             OnSelect: |-
-                =Patch(BdContratosLegal,Gallery6.Selected,{Título:TextInput1.Text});
+                =Patch(BdContratosLegal,Gallery6.Selected,{Título:TextInput1.Text});Reset(TextInput1)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
