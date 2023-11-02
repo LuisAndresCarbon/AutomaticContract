@@ -151,7 +151,7 @@ Ajustes As screen:
         Height: =646
         Items: |-
             =Filter(BdContratosLegal,
-            (Solicitante = Filtro_Solicitante.Selected.Result || Filtro_Solicitante.Selected.Result = Blank())
+            (Solicitante = Filtro_Solicitante_1.Selected.Result || Filtro_Solicitante_1.Selected.Result = Blank())
             )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
