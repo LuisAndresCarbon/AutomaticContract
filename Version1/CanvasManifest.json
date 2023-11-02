@@ -97,7 +97,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 2,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -137,6 +137,7 @@
     "Editor",
     "BorrarContratos",
     "Nuevo_Contrato",
+    "NewContrato",
     "notificacion",
     "Convenio_Modificatorio",
     "Convenio_Termino",

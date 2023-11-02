@@ -11,7 +11,7 @@ Asignar As screen:
             )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Set(AsignarL,ThisItem);EditForm(Form_Asignar);
+        OnSelect: =Set(AsignarL,ThisItem);
         TemplatePadding: =0
         TemplateSize: =228
         Width: =951
