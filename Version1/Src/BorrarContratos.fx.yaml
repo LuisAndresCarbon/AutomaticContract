@@ -6,7 +6,7 @@ BorrarContratos As screen:
     "Gallery4 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         BorderColor: =RGBA(8,143,131,100)
         DelayItemLoading: =true
-        Height: =576
+        Height: =646
         Items: |-
             =Filter(BdContratosLegal,
             (Solicitante = Filtro_Solicitante.Selected.Result || Filtro_Solicitante.Selected.Result = Blank())
@@ -16,7 +16,7 @@ BorrarContratos As screen:
         TemplatePadding: =0
         TemplateSize: =228
         Width: =1366
-        Y: =140
+        Y: =70
         ZIndex: =1
 
         Title4 As label:
@@ -487,7 +487,6 @@ BorrarContratos As screen:
         RadiusTopLeft: =4
         RadiusTopRight: =4
         Width: =1366
-        Y: =70
         ZIndex: =6
 
         Icon6 As icon.Search:
@@ -508,22 +507,6 @@ BorrarContratos As screen:
             X: =1302
             Y: =20
             ZIndex: =2
-
-        Label20 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =24
-            Size: =13
-            Text: ="Solicitante"
-            Width: =328
-            X: =974
-            ZIndex: =3
 
         Filtro_Solicitante As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)

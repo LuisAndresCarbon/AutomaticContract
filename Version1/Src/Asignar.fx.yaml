@@ -967,3 +967,65 @@ Asignar As screen:
             Width: =415
             ZIndex: =10
 
+    Container9_2 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =70
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        ZIndex: =9
+
+        Icon6_2 As icon.Search:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(8, 143, 131, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =48
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(61,184,123,71), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Search
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(61,184,123,71), -50%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            X: =1302
+            Y: =20
+            ZIndex: =2
+
+        Filtro_Solicitante_2 As combobox:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            ChevronBackground: =RGBA(255, 255, 255, 1)
+            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+            ChevronFill: =RGBA(33, 33, 33, 1)
+            ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+            ChevronHoverFill: =RGBA(33, 33, 33, 1)
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayFields: =["Result"]
+            Font: =Font.'Segoe UI'
+            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverColor: =RGBA(51, 51, 51, 1)
+            HoverFill: =RGBA(212, 212, 212, 1)
+            InputTextPlaceholder: ="Buscar por solicitante"
+            Items: |-
+                =Sort(ForAll(Distinct(BdContratosLegal,Solicitante), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
+            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =RGBA(73, 130, 5, 1)
+            SearchFields: =["Result"]
+            SearchItems: |-
+                =Search(Sort(ForAll(Distinct(BdContratosLegal,Solicitante), {Result: ThisRecord.Value}),Result,SortOrder.Ascending),Filtro_Solicitante_2.SearchText,"Result")
+            SelectionFill: =RGBA(73, 130, 5, 1)
+            SelectMultiple: =false
+            Size: =13
+            X: =974
+            Y: =24
+            ZIndex: =4
+
