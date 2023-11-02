@@ -906,7 +906,7 @@
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
-                            Height: =90
+                            Height: =106
                             HoverColor: =RGBA(51, 51, 51, 1)
                             HoverFill: =RGBA(0, 0, 0, 0)
                             Items: =["Si","No"]
@@ -917,6 +917,7 @@
                             RadioBorderColor: =RGBA(51, 51, 51, 1)
                             RadioSelectionFill: =RGBA(8,143,131,100)
                             Size: =13
+                            Width: =164
                             X: =30
                             Y: =50
                             ZIndex: =2
