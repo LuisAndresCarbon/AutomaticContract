@@ -96,7 +96,7 @@
             "Name": "Button3_3",
             "Parent": "Container3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 795,
+            "PublishOrderIndex": 3,
             "Rules": [
               {
                 "Category": "Data",
@@ -404,7 +404,7 @@
         "Name": "Container3",
         "Parent": "Component_Footer",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 794,
+        "PublishOrderIndex": 2,
         "Rules": [
           {
             "Category": "Design",
@@ -578,7 +578,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638345387748001533",
+    "LastModifiedTimestamp": "638345531459162241",
     "Name": "Component_Footer",
     "Rules": [
       {
@@ -637,7 +637,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638345387748001533",
+  "LastModifiedTimestamp": "638345531459162241",
   "Name": "32cbe7e4428b46e399973968bd1642bd",
   "OverridableProperties": {},
   "Version": "638334404955711333"

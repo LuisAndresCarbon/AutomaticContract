@@ -771,20 +771,6 @@ BandejaContratos As screen:
             Y: =0
             ZIndex: =30
 
-        "'Datos adjuntos_Columna2' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Datos adjuntos"
-            FieldName: ="{Attachments}"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =28
-            Text: =ThisItem.'Datos adjuntos'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =31
-
         FolioContrato_Columna1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="FolioContrato"
