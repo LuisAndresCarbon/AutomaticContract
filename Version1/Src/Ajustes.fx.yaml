@@ -38,7 +38,7 @@ Ajustes As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
         OnSelect: |-
-            =Patch(BdContratosLegal,Gallery5.Selected,{StatusContrato:{Value:Dropdown1.Selected.Value}})
+            =Patch(BdContratosLegal,Gallery5.Selected,{StatusContrato:{Value:Dropdown1.Selected.Value}});Notify("Estado actualizado",NotificationType.Success,4000);
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
@@ -130,7 +130,7 @@ Ajustes As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
         OnSelect: |-
-            =Patch(BdContratosLegal,Gallery5.Selected,{Incumplido:If(Dropdown3.Selected.Value="Incumplido",true,false)})
+            =Patch(BdContratosLegal,Gallery5.Selected,{Incumplido:If(Dropdown3.Selected.Value="Incumplido",true,false)});Notify("Estado actualizado",NotificationType.Success,4000)
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
