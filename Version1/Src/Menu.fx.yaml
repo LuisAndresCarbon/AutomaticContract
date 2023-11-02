@@ -241,8 +241,6 @@ Menu As screen:
                 =Switch(true,
                     Legal = "Lider Legal",
                     true,
-                    Legal = "Legal",
-                    true,
                     Legal = "Programador",
                     true,
                     false
