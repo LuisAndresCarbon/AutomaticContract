@@ -7,9 +7,7 @@ NewContrato As screen:
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Width: =950
-        X: =196
-        Y: =36
+        Width: =Parent.Width
         ZIndex: =4
 
         Container16 As groupContainer.manualLayoutContainer:
@@ -19,7 +17,7 @@ NewContrato As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Width: =190
+            Width: =273.2
             ZIndex: =1
 
             Circle1 As circle:
@@ -76,8 +74,8 @@ NewContrato As screen:
             RadiusTopLeft: =4
             RadiusTopRight: =4
             Visible: =Actividad >= 1
-            Width: =190
-            X: =190
+            Width: =273.2
+            X: =273
             ZIndex: =2
 
             Circle1_1 As circle:
@@ -134,8 +132,8 @@ NewContrato As screen:
             RadiusTopLeft: =4
             RadiusTopRight: =4
             Visible: =Actividad >= 2
-            Width: =190
-            X: =380
+            Width: =273.2
+            X: =546
             ZIndex: =3
 
             Circle1_2 As circle:
@@ -192,8 +190,8 @@ NewContrato As screen:
             RadiusTopLeft: =4
             RadiusTopRight: =4
             Visible: =Actividad >= 3
-            Width: =190
-            X: =570
+            Width: =273.2
+            X: =819
             ZIndex: =4
 
             Circle1_3 As circle:
@@ -250,8 +248,8 @@ NewContrato As screen:
             RadiusTopLeft: =4
             RadiusTopRight: =4
             Visible: =Actividad = 4
-            Width: =190
-            X: =760
+            Width: =273.2
+            X: =1092
             ZIndex: =5
 
             Circle1_4 As circle:
@@ -716,8 +714,7 @@ NewContrato As screen:
         Font: =Font.'Segoe UI'
         Size: =13
         Text: =Actividad
-        X: =33
-        Y: =180
+        Y: =276
         ZIndex: =11
 
     "'Visualizar datos' As groupContainer.manualLayoutContainer":
