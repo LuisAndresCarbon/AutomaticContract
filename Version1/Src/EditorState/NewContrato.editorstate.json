@@ -86,7 +86,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ActaConstitutiva_DataCard6",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -439,7 +439,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ApoderadoLegal_DataCard6",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -918,7 +918,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CaratulaBancaria_DataCard6",
-      "ParentIndex": 12,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4800,7 +4800,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "contratos_DataCard7",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4920,7 +4920,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard13",
-      "ParentIndex": 18,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5007,7 +5007,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard14",
-      "ParentIndex": 19,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5097,7 +5097,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard19",
-      "ParentIndex": 13,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5185,7 +5185,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard20",
-      "ParentIndex": 16,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5295,7 +5295,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard9",
-      "ParentIndex": 20,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9255,7 +9255,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey167",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14671,7 +14671,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue167",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15872,7 +15872,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DomicilioEmpresa_DataCard6",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16045,7 +16045,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DomicilioPersonaFisica_DataCard5",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16496,7 +16496,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage100",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21282,7 +21282,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "FechaInicio_DataCard8",
-      "ParentIndex": 15,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21442,7 +21442,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "FechaTerminoContrato_DataCard8",
-      "ParentIndex": 17,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -22086,7 +22086,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InePersonaFisica_DataCard6",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -22259,7 +22259,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ineRepresentante_DataCard6",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -28676,7 +28676,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MontoHonorario_DataCard7",
-      "ParentIndex": 14,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -29216,7 +29216,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "NomEmpresa_DataCard8",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -29389,7 +29389,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "NomPersonaFisica_DataCard8",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -29554,7 +29554,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Persona_DataCard8",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -29896,7 +29896,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PoderRepresentanteLegal_DataCard6",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -32187,14 +32187,7 @@
           "NameMapSourceSchema": "?"
         },
         "FocusedBorderThickness",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "true",
-          "InvariantPropertyName": "Visible",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        }
+        "Visible"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -32368,14 +32361,7 @@
         },
         "FocusedBorderThickness",
         "OnSelect",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "true",
-          "InvariantPropertyName": "Visible",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        }
+        "Visible"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -32547,14 +32533,7 @@
         },
         "FocusedBorderThickness",
         "OnSelect",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "true",
-          "InvariantPropertyName": "Visible",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        }
+        "Visible"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -32733,14 +32712,7 @@
         },
         "FocusedBorderThickness",
         "OnSelect",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "true",
-          "InvariantPropertyName": "Visible",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        }
+        "Visible"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -32930,7 +32902,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Solicitante_DataCard5",
-      "ParentIndex": 0,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -33086,7 +33058,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible100",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

@@ -91,7 +91,7 @@ NewContrato As screen:
             Size: =15
             Text: ="Next"
             Visible: =Actividad < 4
-            X: =1166
+            X: =1178
             Y: =8
             ZIndex: =3
 
@@ -160,7 +160,7 @@ NewContrato As screen:
                     ZIndex: =1
 
                 Circle1 As circle:
-                    BorderColor: =If(Actividad = 0,Color.Gray,Color.Aqua)
+                    BorderColor: =If(Actividad = 0,RGBA(88, 197, 184, 1),Color.Gray)
                     BorderThickness: =5
                     DisabledFill: =RGBA(0, 255, 255, 0.35)
                     Fill: =RGBA(0, 0, 0, 0)
@@ -195,7 +195,6 @@ NewContrato As screen:
                 Height: =1
                 HoverFill: =RGBA(73, 130, 5, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
-                Visible: =Actividad >= 1
                 Width: =113
                 X: =160.2
                 Y: =50
@@ -207,7 +206,6 @@ NewContrato As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Visible: =Actividad >= 1
             Width: =273.2
             X: =273
             ZIndex: =3
@@ -257,7 +255,7 @@ NewContrato As screen:
                     ZIndex: =1
 
                 Circle1_1 As circle:
-                    BorderColor: =If(Actividad = 1,Color.Gray,Color.Aqua)
+                    BorderColor: =If(Actividad = 1,RGBA(88, 197, 184, 1),Color.Gray)
                     BorderThickness: =5
                     DisabledFill: =RGBA(0, 255, 255, 0.35)
                     Fill: =RGBA(0, 0, 0, 0)
@@ -293,7 +291,6 @@ NewContrato As screen:
                 Height: =1
                 HoverFill: =RGBA(73, 130, 5, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
-                Visible: =Actividad >= 2
                 Width: =113
                 X: =160.2
                 Y: =50
@@ -305,7 +302,6 @@ NewContrato As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Visible: =Actividad >= 2
             Width: =273.2
             X: =546
             ZIndex: =4
@@ -355,7 +351,7 @@ NewContrato As screen:
                     ZIndex: =1
 
                 Circle1_2 As circle:
-                    BorderColor: =If(Actividad = 2,Color.Gray,Color.Aqua)
+                    BorderColor: =If(Actividad = 2,RGBA(88, 197, 184, 1),Color.Gray)
                     BorderThickness: =5
                     DisabledFill: =RGBA(0, 255, 255, 0.35)
                     Fill: =RGBA(0, 0, 0, 0)
@@ -391,7 +387,6 @@ NewContrato As screen:
                 Height: =1
                 HoverFill: =RGBA(73, 130, 5, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
-                Visible: =Actividad >= 3
                 Width: =113
                 X: =160.2
                 Y: =50
@@ -403,7 +398,6 @@ NewContrato As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Visible: =Actividad >= 3
             Width: =273.2
             X: =819
             ZIndex: =5
@@ -453,7 +447,7 @@ NewContrato As screen:
                     ZIndex: =1
 
                 Circle1_3 As circle:
-                    BorderColor: =If(Actividad = 3,Color.Gray,Color.Aqua)
+                    BorderColor: =If(Actividad = 3,RGBA(88, 197, 184, 1),Color.Gray)
                     BorderThickness: =5
                     DisabledFill: =RGBA(0, 255, 255, 0.35)
                     Fill: =RGBA(0, 0, 0, 0)
@@ -488,7 +482,6 @@ NewContrato As screen:
                 Height: =1
                 HoverFill: =RGBA(73, 130, 5, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
-                Visible: =Actividad >= 4
                 Width: =113
                 X: =160.2
                 Y: =50
@@ -500,7 +493,6 @@ NewContrato As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Visible: =Actividad = 4
             Width: =273.2
             X: =1092
             ZIndex: =6
@@ -550,7 +542,7 @@ NewContrato As screen:
                     ZIndex: =1
 
                 Circle1_4 As circle:
-                    BorderColor: =If(Actividad = 4,Color.Gray,Color.Aqua)
+                    BorderColor: =If(Actividad = 4,RGBA(88, 197, 184, 1),Color.Gray)
                     BorderThickness: =5
                     DisabledFill: =RGBA(0, 0, 0, 0)
                     Fill: =RGBA(0, 0, 0, 0)
@@ -585,122 +577,6 @@ NewContrato As screen:
         Width: =1366
         Y: =179
         ZIndex: =5
-
-        Solicitante_DataCard5 As typedDataCard.textualEditCard:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Solicitante"
-            Default: =ThisItem.Solicitante
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"Solicitante")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "Solicitante")
-            Required: =false
-            Update: =DataCardValue167.Text
-            Visible: =false
-            Width: =1366
-            X: =0
-            Y: =21
-            ZIndex: =1
-
-            DataCardKey167 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                PaddingLeft: =0
-                Size: =13
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue167 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                Default: =User().FullName
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                HoverColor: =RGBA(51, 51, 51, 1)
-                HoverFill: =RGBA(255, 255, 255, 1)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                PressedBorderColor: =RGBA(73, 130, 5, 1)
-                PressedColor: =RGBA(51, 51, 51, 1)
-                PressedFill: =RGBA(255, 255, 255, 1)
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =13
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey167.Y + DataCardKey167.Height + 5
-                ZIndex: =2
-
-            ErrorMessage100 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(168, 0, 0, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =13
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue167.Y + DataCardValue167.Height
-                ZIndex: =3
-
-            StarVisible100 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey167.Height
-                PaddingLeft: =0
-                Size: =13
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey167.Y
-                ZIndex: =4
 
         contratos_DataCard7 As typedDataCard.comboBoxEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -2931,6 +2807,122 @@ NewContrato As screen:
                 Text: ="Domicilio"
                 Width: =Parent.Width
                 ZIndex: =1
+
+        Solicitante_DataCard5 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Solicitante"
+            Default: =ThisItem.Solicitante
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"Solicitante")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "Solicitante")
+            Required: =false
+            Update: =DataCardValue167.Text
+            Visible: =false
+            Width: =1366
+            X: =0
+            Y: =21
+            ZIndex: =1
+
+            DataCardKey167 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =34
+                PaddingLeft: =0
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue167 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                Default: =User().FullName
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                PressedBorderColor: =RGBA(73, 130, 5, 1)
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(255, 255, 255, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =13
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey167.Y + DataCardKey167.Height + 5
+                ZIndex: =2
+
+            ErrorMessage100 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(168, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(168, 0, 0, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue167.Y + DataCardValue167.Height
+                ZIndex: =3
+
+            StarVisible100 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =DataCardKey167.Height
+                PaddingLeft: =0
+                Size: =13
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey167.Y
+                ZIndex: =4
 
         "'Datos adjuntos_DataCard3' As typedDataCard.attachmentsEditCard":
             BorderColor: =RGBA(166, 166, 166, 1)
