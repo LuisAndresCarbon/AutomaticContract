@@ -587,7 +587,7 @@ NewContrato As screen:
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"contratos")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =DataCardValue25.Selected
             Visible: =Actividad = 0
             Width: =1366
@@ -821,14 +821,14 @@ NewContrato As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="NomEmpresa"
             Default: =ThisItem.NomEmpresa
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =If(Actividad = 1, Parent.DisplayMode, Actividad = 4, DisplayMode.View)
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"NomEmpresa")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "NomEmpresa")
             Required: =false
             Update: =DataCardValue122.Text
-            Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 1 And 5
+            Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 1 Or Actividad = 4
             Width: =1366
             X: =0
             Y: =2
@@ -937,14 +937,14 @@ NewContrato As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="NomPersonaFisica"
             Default: =ThisItem.NomPersonaFisica
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =If(Actividad = 1, Parent.DisplayMode, Actividad = 4, DisplayMode.View)
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"NomPersonaFisica")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "NomPersonaFisica")
             Required: =false
             Update: =DataCardValue154.Text
-            Visible: =DataCardValue53.Selected.Value = "Fisica" && Actividad = 1
+            Visible: =DataCardValue53.Selected.Value = "Fisica" && Actividad = 1 Or Actividad = 4
             Width: =1366
             X: =0
             Y: =3
@@ -1053,14 +1053,14 @@ NewContrato As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="ApoderadoLegal"
             Default: =ThisItem.ApoderadoLegal
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =If(Actividad = 1, Parent.DisplayMode, Actividad = 4, DisplayMode.View)
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"ApoderadoLegal")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "ApoderadoLegal")
             Required: =false
             Update: =DataCardValue155.Text
-            Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 1
+            Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 1 Or Actividad = 4
             Width: =1366
             X: =0
             Y: =4
@@ -1169,14 +1169,14 @@ NewContrato As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="DomicilioEmpresa"
             Default: =ThisItem.DomicilioEmpresa
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =If(Actividad = 1, Parent.DisplayMode, Actividad = 4, DisplayMode.View)
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"DomicilioEmpresa")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "DomicilioEmpresa")
             Required: =false
             Update: =DataCardValue156.Text
-            Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 1
+            Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 1 Or Actividad = 4
             Width: =1366
             X: =0
             Y: =6
@@ -1285,14 +1285,14 @@ NewContrato As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="DimicilioPersonaFisica"
             Default: =ThisItem.DomicilioPersonaFisica
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =If(Actividad = 1, Parent.DisplayMode, Actividad = 4, DisplayMode.View)
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"DimicilioPersonaFisica")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "DimicilioPersonaFisica")
             Required: =false
             Update: =DataCardValue157.Text
-            Visible: =DataCardValue53.Selected.Value = "Fisica" && Actividad = 1
+            Visible: =DataCardValue53.Selected.Value = "Fisica" && Actividad = 1 Or Actividad = 4
             Width: =1366
             X: =0
             Y: =7
@@ -2008,14 +2008,14 @@ NewContrato As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="MontoHonorario"
             Default: =ThisItem.MontoHonorario
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =If(Actividad = 3, Parent.DisplayMode, Actividad = 4, DisplayMode.View)
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"MontoHonorario")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "MontoHonorario")
             Required: =false
             Update: =DataCardValue164.Text
-            Visible: =Actividad = 3
+            Visible: =Actividad = 3 Or Actividad = 4
             Width: =1366
             X: =0
             Y: =14
@@ -2124,13 +2124,13 @@ NewContrato As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="FechaInicio"
             Default: =ThisItem.FechaInicio
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =If(Actividad = 3, Parent.DisplayMode, Actividad = 4, DisplayMode.View)
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FechaInicio")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue165.SelectedDate
-            Visible: =Actividad = 3
+            Visible: =Actividad = 3 Or Actividad = 4
             Width: =1366
             X: =0
             Y: =15
@@ -2231,10 +2231,10 @@ NewContrato As screen:
         DataCard20 As typedDataCard.blankCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =If(Actividad = 3, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =190
-            Visible: =Actividad = 3
+            Visible: =Actividad = 3 Or Actividad = 4
             Width: =1366
             X: =0
             Y: =16
@@ -2389,13 +2389,13 @@ NewContrato As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="FechaTerminoContrato"
             Default: =ThisItem.FechaTerminoContrato
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =If(Actividad = 3, Parent.DisplayMode, Actividad = 4, DisplayMode.View)
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FechaTerminoContrato")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue166.SelectedDate
-            Visible: =Actividad = 3
+            Visible: =Actividad = 3 Or Actividad = 4
             Width: =1366
             X: =0
             Y: =17
@@ -2523,7 +2523,7 @@ NewContrato As screen:
         DataCard14 As typedDataCard.blankCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =Parent.DisplayMode
             Fill: =RGBA(0, 0, 0, 0)
             Height: =140
             Width: =1366
@@ -2549,6 +2549,7 @@ NewContrato As screen:
                     Color: =RGBA(51, 51, 51, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     Height: =Parent.Height-40
@@ -2587,7 +2588,7 @@ NewContrato As screen:
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
-                Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 2
+                Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 2 Or Actividad = 4
                 Width: =310
                 X: =620
                 ZIndex: =3
@@ -2599,6 +2600,7 @@ NewContrato As screen:
                     Color: =RGBA(51, 51, 51, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     Height: =Parent.Height-40
@@ -2637,7 +2639,7 @@ NewContrato As screen:
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
-                Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 2
+                Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 2 Or Actividad = 4
                 Width: =310
                 X: =930
                 ZIndex: =4
@@ -2649,6 +2651,7 @@ NewContrato As screen:
                     Color: =RGBA(51, 51, 51, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     Height: =Parent.Height-40
@@ -2687,7 +2690,7 @@ NewContrato As screen:
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
-                Visible: =Actividad = 2
+                Visible: =Actividad = 2 Or Actividad = 4
                 Width: =310
                 ZIndex: =5
 
@@ -2698,6 +2701,7 @@ NewContrato As screen:
                     Color: =RGBA(51, 51, 51, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     Height: =Parent.Height-40
@@ -2736,7 +2740,7 @@ NewContrato As screen:
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
-                Visible: =DataCardValue53.Selected.Value = "Fisica" && Actividad = 2
+                Visible: =DataCardValue53.Selected.Value = "Fisica" && Actividad = 2 Or Actividad = 4 Or Actividad = 4
                 Width: =310
                 X: =310
                 ZIndex: =6
@@ -2748,6 +2752,7 @@ NewContrato As screen:
                     Color: =RGBA(51, 51, 51, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     Height: =Parent.Height-40
@@ -2929,13 +2934,13 @@ NewContrato As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="{Attachments}"
             Default: =ThisItem.'Datos adjuntos'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =If(Actividad = 2, Parent.DisplayMode, Actividad = 4, DisplayMode.View)
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"{Attachments}")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue163.Attachments
-            Visible: =Actividad = 2
+            Visible: =Actividad = 2 Or Actividad = 4
             Width: =1366
             X: =0
             Y: =20
