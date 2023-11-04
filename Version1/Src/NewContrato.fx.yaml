@@ -80,7 +80,11 @@ NewContrato As screen:
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
-            OnSelect: =Set(Actividad,Actividad + 1)
+            OnSelect: |-
+                =If(Form6.Valid, Set(Actividad,Actividad + 1), Notify(
+                        "Por favor, completa todos los campos requeridos",
+                        NotificationType.Error
+                    ))
             PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
@@ -165,7 +169,7 @@ NewContrato As screen:
                     DisabledFill: =RGBA(0, 255, 255, 0.35)
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =Parent.Height - 10
-                    HoverFill: =RGBA(0, 255, 255, 0.35)
+                    HoverFill: =RGBA(0, 0, 0, 0)
                     OnSelect: =Set(Actividad,0)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     Width: =Parent.Width - 10
@@ -706,7 +710,7 @@ NewContrato As screen:
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"Persona")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =DataCardValue53.Selected
             Visible: =Actividad = 1
             Width: =1366
@@ -2013,7 +2017,7 @@ NewContrato As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "MontoHonorario")
-            Required: =false
+            Required: =true
             Update: =DataCardValue164.Text
             Visible: =Actividad = 3 Or Actividad = 4
             Width: =1366
@@ -2128,7 +2132,7 @@ NewContrato As screen:
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FechaInicio")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =DataCardValue165.SelectedDate
             Visible: =Actividad = 3 Or Actividad = 4
             Width: =1366
@@ -2393,7 +2397,7 @@ NewContrato As screen:
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"FechaTerminoContrato")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =DataCardValue166.SelectedDate
             Visible: =Actividad = 3 Or Actividad = 4
             Width: =1366
@@ -2938,7 +2942,7 @@ NewContrato As screen:
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"{Attachments}")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =DataCardValue163.Attachments
             Visible: =Actividad = 2 Or Actividad = 4
             Width: =1366
