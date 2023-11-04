@@ -83,7 +83,7 @@ NewContrato As screen:
             OnSelect: |-
                 =If(Form6.Valid, Set(Actividad,Actividad + 1), Notify(
                         "Por favor, completa todos los campos requeridos",
-                        NotificationType.Error
+                        NotificationType.Error,2000
                     ))
             PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
@@ -264,7 +264,7 @@ NewContrato As screen:
                     DisabledFill: =RGBA(0, 255, 255, 0.35)
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =Parent.Height - 10
-                    HoverFill: =RGBA(0, 255, 255, 0.35)
+                    HoverFill: =RGBA(0, 0, 0, 0)
                     OnSelect: =Set(Actividad,1)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     Width: =Parent.Width - 10
@@ -360,7 +360,7 @@ NewContrato As screen:
                     DisabledFill: =RGBA(0, 255, 255, 0.35)
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =Parent.Height - 10
-                    HoverFill: =RGBA(0, 255, 255, 0.35)
+                    HoverFill: =RGBA(0, 0, 0, 0)
                     OnSelect: =Set(Actividad,2)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     Width: =Parent.Width - 10
@@ -456,7 +456,7 @@ NewContrato As screen:
                     DisabledFill: =RGBA(0, 255, 255, 0.35)
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =Parent.Height - 10
-                    HoverFill: =RGBA(0, 255, 255, 0.35)
+                    HoverFill: =RGBA(0, 0, 0, 0)
                     OnSelect: =Set(Actividad,3)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     Width: =Parent.Width - 10
