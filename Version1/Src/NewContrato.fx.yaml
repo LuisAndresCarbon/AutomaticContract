@@ -80,11 +80,7 @@ NewContrato As screen:
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
-            OnSelect: |-
-                =If(Form6.Valid, Set(Actividad,Actividad + 1), Notify(
-                        "Por favor, completa todos los campos requeridos",
-                        NotificationType.Error,2000
-                    ))
+            OnSelect: =Set(Actividad,Actividad + 1)
             PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
