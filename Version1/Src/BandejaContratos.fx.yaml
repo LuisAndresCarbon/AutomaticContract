@@ -893,3 +893,22 @@ BandejaContratos As screen:
         Y: =80
         ZIndex: =32
 
+    Icon12_2 As icon.Home:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(61,184,123,71), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Home
+        OnSelect: =Navigate(Menu)
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(61,184,123,71),-10%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =17
+        Y: =3
+        ZIndex: =33
+
