@@ -72,8 +72,8 @@ Menu As screen:
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.AddDocument
             OnSelect: |-
-                =NewForm(Form3);//Navigate(Nuevo_Contrato)
-                Set(Actividad,0);NewForm(Form6);Navigate(NewContrato)
+                =NewForm(Form6);NewForm(Form3);//Navigate(Nuevo_Contrato)
+                Set(Actividad,0);Navigate(NewContrato)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)

@@ -3197,13 +3197,8 @@
             OnSelect: |-
                 =If(
                     Form3.Valid,
-                    Navigate(notificacion),
-                    Notify(
-                        "Por favor, completa todos los campos requeridos",
-                        NotificationType.Error
-                    )
-                ) && SubmitForm(Form3);
-                Office365Outlook.SendEmailV2(
+                    Navigate(notificacion) &&
+                    Office365Outlook.SendEmailV2(
                     "uriel@canopiacarbon.com",
                     User().FullName & "Solicitud de Contrato",
                     HtmlText_Info.HtmlText,
@@ -3214,7 +3209,13 @@
                     User().FullName & "Solicitud de Contrato",
                     HtmlText_Info.HtmlText,
                     {Importance: "High"}
-                )
+                ),
+                    Notify(
+                        "Por favor, completa todos los campos requeridos",
+                        NotificationType.Error
+                    )
+                ) && SubmitForm(Form3);
+                
                 
                 //Office365Outlook.SendEmailV2("lizette@canopiacarbon.com",    User().FullName & "Solicitud de Contrato",//HtmlText_Info.HtmlText,{Importance: "High"})
             PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
