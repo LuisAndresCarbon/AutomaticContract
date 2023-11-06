@@ -73,7 +73,7 @@ Menu As screen:
             Icon: =Icon.AddDocument
             OnSelect: |-
                 =NewForm(Form3);//Navigate(Nuevo_Contrato)
-                Set(Actividad,0);Navigate(NewContrato)
+                Set(Actividad,0);NewForm(Form6);Navigate(NewContrato)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(61,184,123,71), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
