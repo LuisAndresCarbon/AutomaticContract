@@ -704,7 +704,7 @@ Asignar As screen:
             								<img width='250' height='60'src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkRFxZPnfzxqfkUL8bZ-IxhRfZdCIONdFZRnddZ9y&s'/>
             								<h1>Se te a asignado un nuevo contrato.</h1>
             							</center>
-                                        <h2>Saludos <p>"&Concatenate(Equipo_Legal.Selected.Value)&"</p></h2>
+                                        <h2>Saludos <p>"&Equipo_Legal.Selected.Value&"</p></h2>
             							<h2>Nombre del contrato:</h2>
             							<p>
             								"&TextInput1.Text&"
@@ -713,27 +713,16 @@ Asignar As screen:
             					</tr>
             					<tr class='contra-tr'>
             						<td class='contra-td' colspan='10' style=''>
-            							<h2>Ver</h2>
+            							<h2>Automatic Contract:</h2>
             						</td>
             					</tr>
             
-            						<td class='contra-td' colspan='2' style='padding-left: 5px; width: 33%'>
-            							<a href='https://make.powerapps.com/' class='contra-link'>
-            								<img width='48' height='48' src='https://img.icons8.com/fluency/48/microsoft-power-apps.png' alt='microsoft-power-apps'/>
-            							</a>
-            						</td>
+            					<td class='contra-td' style='padding-left: 42px; width: 33%'>
+            						<a href='https://apps.powerapps.com/play/e/default-443ce54c-24bb-4b32-8795-1beae5de4545/a/0accb942-c845-4fc7-9958-fdf46ee47ec2?tenantId=443ce54c-24bb-4b32-8795-1beae5de4545&hint=de5ad150-d942-4dbc-a172-73cbf66f0be8&source=sharebutton&sourcetime=1699287137899' class='contra-link'>
+            							<img width='48' height='48' src='https://img.icons8.com/fluency/48/microsoft-power-apps.png' alt='microsoft-power-apps'/>
+            						</a>
+            					</td>
             					</tr>
-            
-            					<tr class='contra-tr'>
-            						<td class='contra-td' colspan='10' style=''>
-            							<br />
-            							<h3>Solicitado por:</h3>
-            							<p>
-            								"&Concatenate(Text(Gallery5.Selected.Solicitante))&"
-            							</p>
-            						</td>
-            					</tr>
-            
             					<tr class='contra-tr'>
             						<td class='contra-td' colspan='10' style=''>
             							<div class='contra-divider'></div>
@@ -942,7 +931,7 @@ Asignar As screen:
             Y: =245
             ZIndex: =9
 
-        HtmlText3 As htmlViewer:
+        Nomenclatura As htmlViewer:
             Height: =239
             HtmlText: |-
                 ="<div
