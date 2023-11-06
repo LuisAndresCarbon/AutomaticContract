@@ -3214,9 +3214,9 @@
                     User().FullName & "Solicitud de Contrato",
                     HtmlText_Info.HtmlText,
                     {Importance: "High"}
-                );
+                )
                 
-                Office365Outlook.SendEmailV2("lizette@canopiacarbon.com",    User().FullName & "Solicitud de Contrato",HtmlText_Info.HtmlText,{Importance: "High"})
+                //Office365Outlook.SendEmailV2("lizette@canopiacarbon.com",    User().FullName & "Solicitud de Contrato",//HtmlText_Info.HtmlText,{Importance: "High"})
             PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)

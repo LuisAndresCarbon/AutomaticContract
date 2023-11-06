@@ -704,10 +704,10 @@ Asignar As screen:
             								<img width='250' height='60'src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkRFxZPnfzxqfkUL8bZ-IxhRfZdCIONdFZRnddZ9y&s'/>
             								<h1>Se te a asignado un nuevo contrato.</h1>
             							</center>
-                                        <h2>Saludos <p>""</p></h2>
-            							<h2>Informacion:</h2>
+                                        <h2>Saludos <p>"&Concatenate(Equipo_Legal.Selected.Value)&"</p></h2>
+            							<h2>Nombre del contrato:</h2>
             							<p>
-            								
+            								"&TextInput1.Text&"
             							</p>
             						</td>
             					</tr>
@@ -729,7 +729,7 @@ Asignar As screen:
             							<br />
             							<h3>Solicitado por:</h3>
             							<p>
-            								
+            								"&Concatenate(Text(Gallery5.Selected.Solicitante))&"
             							</p>
             						</td>
             					</tr>
@@ -946,24 +946,24 @@ Asignar As screen:
             Height: =239
             HtmlText: |-
                 ="<div
-                    style='margin: 1%; height: 220px;width:390px; border-radius: 25px; background-color: white; box-shadow:0 0 10px rgba(0,0,0,0.6);'>
-                    <div>
-                        <center>
-                            <h1 style='margin: 1% auto; font-size: 20px'><img width='35' height='35'
-                                    src='https://img.icons8.com/wired/64/parallel-tasks.png' /> Convencion</h1>
-                            <h3 align='left' style='margin: 1% auto; font-size: 20px'><small>En este caso:</small></h3>
-                        </center>
-                        <div>
-                            <blockquote style='revert-layer; font-size: 15px'>
-                                <li>'ERPA' representa el tipo de contrato. </li>
-                                <li>'Fisica' representa Persona </li>
-                                <li>'_' se utiliza para separar las partes</li>
-                                <li>Puedes agregar nombre o numero de proyecto </li>
-                                <strong>MEJORA SU ORGANIZACION Y BUSQUEDA.</strong>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>"
+                                    style='margin: 1%; height: 220px;width:390px; border-radius: 25px; background-color: white; box-shadow:0 0 10px rgba(0,0,0,0.6);'>
+                                    <div>
+                                        <center>
+                                            <h1 style='margin: 1% auto; font-size: 20px'><img width='35' height='35'
+                                                    src='https://img.icons8.com/wired/64/parallel-tasks.png' /> Convencion</h1>
+                                            <h3 align='left' style='margin: 1% auto; font-size: 20px'><small>En este caso:</small></h3>
+                                        </center>
+                                        <div>
+                                            <blockquote style='revert-layer; font-size: 15px'>
+                                                <li>'ERPA' representa el tipo de contrato. </li>
+                                                <li>'Fisica' representa Persona </li>
+                                                <li>'_' se utiliza para separar las partes</li>
+                                                <li>Puedes agregar nombre o numero de proyecto </li>
+                                                <strong>MEJORA SU ORGANIZACION Y BUSQUEDA.</strong>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>"
             Width: =415
             ZIndex: =10
 

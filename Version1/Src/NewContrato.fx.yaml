@@ -2790,34 +2790,6 @@ NewContrato As screen:
                     Width: =Parent.Width
                     ZIndex: =3
 
-        DataCard9 As typedDataCard.blankCard:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.Solid
-            BorderThickness: =1
-            DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =45
-            Visible: =Actividad = 1
-            Width: =1366
-            X: =0
-            Y: =19
-            ZIndex: =1
-
-            Label38 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                FontWeight: =FontWeight.Bold
-                Size: =15
-                Text: ="Domicilio"
-                Width: =Parent.Width
-                ZIndex: =1
-
         Solicitante_DataCard5 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
@@ -3400,6 +3372,34 @@ NewContrato As screen:
                 Wrap: =false
                 Y: =DataCardKey173.Y
                 ZIndex: =4
+
+        DataCard9 As typedDataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =1
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =45
+            Visible: =Actividad = 1
+            Width: =1366
+            X: =0
+            Y: =19
+            ZIndex: =1
+
+            Label38 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Bold
+                Size: =15
+                Text: ="Domicilio"
+                Width: =Parent.Width
+                ZIndex: =1
 
     HtmlText1 As htmlViewer:
         HtmlText: |-
