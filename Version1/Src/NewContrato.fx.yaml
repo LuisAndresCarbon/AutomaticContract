@@ -553,6 +553,7 @@ NewContrato As screen:
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =Parent.Height - 10
                     HoverFill: =RGBA(0, 0, 0, 0)
+                    OnSelect: =Set(Actividad,3)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     Width: =Parent.Width - 10
                     X: =5
