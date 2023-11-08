@@ -562,6 +562,415 @@ NewContrato As screen:
                 Y: =50
                 ZIndex: =4
 
+    HtmlText1 As htmlViewer:
+        HtmlText: |-
+            ="<!DOCTYPE html>
+            <html lang='pl'>
+            	<head>
+            		<meta charset='UTF-8' />
+            		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+            		<meta http-equiv='X-UA-Compatible' content='ie=edge' />
+            		<title>Email</title>
+            
+            		<link href='https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap' rel='stylesheet' />
+            
+            		<style>
+            			.contra-body {
+            				display: block;
+            				padding: 0px;
+            				margin: 0px;
+            			}
+            
+            			.contra-wrapper {
+            				width: 100%;
+            				display: block;
+            				overflow: hidden;
+            				box-sizing: border-box;
+            				color: #222;
+            				background: #f2f2fd;
+            				font-size: 18px;
+            				font-weight: normal;
+            				font-family: 'Baloo 2', 'Open Sans', 'Roboto', 'Segoe UI', 'Helvetica Neue', Helvetica, Tahoma, Arial, monospace, sans-serif;
+            			}
+            
+            			.contra-table {
+            				border-collapse: collapse;
+            				border-spacing: 0;
+            				border: 0px;
+            				width: 640px;
+            				max-width: 90%;
+            				margin: 100px auto;
+            				box-shadow: 0px 20px 48px rgba(0, 0, 0, 0.2);
+            				border-radius: 10px;
+            				overflow: hidden;
+            			}
+            
+            			.contra-table tr {
+            				background: #ffffff;
+            			}
+            
+            			.contra-table td,
+            			.contra-table th {
+            				border: 0px;
+            				border-spacing: 0;
+            				border-collapse: collapse;
+            			}
+            
+            			.contra-table tr td {
+            				padding: 0px 40px;
+            				box-sizing: border-box;
+            			}
+            
+            			.contra-margin {
+            				float: left;
+            				width: 100%;
+            				overflow: hidden;
+            				height: 40px;
+            				padding-bottom: 0px;
+            				box-sizing: border-box;
+            			}
+            
+            			.contra-div {
+            				float: left;
+            				width: 100%;
+            				overflow: hidden;
+            				box-sizing: border-box;
+            			}
+            
+            			.contra-table h1,
+            			.contra-table h2,
+            			.contra-table h3,
+            			.contra-table h4 {
+            				float: left;
+            				width: 100%;
+            				margin: 0px 0px 20px 0px !important;
+            				padding: 0px;
+            			}
+            
+            			.contra-table h1 {
+            				font-size: 33px;
+            			}
+            
+            			.contra-table h2 {
+            				font-size: 26px;
+            			}
+            
+            			.contra-table h3 {
+            				font-size: 23px;
+            			}
+            
+            			.contra-table p {
+            				float: left;
+            				width: 100%;
+            				font-size: 18px;
+            				margin: 0px 0px 20px 0px !important;
+            			}
+            
+            			.contra-table h4 {
+            				font-size: 20px;
+            			}
+            
+            			.contra-table a {
+            				color: #6d49fc;
+            				font-weight: bold;
+            			}
+            
+            			.contra-table a:hover {
+            				color: #55cc55;
+            			}
+            
+            			.contra-table a:active {
+            				color: #ff6600;
+            			}
+            
+            			.contra-table a:visited {
+            				color: #ff00ff;
+            			}
+            
+            			.contra-table a.contra-link {
+            				display: inline-block;
+            				width: auto !important;
+            				outline: none !important;
+            				text-decoration: none !important;
+            			}
+            
+            			.contra-table img,
+            			.contra-table a img {
+            				display: block;
+            				max-width: 100%;
+            				margin-bottom: 20px;
+            				border: 0px;
+            				border-radius: 10px;
+            				overflow: hidden;
+            			}
+            
+            			.contra-table a.contra-button {
+            				display: inline-block;
+            				font-weight: bold;
+            				font-size: 17px;
+            				padding: 15px 40px;
+            				margin: 20px 0px;
+            				color: #ffffff !important;
+            				background: #6d49fc !important;
+            				border-radius: 10px;
+            				text-decoration: none;
+            				outline: none;
+            			}
+            
+            			.contra-table a.contra-button:hover {
+            				color: #ffffff !important;
+            				background: #55cc55 !important;
+            			}
+            
+            			.contra-code {
+            				float: left;
+            				width: 100%;
+            				overflow: hidden;
+            				box-sizing: border-box;
+            				padding: 15px 40px;
+            				margin: 20px 0px;
+            				border: 1px dashed #6d49fcaa;
+            				background: #6d49fc11;
+            				color: #6d49fc;
+            				font-weight: 700;
+            				font-size: 23px;
+            			}
+            
+            			.contra-flex {
+            				float: left;
+            				width: 100%;
+            				text-align: center;
+            			}
+            
+            			.contra-divider {
+            				float: left;
+            				width: 100%;
+            				overflow: hidden;
+            				margin: 20px 0px;
+            				border-top: 2px solid #f2f2fd;
+            			}
+            		</style>
+            
+            		<style>
+            			/* your style here */
+            			.contra-flex img {
+            				margin: 10px;
+            				max-width: 15%;
+            				width: 40px;
+            			}
+            		</style>
+            	</head>
+            
+            	<body class='contra-body'>
+            		<div class='contra-wrapper'>
+            			<table class='contra-table'>
+            				<tbody>
+            					<tr class='contra-tr'>
+            						<td class='contra-td' colspan='10' style=''>
+            							<div class='contra-margin'></div>
+            							<center>
+            								<h1>Nuevo Contrato !</h1>
+            								<img width='250' height='60'src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkRFxZPnfzxqfkUL8bZ-IxhRfZdCIONdFZRnddZ9y&s'/>
+            							</center>
+            							<h2>Informacion:</h2>
+            							<p>
+            								"&Concatenate("Tipo de contrato : ",DataCardValue25.Selected.Value,"<br>",
+                                            "Nombre del Contrato: ",DataCardValue169.Text,"<br>",
+            								"Folio del Contrato: " ,DataCardValue172.Text)&"
+            							</p>
+            						</td>
+            					</tr>
+            					<tr class='contra-tr'>
+            						<td class='contra-td' colspan='10' style=''>
+            							<h2>Links</h2>
+            						</td>
+            					</tr>
+            
+            						<td class='contra-td' style='padding-left: 42px; width: 33%'>
+            							<a href='https://apps.powerapps.com/play/e/default-443ce54c-24bb-4b32-8795-1beae5de4545/a/0accb942-c845-4fc7-9958-fdf46ee47ec2?tenantId=443ce54c-24bb-4b32-8795-1beae5de4545&hint=de5ad150-d942-4dbc-a172-73cbf66f0be8&source=sharebutton&sourcetime=1699287137899' class='contra-link'>
+            								<img width='48' height='48' src='https://img.icons8.com/fluency/48/microsoft-power-apps.png' alt='microsoft-power-apps'/>
+            							</a>
+            						</td>
+            					</tr>
+            
+            					<tr class='contra-tr'>
+            						<td class='contra-td' colspan='10' style=''>
+            							<br />
+            							<h3>Solicitado por:</h3>
+            							<p>
+            								"&Concatenate(DataCardValue173.Text)&"
+            							</p>
+            						</td>
+            					</tr>
+            
+            					<tr class='contra-tr'>
+            						<td class='contra-td' colspan='10' style=''>
+            							<div class='contra-divider'></div>
+            							<center>
+            								<span style='color: #706d6b'> © 2023 Canopia Carbon</span>
+            							</center>
+            							<div class='contra-flex'>
+            								<a href='mailto:uriel@canopiacarbon.com' class='contra-link'>
+            									<img src='https://img.icons8.com/?size=64&id=LPcVDft9Isqt&format=png' alt='Image' />
+            								</a>
+            							</div>
+            							<div class='contra-margin'></div>
+            						</td>
+            					</tr>
+            				</tbody>
+            			</table>
+            		</div>
+            	</body>
+            </html>"
+        X: =1087
+        Y: =15
+        ZIndex: =4
+
+    Icon12_5 As icon.Home:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(61,184,123,71), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Home
+        OnSelect: =Navigate(Menu)
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(61,184,123,71),-10%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =17
+        Y: =3
+        ZIndex: =5
+
+    Button4_1 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(8, 143, 131, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
+        OnSelect: =ResetForm(Form6);
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Limpiar"
+        X: =927
+        Y: =676
+        ZIndex: =6
+
+    Icon1_1 As icon.Trash:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(255, 255, 255, 0)
+        FocusedBorderThickness: =4
+        Height: =37
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(61,184,123,71), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Trash
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =31
+        X: =927
+        Y: =679
+        ZIndex: =7
+
+    Next As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(8, 143, 131, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
+        OnSelect: |
+            =If(
+                Actividad = 0,
+                If(
+                    !IsBlank(DataCardValue25),
+                    Set(Actividad, Actividad + 1),
+                    Notify("Por favor, complete el campo Tipo de Contrato antes de avanzar.", NotificationType.Error)
+                ),
+                Actividad = 1,
+                If(
+                    !IsBlank(DataCardValue53),
+                    Set(Actividad, Actividad + 1),
+                    Notify("Por favor, complete el campo Tipo de Persona antes de avanzar.", NotificationType.Error)
+                ),
+                Actividad = 2,
+                If(
+                    Set(Actividad, Actividad + 1),
+                    Notify("Por favor, Verifique los datos Adjuntos antes de avanzar.", NotificationType.Information)
+                ),
+                Actividad = 3,
+                If(
+                    !IsBlank(DataCardValue164) And  !IsBlank(DataCardValue165),
+                    Set(Actividad, Actividad + 1),
+                    Notify("Por favor, complete los campos antes de avanzar.", NotificationType.Error)
+                )
+            )
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Next"
+        Visible: =Actividad < 4
+        X: =1127
+        Y: =676
+        ZIndex: =8
+
+    Back As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(8, 143, 131, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
+        OnSelect: =Set(Actividad,Actividad - 1)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Back"
+        Visible: =Actividad > 0
+        X: =116
+        Y: =676
+        ZIndex: =9
+
     Form6 As form:
         BorderColor: =RGBA(166, 166, 166, 1)
         DataSource: =BdContratosLegal
@@ -570,7 +979,7 @@ NewContrato As screen:
         NumberOfColumns: =1
         Width: =1366
         Y: =179
-        ZIndex: =5
+        ZIndex: =10
 
         contratos_DataCard7 As typedDataCard.comboBoxEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -586,7 +995,7 @@ NewContrato As screen:
             Visible: =Actividad = 0
             Width: =1366
             X: =0
-            Y: =2
+            Y: =0
             ZIndex: =1
 
             DataCardKey25 As label:
@@ -706,7 +1115,7 @@ NewContrato As screen:
             Visible: =Actividad = 4
             Width: =1366
             X: =0
-            Y: =0
+            Y: =1
             ZIndex: =1
 
             DataCardKey169 As label:
@@ -824,7 +1233,7 @@ NewContrato As screen:
             Visible: =Actividad = 4
             Width: =1366
             X: =0
-            Y: =1
+            Y: =2
             ZIndex: =1
 
             DataCardKey172 As label:
@@ -1407,7 +1816,7 @@ NewContrato As screen:
             Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 1 Or Actividad = 4
             Width: =1366
             X: =0
-            Y: =8
+            Y: =7
             ZIndex: =1
 
             DataCardKey156 As label:
@@ -1523,7 +1932,7 @@ NewContrato As screen:
             Visible: =DataCardValue53.Selected.Value = "Fisica" && Actividad = 1 Or Actividad = 4
             Width: =1366
             X: =0
-            Y: =9
+            Y: =8
             ZIndex: =1
 
             DataCardKey157 As label:
@@ -1639,7 +2048,7 @@ NewContrato As screen:
             Visible: =false
             Width: =1366
             X: =0
-            Y: =10
+            Y: =9
             ZIndex: =1
 
             DataCardKey158 As label:
@@ -1755,7 +2164,7 @@ NewContrato As screen:
             Visible: =false
             Width: =1366
             X: =0
-            Y: =11
+            Y: =10
             ZIndex: =1
 
             DataCardKey159 As label:
@@ -1871,7 +2280,7 @@ NewContrato As screen:
             Visible: =false
             Width: =1366
             X: =0
-            Y: =12
+            Y: =11
             ZIndex: =1
 
             DataCardKey160 As label:
@@ -1987,7 +2396,7 @@ NewContrato As screen:
             Visible: =false
             Width: =1366
             X: =0
-            Y: =13
+            Y: =12
             ZIndex: =1
 
             DataCardKey161 As label:
@@ -2103,7 +2512,7 @@ NewContrato As screen:
             Visible: =false
             Width: =1366
             X: =0
-            Y: =14
+            Y: =13
             ZIndex: =1
 
             DataCardKey162 As label:
@@ -2213,7 +2622,7 @@ NewContrato As screen:
             Visible: =Actividad = 3
             Width: =1366
             X: =0
-            Y: =15
+            Y: =14
             ZIndex: =1
 
             Label42 As label:
@@ -2246,7 +2655,7 @@ NewContrato As screen:
             Visible: =Actividad = 3 Or Actividad = 4
             Width: =1366
             X: =0
-            Y: =16
+            Y: =15
             ZIndex: =1
 
             DataCardKey164 As label:
@@ -2361,7 +2770,7 @@ NewContrato As screen:
             Visible: =Actividad = 3 Or Actividad = 4
             Width: =1366
             X: =0
-            Y: =17
+            Y: =16
             ZIndex: =1
 
             DataCardKey165 As label:
@@ -2465,7 +2874,7 @@ NewContrato As screen:
             Visible: =Actividad = 3 Or Actividad = 4
             Width: =1366
             X: =0
-            Y: =18
+            Y: =17
             ZIndex: =1
 
             Dropdown1_2 As dropdown:
@@ -2626,7 +3035,7 @@ NewContrato As screen:
             Visible: =Actividad = 3 Or Actividad = 4
             Width: =1366
             X: =0
-            Y: =19
+            Y: =18
             ZIndex: =1
 
             DataCardKey166 As label:
@@ -2730,7 +3139,7 @@ NewContrato As screen:
             Visible: =Actividad = 2
             Width: =1366
             X: =0
-            Y: =20
+            Y: =19
             ZIndex: =1
 
             Label40 As label:
@@ -2754,266 +3163,21 @@ NewContrato As screen:
             DisplayMode: =Parent.DisplayMode
             Fill: =RGBA(0, 0, 0, 0)
             Height: =140
+            Visible: =true
             Width: =1366
             X: =0
-            Y: =21
+            Y: =20
             ZIndex: =1
 
-            Container19 As groupContainer.manualLayoutContainer:
-                Height: =140
+            Container20 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Light
+                Height: =150
                 RadiusBottomLeft: =4
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
-                Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 2
-                Width: =310
-                X: =310
-                ZIndex: =2
-
-                Radio1 As radio:
-                    BorderColor: =RGBA(51, 51, 51, 1)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    Height: =Parent.Height-40
-                    HoverColor: =RGBA(51, 51, 51, 1)
-                    HoverFill: =RGBA(0, 0, 0, 0)
-                    Items: =["Si","No"]
-                    PaddingBottom: =5
-                    PaddingTop: =5
-                    PressedColor: =RGBA(51, 51, 51, 1)
-                    PressedFill: =RGBA(0, 0, 0, 0)
-                    RadioBorderColor: =RGBA(51, 51, 51, 1)
-                    RadioSelectionFill: =RGBA(73, 130, 5, 1)
-                    Size: =13
-                    Width: =Parent.Width
-                    Y: =40
-                    ZIndex: =2
-
-                Label41 As label:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Size: =15
-                    Text: ="Poder del Representante Legal"
-                    Width: =Parent.Width
-                    ZIndex: =3
-
-            Container19_1 As groupContainer.manualLayoutContainer:
-                Height: =140
-                RadiusBottomLeft: =4
-                RadiusBottomRight: =4
-                RadiusTopLeft: =4
-                RadiusTopRight: =4
-                Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 2 Or Actividad = 4
-                Width: =310
-                X: =620
-                ZIndex: =3
-
-                Radio1_1 As radio:
-                    BorderColor: =RGBA(51, 51, 51, 1)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    Height: =Parent.Height-40
-                    HoverColor: =RGBA(51, 51, 51, 1)
-                    HoverFill: =RGBA(0, 0, 0, 0)
-                    Items: =["Si","No"]
-                    PaddingBottom: =5
-                    PaddingTop: =5
-                    PressedColor: =RGBA(51, 51, 51, 1)
-                    PressedFill: =RGBA(0, 0, 0, 0)
-                    RadioBorderColor: =RGBA(51, 51, 51, 1)
-                    RadioSelectionFill: =RGBA(73, 130, 5, 1)
-                    Size: =13
-                    Width: =Parent.Width
-                    Y: =40
-                    ZIndex: =2
-
-                Label41_1 As label:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Size: =15
-                    Text: ="Acta Constitutiva"
-                    Width: =Parent.Width
-                    ZIndex: =3
-
-            Container19_2 As groupContainer.manualLayoutContainer:
-                Height: =140
-                RadiusBottomLeft: =4
-                RadiusBottomRight: =4
-                RadiusTopLeft: =4
-                RadiusTopRight: =4
-                Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 2 Or Actividad = 4
-                Width: =310
-                X: =930
-                ZIndex: =4
-
-                Radio1_2 As radio:
-                    BorderColor: =RGBA(51, 51, 51, 1)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    Height: =Parent.Height-40
-                    HoverColor: =RGBA(51, 51, 51, 1)
-                    HoverFill: =RGBA(0, 0, 0, 0)
-                    Items: =["Si","No"]
-                    PaddingBottom: =5
-                    PaddingTop: =5
-                    PressedColor: =RGBA(51, 51, 51, 1)
-                    PressedFill: =RGBA(0, 0, 0, 0)
-                    RadioBorderColor: =RGBA(51, 51, 51, 1)
-                    RadioSelectionFill: =RGBA(73, 130, 5, 1)
-                    Size: =13
-                    Width: =Parent.Width
-                    Y: =40
-                    ZIndex: =2
-
-                Label41_2 As label:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Size: =15
-                    Text: ="INE del Representante"
-                    Width: =Parent.Width
-                    ZIndex: =3
-
-            Container19_3 As groupContainer.manualLayoutContainer:
-                Height: =140
-                RadiusBottomLeft: =4
-                RadiusBottomRight: =4
-                RadiusTopLeft: =4
-                RadiusTopRight: =4
-                Visible: =Actividad = 2 Or Actividad = 4
-                Width: =310
-                ZIndex: =5
-
-                Radio1_3 As radio:
-                    BorderColor: =RGBA(51, 51, 51, 1)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    Height: =Parent.Height-40
-                    HoverColor: =RGBA(51, 51, 51, 1)
-                    HoverFill: =RGBA(0, 0, 0, 0)
-                    Items: =["Si","No"]
-                    PaddingBottom: =5
-                    PaddingTop: =5
-                    PressedColor: =RGBA(51, 51, 51, 1)
-                    PressedFill: =RGBA(0, 0, 0, 0)
-                    RadioBorderColor: =RGBA(51, 51, 51, 1)
-                    RadioSelectionFill: =RGBA(73, 130, 5, 1)
-                    Reset: |
-                        =true
-                    Size: =13
-                    Width: =Parent.Width
-                    Y: =40
-                    ZIndex: =2
-
-                Label41_3 As label:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Size: =15
-                    Text: ="Caratula Bancaria"
-                    Width: =Parent.Width
-                    ZIndex: =3
-
-            Container19_4 As groupContainer.manualLayoutContainer:
-                Height: =140
-                RadiusBottomLeft: =4
-                RadiusBottomRight: =4
-                RadiusTopLeft: =4
-                RadiusTopRight: =4
-                Visible: =DataCardValue53.Selected.Value = "Fisica" && Actividad = 2 Or Actividad = 4 Or Actividad = 4
-                Width: =310
-                X: =310
-                ZIndex: =6
-
-                Radio1_4 As radio:
-                    BorderColor: =RGBA(51, 51, 51, 1)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    Height: =Parent.Height-40
-                    HoverColor: =RGBA(51, 51, 51, 1)
-                    HoverFill: =RGBA(0, 0, 0, 0)
-                    Items: =["Si","No"]
-                    PaddingBottom: =5
-                    PaddingTop: =5
-                    PressedColor: =RGBA(51, 51, 51, 1)
-                    PressedFill: =RGBA(0, 0, 0, 0)
-                    RadioBorderColor: =RGBA(51, 51, 51, 1)
-                    RadioSelectionFill: =RGBA(73, 130, 5, 1)
-                    Size: =13
-                    Width: =Parent.Width
-                    Y: =40
-                    ZIndex: =2
-
-                Label41_4 As label:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(51, 51, 51, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Size: =15
-                    Text: ="INE de la Persona Fisica"
-                    Width: =Parent.Width
-                    ZIndex: =3
+                Width: =Parent.Width
+                ZIndex: =1
 
         DataCard9 As typedDataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -3025,7 +3189,7 @@ NewContrato As screen:
             Visible: =Actividad = 1
             Width: =1366
             X: =0
-            Y: =7
+            Y: =21
             ZIndex: =1
 
             Label38 As label:
@@ -3167,7 +3331,7 @@ NewContrato As screen:
             DisplayMode: =If(Actividad = 2, Parent.DisplayMode, Actividad = 4, DisplayMode.View)
             DisplayName: =DataSourceInfo([@BdContratosLegal],DataSourceInfo.DisplayName,"{Attachments}")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =291
             Required: =true
             Update: =DataCardValue163.Attachments
             Visible: =Actividad = 2 Or Actividad = 4
@@ -3393,412 +3557,322 @@ NewContrato As screen:
                 Y: =DataCardKey173.Y
                 ZIndex: =4
 
-    HtmlText1 As htmlViewer:
-        HtmlText: |-
-            ="<!DOCTYPE html>
-            <html lang='pl'>
-            	<head>
-            		<meta charset='UTF-8' />
-            		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
-            		<meta http-equiv='X-UA-Compatible' content='ie=edge' />
-            		<title>Email</title>
-            
-            		<link href='https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap' rel='stylesheet' />
-            
-            		<style>
-            			.contra-body {
-            				display: block;
-            				padding: 0px;
-            				margin: 0px;
-            			}
-            
-            			.contra-wrapper {
-            				width: 100%;
-            				display: block;
-            				overflow: hidden;
-            				box-sizing: border-box;
-            				color: #222;
-            				background: #f2f2fd;
-            				font-size: 18px;
-            				font-weight: normal;
-            				font-family: 'Baloo 2', 'Open Sans', 'Roboto', 'Segoe UI', 'Helvetica Neue', Helvetica, Tahoma, Arial, monospace, sans-serif;
-            			}
-            
-            			.contra-table {
-            				border-collapse: collapse;
-            				border-spacing: 0;
-            				border: 0px;
-            				width: 640px;
-            				max-width: 90%;
-            				margin: 100px auto;
-            				box-shadow: 0px 20px 48px rgba(0, 0, 0, 0.2);
-            				border-radius: 10px;
-            				overflow: hidden;
-            			}
-            
-            			.contra-table tr {
-            				background: #ffffff;
-            			}
-            
-            			.contra-table td,
-            			.contra-table th {
-            				border: 0px;
-            				border-spacing: 0;
-            				border-collapse: collapse;
-            			}
-            
-            			.contra-table tr td {
-            				padding: 0px 40px;
-            				box-sizing: border-box;
-            			}
-            
-            			.contra-margin {
-            				float: left;
-            				width: 100%;
-            				overflow: hidden;
-            				height: 40px;
-            				padding-bottom: 0px;
-            				box-sizing: border-box;
-            			}
-            
-            			.contra-div {
-            				float: left;
-            				width: 100%;
-            				overflow: hidden;
-            				box-sizing: border-box;
-            			}
-            
-            			.contra-table h1,
-            			.contra-table h2,
-            			.contra-table h3,
-            			.contra-table h4 {
-            				float: left;
-            				width: 100%;
-            				margin: 0px 0px 20px 0px !important;
-            				padding: 0px;
-            			}
-            
-            			.contra-table h1 {
-            				font-size: 33px;
-            			}
-            
-            			.contra-table h2 {
-            				font-size: 26px;
-            			}
-            
-            			.contra-table h3 {
-            				font-size: 23px;
-            			}
-            
-            			.contra-table p {
-            				float: left;
-            				width: 100%;
-            				font-size: 18px;
-            				margin: 0px 0px 20px 0px !important;
-            			}
-            
-            			.contra-table h4 {
-            				font-size: 20px;
-            			}
-            
-            			.contra-table a {
-            				color: #6d49fc;
-            				font-weight: bold;
-            			}
-            
-            			.contra-table a:hover {
-            				color: #55cc55;
-            			}
-            
-            			.contra-table a:active {
-            				color: #ff6600;
-            			}
-            
-            			.contra-table a:visited {
-            				color: #ff00ff;
-            			}
-            
-            			.contra-table a.contra-link {
-            				display: inline-block;
-            				width: auto !important;
-            				outline: none !important;
-            				text-decoration: none !important;
-            			}
-            
-            			.contra-table img,
-            			.contra-table a img {
-            				display: block;
-            				max-width: 100%;
-            				margin-bottom: 20px;
-            				border: 0px;
-            				border-radius: 10px;
-            				overflow: hidden;
-            			}
-            
-            			.contra-table a.contra-button {
-            				display: inline-block;
-            				font-weight: bold;
-            				font-size: 17px;
-            				padding: 15px 40px;
-            				margin: 20px 0px;
-            				color: #ffffff !important;
-            				background: #6d49fc !important;
-            				border-radius: 10px;
-            				text-decoration: none;
-            				outline: none;
-            			}
-            
-            			.contra-table a.contra-button:hover {
-            				color: #ffffff !important;
-            				background: #55cc55 !important;
-            			}
-            
-            			.contra-code {
-            				float: left;
-            				width: 100%;
-            				overflow: hidden;
-            				box-sizing: border-box;
-            				padding: 15px 40px;
-            				margin: 20px 0px;
-            				border: 1px dashed #6d49fcaa;
-            				background: #6d49fc11;
-            				color: #6d49fc;
-            				font-weight: 700;
-            				font-size: 23px;
-            			}
-            
-            			.contra-flex {
-            				float: left;
-            				width: 100%;
-            				text-align: center;
-            			}
-            
-            			.contra-divider {
-            				float: left;
-            				width: 100%;
-            				overflow: hidden;
-            				margin: 20px 0px;
-            				border-top: 2px solid #f2f2fd;
-            			}
-            		</style>
-            
-            		<style>
-            			/* your style here */
-            			.contra-flex img {
-            				margin: 10px;
-            				max-width: 15%;
-            				width: 40px;
-            			}
-            		</style>
-            	</head>
-            
-            	<body class='contra-body'>
-            		<div class='contra-wrapper'>
-            			<table class='contra-table'>
-            				<tbody>
-            					<tr class='contra-tr'>
-            						<td class='contra-td' colspan='10' style=''>
-            							<div class='contra-margin'></div>
-            							<center>
-            								<h1>Nuevo Contrato !</h1>
-            								<img width='250' height='60'src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkRFxZPnfzxqfkUL8bZ-IxhRfZdCIONdFZRnddZ9y&s'/>
-            							</center>
-            							<h2>Informacion:</h2>
-            							<p>
-            								"&Concatenate("Tipo de contrato : ",DataCardValue25.Selected.Value,"<br>",
-                                            "Nombre del Contrato: ",DataCardValue169.Text,"<br>",
-            								"Folio del Contrato: " ,DataCardValue172.Text)&"
-            							</p>
-            						</td>
-            					</tr>
-            					<tr class='contra-tr'>
-            						<td class='contra-td' colspan='10' style=''>
-            							<h2>Links</h2>
-            						</td>
-            					</tr>
-            
-            						<td class='contra-td' style='padding-left: 42px; width: 33%'>
-            							<a href='https://apps.powerapps.com/play/e/default-443ce54c-24bb-4b32-8795-1beae5de4545/a/0accb942-c845-4fc7-9958-fdf46ee47ec2?tenantId=443ce54c-24bb-4b32-8795-1beae5de4545&hint=de5ad150-d942-4dbc-a172-73cbf66f0be8&source=sharebutton&sourcetime=1699287137899' class='contra-link'>
-            								<img width='48' height='48' src='https://img.icons8.com/fluency/48/microsoft-power-apps.png' alt='microsoft-power-apps'/>
-            							</a>
-            						</td>
-            					</tr>
-            
-            					<tr class='contra-tr'>
-            						<td class='contra-td' colspan='10' style=''>
-            							<br />
-            							<h3>Solicitado por:</h3>
-            							<p>
-            								"&Concatenate(DataCardValue173.Text)&"
-            							</p>
-            						</td>
-            					</tr>
-            
-            					<tr class='contra-tr'>
-            						<td class='contra-td' colspan='10' style=''>
-            							<div class='contra-divider'></div>
-            							<center>
-            								<span style='color: #706d6b'> © 2023 Canopia Carbon</span>
-            							</center>
-            							<div class='contra-flex'>
-            								<a href='mailto:uriel@canopiacarbon.com' class='contra-link'>
-            									<img src='https://img.icons8.com/?size=64&id=LPcVDft9Isqt&format=png' alt='Image' />
-            								</a>
-            							</div>
-            							<div class='contra-margin'></div>
-            						</td>
-            					</tr>
-            				</tbody>
-            			</table>
-            		</div>
-            	</body>
-            </html>"
-        X: =1087
-        Y: =15
-        ZIndex: =6
-
-    Icon12_5 As icon.Home:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(61,184,123,71), -30%)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Home
-        OnSelect: =Navigate(Menu)
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(61,184,123,71),-10%)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        X: =17
-        Y: =3
-        ZIndex: =7
-
-    Button4_1 As button:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(8, 143, 131, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
-        OnSelect: =ResetForm(Form6);
-        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =15
-        Text: ="Limpiar"
-        X: =927
-        Y: =676
-        ZIndex: =8
-
-    Icon1_1 As icon.Trash:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        Fill: =RGBA(255, 255, 255, 0)
-        FocusedBorderThickness: =4
-        Height: =37
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(61,184,123,71), -30%)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Trash
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =31
-        X: =927
-        Y: =679
-        ZIndex: =9
-
-    Next As button:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(8, 143, 131, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
-        OnSelect: |
-            =If(
-                Actividad = 0,
-                If(
-                    !IsBlank(DataCardValue25),
-                    Set(Actividad, Actividad + 1),
-                    Notify("Por favor, complete el campo Tipo de Contrato antes de avanzar.", NotificationType.Error)
-                ),
-                Actividad = 1,
-                If(
-                    !IsBlank(DataCardValue53),
-                    Set(Actividad, Actividad + 1),
-                    Notify("Por favor, complete el campo Tipo de Persona antes de avanzar.", NotificationType.Error)
-                ),
-                Actividad = 2,
-                If(
-                    Set(Actividad, Actividad + 1),
-                    Notify("Por favor, Verifique los datos Adjuntos antes de avanzar.", NotificationType.Information)
-                ),
-                Actividad = 3,
-                If(
-                    !IsBlank(DataCardValue164) And  !IsBlank(DataCardValue165),
-                    Set(Actividad, Actividad + 1),
-                    Notify("Por favor, complete los campos antes de avanzar.", NotificationType.Error)
-                )
-            )
-        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =15
-        Text: ="Next"
-        Visible: =Actividad < 4
-        X: =1127
-        Y: =676
-        ZIndex: =10
-
-    Back As button:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(8, 143, 131, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
-        OnSelect: =Set(Actividad,Actividad - 1)
-        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =15
-        Text: ="Back"
-        Visible: =Actividad > 0
-        X: =116
-        Y: =676
+    Documentos As groupContainer.manualLayoutContainer:
+        Height: =150
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Visible: =Actividad = 2
+        Width: =1366
+        Y: =221
         ZIndex: =11
+
+        Container19_3 As groupContainer.manualLayoutContainer:
+            Height: =Parent.Height
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Visible: =Actividad = 2 Or Actividad = 4
+            Width: =200
+            ZIndex: =1
+
+            Radio1_3 As radio:
+                BorderColor: =RGBA(51, 51, 51, 1)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =110
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Items: =["Si","No"]
+                PaddingBottom: =5
+                PaddingTop: =5
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                RadioBorderColor: =RGBA(51, 51, 51, 1)
+                RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                Reset: |
+                    =true
+                Size: =13
+                Width: =Parent.Width
+                Y: =40
+                ZIndex: =2
+
+            Label41_3 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Size: =15
+                Text: ="Caratula Bancaria"
+                Width: =Parent.Width
+                ZIndex: =3
+
+        Container19_4 As groupContainer.manualLayoutContainer:
+            Height: |
+                =Parent.Height
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Visible: =DataCardValue53.Selected.Value = "Fisica" && Actividad = 2 Or Actividad = 4 Or Actividad = 4
+            Width: =310
+            X: =410
+            ZIndex: =2
+
+            Radio1_4 As radio:
+                BorderColor: =RGBA(51, 51, 51, 1)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: |
+                    =110
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Items: =["Si","No"]
+                PaddingBottom: =5
+                PaddingTop: =5
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                RadioBorderColor: =RGBA(51, 51, 51, 1)
+                RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                Size: =13
+                Width: =Parent.Width
+                Y: =40
+                ZIndex: =2
+
+            Label41_4 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Size: =15
+                Text: ="INE de la Persona Fisica"
+                Width: =Parent.Width
+                ZIndex: =3
+
+        Container19 As groupContainer.manualLayoutContainer:
+            Height: =Parent.Height
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 2
+            Width: =310
+            X: =412
+            ZIndex: =3
+
+            Radio1 As radio:
+                BorderColor: =RGBA(51, 51, 51, 1)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =Parent.Height-40
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Items: =["Si","No"]
+                PaddingBottom: =5
+                PaddingTop: =5
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                RadioBorderColor: =RGBA(51, 51, 51, 1)
+                RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                Size: =13
+                Width: =Parent.Width
+                Y: =40
+                ZIndex: =2
+
+            Label41 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Size: =15
+                Text: ="Poder del Representante Legal"
+                Width: =Parent.Width
+                ZIndex: =3
+
+        Container19_1 As groupContainer.manualLayoutContainer:
+            Height: =Parent.Height
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 2 Or Actividad = 4
+            Width: =310
+            X: =720
+            ZIndex: =4
+
+            Radio1_1 As radio:
+                BorderColor: =RGBA(51, 51, 51, 1)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =Parent.Height-40
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Items: =["Si","No"]
+                PaddingBottom: =5
+                PaddingTop: =5
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                RadioBorderColor: =RGBA(51, 51, 51, 1)
+                RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                Size: =13
+                Width: =Parent.Width
+                Y: =40
+                ZIndex: =2
+
+            Label41_1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Size: =15
+                Text: ="Acta Constitutiva"
+                Width: =Parent.Width
+                ZIndex: =3
+
+        Container19_2 As groupContainer.manualLayoutContainer:
+            Height: =Parent.Height
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Visible: =DataCardValue53.Selected.Value = "Moral" && Actividad = 2 Or Actividad = 4
+            Width: =336
+            X: =1030
+            ZIndex: =5
+
+            Radio1_2 As radio:
+                BorderColor: =RGBA(51, 51, 51, 1)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =If(Actividad = 2, DisplayMode.Edit, Actividad = 4, DisplayMode.View)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =Parent.Height-40
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Items: =["Si","No"]
+                PaddingBottom: =5
+                PaddingTop: =5
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                RadioBorderColor: =RGBA(51, 51, 51, 1)
+                RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                Size: =13
+                Width: =Parent.Width
+                Y: =40
+                ZIndex: =2
+
+            Label41_2 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Size: =15
+                Text: ="INE del Representante"
+                Width: =Parent.Width
+                ZIndex: =3
+
+        Container23 As groupContainer.manualLayoutContainer:
+            Height: =Parent.Height
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =212
+            X: =200
+            ZIndex: =6
+
+            Label43 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Height: =34
+                Size: =15
+                Text: ="Otros Documentos"
+                Width: =212
+                ZIndex: =1
+
+            Radio2 As radio:
+                BorderColor: =RGBA(51, 51, 51, 1)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =Parent.Height-40
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Items: =["Si","No"]
+                PaddingBottom: =5
+                PaddingTop: =5
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                RadioBorderColor: =RGBA(51, 51, 51, 1)
+                RadioSelectionFill: =RGBA(73, 130, 5, 1)
+                Size: =13
+                Width: =Parent.Width
+                Y: =40
+                ZIndex: =2
 
