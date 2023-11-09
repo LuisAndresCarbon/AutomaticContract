@@ -822,6 +822,7 @@ NewContrato As screen:
             		</div>
             	</body>
             </html>"
+        Visible: =false
         X: =1087
         Y: =15
         ZIndex: =4
