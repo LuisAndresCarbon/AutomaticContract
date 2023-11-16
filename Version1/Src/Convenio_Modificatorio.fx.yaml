@@ -27,9 +27,9 @@ Convenio_Modificatorio As screen:
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
-            OnSelect: |-
+            OnSelect: |
                 = Notify("Convenio Modificatorio, Guardado", NotificationType.Success);
-                SubmitForm(Form1);EditForm(Form1);
+                SubmitForm(Form1);EditForm(Form1)
             PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(61,184,123,71), -30%)
@@ -1125,7 +1125,7 @@ Convenio_Modificatorio As screen:
             MaxLength: =DataSourceInfo([@BdContratosLegal], DataSourceInfo.MaxLength, "CMdescripcion")
             Required: =false
             Update: =DataCardValue66.Text
-            Width: =798
+            Width: =532
             X: =0
             Y: =1
             ZIndex: =10
@@ -1247,4 +1247,38 @@ Convenio_Modificatorio As screen:
         X: =17
         Y: =3
         ZIndex: =10
+
+    ControlSubidaDocs As attachments:
+        BorderColor: =Color.White
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =133
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(212, 212, 212, 1)
+        IsInDataCard: =true
+        ItemColor: =RGBA(0, 0, 0, 1)
+        ItemFill: =RGBA(73, 130, 5, 1)
+        ItemHoverColor: =RGBA(51, 51, 51, 1)
+        ItemHoverFill: =RGBA(212, 212, 212, 1)
+        Items: =Blank()
+        ItemSpacing: =12
+        MaxAttachments: =1
+        NoAttachmentsColor: =RGBA(166, 166, 166, 1)
+        PaddingBottom: =5
+        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+        PaddingRight: =5
+        PaddingTop: =5
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        Tooltip: ="Añadir Documentos"
+        Width: =254
+        X: =1080
+        Y: =552
+        ZIndex: =11
 
