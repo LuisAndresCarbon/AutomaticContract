@@ -13,6 +13,34 @@
     "dependents": [],
     "id": "367db3e8-25cd-4d27-8a91-8973575c0aba"
   },
+  "6e5371f7-a868-4b84-9653-299727258197": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "338fc4d9-0977-4270-a464-ae5ffc76da5b"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "338fc4d9-0977-4270-a464-ae5ffc76da5b"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Subida_de_Doc"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "da8a4fc1-93a1-4784-96dd-33d18778d4aa"
+    },
+    "dependents": [],
+    "id": "6e5371f7-a868-4b84-9653-299727258197"
+  },
   "da8a4fc1-93a1-4784-96dd-33d18778d4aa": {
     "connectionRef": {
       "apiTier": "Standard",
@@ -48,7 +76,7 @@
     ],
     "dependencies": {},
     "dependents": [
-      "fc307ccc-072e-4b0e-ac9a-39b9d5c647b4"
+      "6e5371f7-a868-4b84-9653-299727258197"
     ],
     "id": "da8a4fc1-93a1-4784-96dd-33d18778d4aa"
   },
@@ -65,39 +93,5 @@
     "dependencies": {},
     "dependents": [],
     "id": "edae1264-c4e4-4776-88f5-66dd0efa52c5"
-  },
-  "fc307ccc-072e-4b0e-ac9a-39b9d5c647b4": {
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "da8a4fc1-93a1-4784-96dd-33d18778d4aa": {
-          "value": "shared_sharepointonline"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "338fc4d9-0977-4270-a464-ae5ffc76da5b"
-        }
-      },
-      "parameterHintsV2": {
-        "shared_sharepointonline": {
-          "value": "da8a4fc1-93a1-4784-96dd-33d18778d4aa"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "338fc4d9-0977-4270-a464-ae5ffc76da5b"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "Subida_de_Doc"
-    ],
-    "dependencies": {
-      "shared_sharepointonline": "da8a4fc1-93a1-4784-96dd-33d18778d4aa"
-    },
-    "dependents": [],
-    "id": "fc307ccc-072e-4b0e-ac9a-39b9d5c647b4"
   }
 }

@@ -28,7 +28,9 @@ Convenio_Modificatorio As screen:
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(61,184,123,71), -10%)
             OnSelect: |
-                =Notify("Convenio Modificatorio, Guardado", NotificationType.Success);
+                =Subida_de_Doc.Run({contentBytes:First(ControlSubidaDocs.Attachments.Value).Value,name:First(ControlSubidaDocs.Attachments).Name});
+                
+                Notify("Convenio Modificatorio, Guardado", NotificationType.Success);
                 SubmitForm(Form1);EditForm(Form1)
             PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
